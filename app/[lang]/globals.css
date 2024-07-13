@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full scroll-smooth scroll-pt-12 xl:scroll-pt-24;
+}
+
+body {
+  @apply h-full text-lg font-normal text-main bg-white;
+}
+
+strong {
+  @apply font-semibold;
+}
+
+a {
+  @apply underline decoration-1 decoration-inherit underline-offset-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+.bg-header {
+  @apply backdrop-filter backdrop-blur-sm bg-opacity-90 bg-white/90 dark:bg-zinc-950/80;
+}
+
+.pageTitle {
+  @apply py-6 text-3xl text-primary;
+}
+
+.sectionTitle {
+  @apply font-semibold text-primary text-xl md:text-2xl no-underline block mt-4 mb-2;
+}
+
+/* Slider */
+
+.swiper {
+  --swiper-theme-color: var(--text-primary);
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  padding: 0;
+}

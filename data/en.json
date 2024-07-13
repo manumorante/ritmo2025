@@ -1,0 +1,255 @@
+{
+  "generic": {
+    "home": "Home",
+    "tickets": "Tickets",
+    "buyTickets": "Buy tickets",
+    "viewMore": "View more"
+  },
+  "menu": [
+    { "title": "Tickets", "href": "tickets" },
+    { "title": "Line-up", "href": "lineup" },
+    { "title": "What is RIT/MO?", "href": "about" }
+  ],
+  "submenu": [
+    { "title": "Location", "href": "location" },
+    { "title": "Accommodation", "href": "accommodation" },
+    { "title": "Airports", "href": "airports" },
+    { "title": "FAQs", "href": "faqs" }
+  ],
+  "date": {
+    "short": "MAY 3/4",
+    "large": "May 3 and 4, 2024"
+  },
+  "header": {
+    "date": {
+      "xs": "3/4 May<br>Atarfe (Granada)",
+      "sm": "May 3/4 May Atarfe (Granada)<br>Ermita de los Tres Juanes",
+      "lg": "May 3 and 4, 2024 Atarfe (Granada)<br>Paraje natural Ermita de los Tres Juanes"
+    }
+  },
+  "timetables": {
+    "title": "Timetables",
+    "friday": "Friday 3th",
+    "all": "All",
+    "saturday": "Saturday 4th",
+    "opening": "Door opening: 16:30"
+  },
+  "lineup": {
+    "title": "Line-up",
+    "previews": {
+      "1": "(first confirmations)",
+      "2": "(more to be announced)",
+      "3": ""
+    }
+  },
+  "stages": {
+    "main": "MORDISCO Stage",
+    "second": "LATIDO Stage"
+  },
+  "about": {
+    "title": "What is RIT/MO?",
+    "slogan": "Music, Nature, and Other Cultural Expressions",
+    "intro": "RIT/MO is a unique electronic music festival, combining an intimate environment in the middle of nature with an impressive lineup of national and international artists. A luxury for lovers of electronic music.",
+    "more": "Learn more about our festival",
+    "text": "The premier Spanish electronic music festival ",
+    "text2": "RIT/MO is undoubtedly something unusual within the national and international panorama of electronic music festivals. There are many characteristics that make it different, but among them the most notable are that it is a festival with a very small capacity, and that it is celebrated in the middle of nature. Although it presents the festival format, organizing its musical offering over two days and having two stages, the truth is that it has nothing to do with macro festivals. You dance with enough space, there are no hated lines to enter, order at the bar, bathrooms, etc., and the venue has the magic of being located in the foothills of Sierra Elvira (Atarfe, Granada) in an environment where dancing becomes special.",
+    "text3": "Although RIT/MO is an event with a reduced capacity, this does not mean that it does not bet on a lineup with top-level artists (and without this implying prohibitive subscription prices!!). For example, international artists such as (a-z) Audrey Danza, CC: DISCO!, Chinaski, Curses, Erol Alkan, D. Tiffany, Identified Patient, Interstellar Funk, Local Suicide, Naone, Pablo Bozzi have passed through RIT/MO , Red Axes, Zombies in Miami, etc. Within the national sphere, we have been able to enjoy Baldo, Cora Novoa, Javi Redondo, Oma Totem and Undo, to name just a few. In short, it is possible to combine the quality of the musical proposal and the venue, with the fact that it is for a small group of clubbers. A luxury.",
+    "text4": "Do you have RIT/MO?"
+  },
+  "previous": {
+    "title": "Previous editions",
+    "2023": "Previous edition (2023)",
+    "intro": "Some photos of good times at past events."
+  },
+  "accommodation": {
+    "title": "Recommendations for accommodation",
+    "intro": "In Granada or in nearby towns or next to the town of Atarfe. Check out these recommendations for accommodation.",
+    "granada": {
+      "title": "In Granada",
+      "text": "It is located <strong>only 15 minutes by car</strong> from the festival site. Although you can go to the festival by car since private parking is offered, we recommend that you take the bus. If you are staying in Granada, you can take the <a href='/#site-and-schedule-autobus'>round-trip buses</a> that the organization will enable."
+    },
+    "pueblos": {
+      "title": "In closer towns",
+      "text": "A second option is to stay in some of the closest towns to the festival site. If this is done, we recommend going to the festival by taxi in groups of 3-4 people. The closest town is <strong>Atarfe, 8 minutes by car</strong>. If you choose this option, the price of the one-way taxi is around €10 one way. We recommend arranging the return trip with a 24-hour taxi service (the price of the taxi on the return increases to around €15 or €18 as you have to call it to come to the premises to pick up users).",
+      "note": "If you call the taxi at the end of each day of the festival, you will have to wait due to the high demand at those times. There is no taxi or Uber stop on the festival grounds, so the return trip by taxi must be made by calling one of the available taxi services."
+    },
+    "atarfe": {
+      "title": "Next to the town of Atarfe",
+      "text": "Next to the town of Atarfe, for accommodation we recommend <strong>Albolote</strong>, located <strong>10 minutes by car</strong>. Although it is a few minutes further from the venue, this town has a Tram service from the town to the city of Granada. If you want to visit Granada, the Tram option is very convenient. For the rest of the towns near the venue, if you want to go to Granada, you must take public buses."
+    },
+    "more": "Ver recomendaciones de alojamiento"
+  },
+  "airports": {
+    "title": "Flight and airport guide",
+    "intro": "If you are planning to join us to enjoy the best electronic dance music, and for this you plan to use the plane as a means of transportation, here you have useful information about the closest airports and how to get to Granada</strong>from there.",
+    "more": "See accommodation recommendations",
+    "bus": "Bus",
+    "taxi": "Taxi",
+    "rent": "Rental car",
+    "granada": {
+      "title": "Federico García Lorca Granada-Jaén Airport (GRX)",
+      "text": "Located approximately 15 kilometers west of Granada. This is the closest airport to the city. Due to its proximity to the city of Granada it is the most convenient option, although its direct international connections are scarce.",
+      "how": "How to get from the airport to Granada:",
+      "taxi": "Taxis are available outside the airport terminal. The trip to Granada takes around 20 minutes, depending on traffic, with a cost of approximately €28.",
+      "bus": "Without a doubt the best way, or at least the cheapest, to get from Granada airport to the center is with the bus service operated by the company ALSA. The bus drops you off in the center of the city for only 3 euros. The bus stop is right at the exit of the arrivals terminal, you can't miss it since the airport is small, and the ticket is bought from the driver without having to reserve it in advance. The company organizes the schedules depending on the arrivals and departures of the flights. Today the bus schedules that go from the airport to the center of Granada operate from 6 a.m. to 11:30 p.m., and in the opposite direction from 5 a.m. to 9:45 p.m."
+    },
+    "malaga": {
+      "title": "Malaga Airport (AGP)",
+      "text": "Although a little further away (approximately 135 kilometers south of Granada), Malaga Airport is an important international hub with a wide variety of flights. It is a good alternative for those looking for more flight options.",
+      "how": "How to get there from Malaga airport:",
+      "rent": "For those who prefer flexibility, car rental is an excellent option. Rental services are available at both airports, allowing you to explore the beautiful surroundings of Granada at your own pace.",
+      "bus": "There are direct bus services from Malaga Airport to Granada, with a journey time of approximately 2 hours."
+    }
+  },
+  "location": {
+    "title": "Location",
+    "large": "Natural area Ermita de los Tres Juanes, Atarfe, Granada"
+  },
+  "faqs": {
+    "title": "FAQs",
+    "intro": "We have compiled the questions that you ask us most. Take a look and we can surely help you with: ",
+    "more": "See more questions",
+    "sections": {
+      "tickets": {
+        "title": "Tickets",
+        "items": {
+          "doncompr": {
+            "q": "Where can I buy my ticket for RIT/MO?",
+            "a": "Through our official ticket channel. You can access it at <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Tickbox</a>."
+          },
+          "puecom": {
+            "q": "Can I buy tickets at the festival?",
+            "a": "<strong>Yes</strong>, at our ticket booths subject to availability."
+          },
+          "noemail": {
+            "q": "I purchased my ticket but haven't received any confirmation email, what should I do?",
+            "a": "Don't worry, contact TickBox at <strong>info@tickbox.es</strong> and provide your full name and purchase date."
+          },
+          "nooficial": {
+            "q": "What happens if I purchase a ticket from a non-official sales channel?",
+            "a": "RIT/MO cannot guarantee the validity of a ticket purchased from a non-official sales channel."
+          },
+          "perdida": {
+            "q": "What should I do if I lose my ticket?",
+            "a": "Make sure the ticket hasn't fallen into someone else's hands. Only the first ticket presented at the entrance will be valid. Any subsequent ticket with the same code will be invalid."
+          },
+          "atencli": {
+            "q": "How can I contact customer service?",
+            "a": "If you can't find the answer to your question in these responses, you can contact us at <strong>info@ritmofestival.com</strong>."
+          },
+          "factura": {
+            "q": "Can I get an invoice for my ticket?",
+            "a": "The ticket itself is valid as an invoice. However, if you are a company, you can request it through this email: <strong>info@tickbox.es</strong>."
+          },
+          "devolentr": {
+            "q": "Can I return or modify my ticket?",
+            "a": "Tickets cannot be canceled or modified once purchased."
+          },
+          "nominal": {
+            "q": "Are tickets personalized?",
+            "a": "Yes"
+          }
+        }
+      },
+      "services": {
+        "title": "Services",
+        "items": {
+          "guardarop": {
+            "q": "Is there a cloakroom service?",
+            "a": "No."
+          },
+          "objper": {
+            "q": "Is there a lost and found area?",
+            "a": "Yes, if you find or lose an item at RIT/MO, please go to the information point."
+          },
+          "comglu": {
+            "q": "Can I buy gluten-free, vegetarian, or vegan food at RIT/MO?",
+            "a": "Yes."
+          },
+          "cerveglu": {
+            "q": "Can I buy gluten-free beer at RIT/MO?",
+            "a": "Yes."
+          },
+          "comprataba": {
+            "q": "Can I buy tobacco at the venue?",
+            "a": "No."
+          },
+          "internet": {
+            "q": "Is there internet access?",
+            "a": "No. The venue has mobile coverage, but we cannot guarantee its quality."
+          },
+          "banoreduci": {
+            "q": "Are there accessible toilets for people with reduced mobility?",
+            "a": "Yes."
+          },
+          "acampa": {
+            "q": "Is there a camping area at RIT/MO?",
+            "a": "No."
+          }
+        }
+      },
+      "access": {
+        "title": "Access",
+        "items": {
+          "accanima": {
+            "q": "Can I bring animals to the venue?",
+            "a": "It is not allowed to bring animals of any kind, except for guide dogs that are properly identified and accompany visually impaired individuals."
+          },
+          "accamara": {
+            "q": "Can I enter with a camera?",
+            "a": "Professional photography, video or recording cameras, drones, or selfie sticks are not allowed inside the venue."
+          },
+          "objgrand": {
+            "q": "Can I bring my motorcycle helmet or other transportation items such as skateboards or bicycles?",
+            "a": "No, entry with large objects such as suitcases, large bags, backpacks, skateboards, or motorcycle helmets is not allowed.<br><br>Objects that may be considered dangerous by the organization, as well as aerosols, laser pointers, and sharp objects, are also not allowed."
+          },
+          "edadmin": {
+            "q": "What is the minimum age to access RIT/MO?",
+            "a": "Minors can enter the RIT/MO venue as long as they are accompanied by their parent or legal guardian (minors from 10 years old are required to purchase a ticket).<br><br>Parents or guardians must complete the <a href='/docs/autorizacion-menores.pdf' target='blank'>authorization and responsibility letter for access by minors (spanish)</a> and carry it with them at all times.<br><br>The RIT/MO organization reserves the right to request the aforementioned letter of authorization at any time."
+          },
+          "accreduci": {
+            "q": "Is there access for people with reduced mobility?",
+            "a": "Yes, the festival has access to the general public area (Espacio Baila) for people with reduced mobility."
+          },
+          "volveracc": {
+            "q": "Can I re-enter RIT/MO if I leave the venue?",
+            "a": "Yes"
+          }
+        }
+      },
+      "site-and-schedule": {
+        "title": "Venue and Schedule",
+        "items": {
+          "comlleg": {
+            "q": "How do I get to RIT/MO?",
+            "a": "RIT/MO takes place at the Natural Area of Ermita de los Tres Juanes (Atarfe, Granada).<br><br>From Granada, you can reach the venue via the Circunvalación in the direction of Jaén. Take Exit 3 (Almería/Murcia - Málaga/Algeciras - Córdoba - Aeropuerto) in the direction of Málaga/Algeciras Córdoba.<br><br>Continue until Exit 238 (Atarfe / Las Canteras).<br><br>Turn right towards 'Las Canteras' and then take a right turn following the sign for 'La Ermita'.<br><br>That road will lead you directly to the RIT/MO venue."
+          },
+          "autobus": {
+            "q": "Does RIT/MO provide bus services?",
+            "a": "<strong>Yes.</strong> The organization will provide a bus service to and from RIT/MO from Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
+          },
+          "parking": {
+            "q": "Does RIT/MO have parking?",
+            "a": "Yes. Car parking (€10 each day).<br><br>We remind you that you can come on the bus provided by the organization."
+          },
+          "horfest": {
+            "q": "Festival schedule?",
+            "a": "<p>Doors will open at <strong>16:30</strong>.<br><br>Musical performances will take place continuously from <strong>17:00 to 4:00</strong>.<br><br>The schedule will be the same for both days of the festival.</p>"
+          },
+          "guiavuelos": {
+            "q": "Are you traveling by plane?: Airport and Transportation Guide",
+            "a": "<p>If you're planning to join us to enjoy the best electronic dance music and you plan to use the plane as your means of transportation, here is some useful information about the <strong>nearest airports and how to get to Granada</strong> from there.</p><h2>Federico García Lorca Granada-Jaén Airport (GRX)</h2><p>Located approximately 15 kilometers west of Granada, this is the closest airport to the city. Due to its proximity to Granada, it is the most convenient option, although direct international connections are limited.</p><h4>How to get from the airport to Granada</h4><p><strong>Taxi:</strong> Taxis are available outside the airport terminal. The trip to Granada takes about 20 minutes, depending on traffic, and costs approximately 28€.</p><p><strong>Bus:</strong> Undoubtedly, the best and cheapest way to get from Granada Airport to the city center is by bus. The company ALSA operates a bus service that takes you to the city center for only 3 euros. The bus stop is right outside the arrivals terminal, and you can buy the ticket from the driver without the need for advance reservation. The bus schedule is arranged according to flight arrivals and departures. Currently, buses from the airport to Granada city center run from 6:00 a.m. to 11:30 p.m., and in the opposite direction from 5:00 a.m. to 9:45 p.m.</p><h2>Málaga Airport (AGP)</h2><p>Although a little further (approximately 135 kilometers south of Granada), Málaga Airport is a major international hub with a wide variety of flights. It is a good alternative for those looking for more flight options.</p><h4>How to get from Málaga Airport:</h4><p><strong>Bus:</strong> There are direct bus services from Málaga Airport to Granada, with a travel time of approximately 2 hours.</p><p><strong>Rental Cars:</strong> For those who prefer flexibility, car rental is an excellent option. Rental services are available at both airports, allowing you to explore the beautiful surroundings of Granada at your own pace.</p>"
+          },
+          "recaloja": {
+            "q": "Accommodation recommendations?",
+            "a": "<p>One accommodation option is <strong>Granada city</strong>. It is located <strong>just a 15-minute drive</strong> from the festival venue. Although you can drive to the festival as there is private parking available, we recommend taking the bus. If you stay in Granada, you can take the <a href='/#site-and-schedule-autobus'>round-trip buses</a> provided by the organization.</p><p>A second option is to stay in one of the <strong>closest towns</strong> to the festival venue. If you choose this option, we recommend taking a taxi to the festival in groups of 3-4 people. The nearest town is <strong>Atarfe, an 8-minute drive</strong> away. If you choose this option, the price for a one-way taxi ride is around 10€. We recommend arranging the return trip with a 24-hour taxi service (the price for the return taxi ride increases to approximately 15€ or 18€ as you need to call the taxi to pick you up at the venue).</p><p>If you call for a taxi at the end of each day of the festival, you may have to wait due to high demand during those times. There is no taxi or Uber stand at the festival venue, so the return trip by taxi must be arranged by calling one of the available taxi services.</p><p>Next to the town of Atarfe, for accommodation, we recommend <strong>Albolote</strong>, which is <strong>a 10-minute drive</strong> away. Although it is a few minutes further from the venue, this town has a tram service from the town to the city of Granada. If you want to visit Granada, the tram option is very convenient. For the other towns near the venue, the public bus service should be used to travel to Granada.</p>"
+          },
+          "coviprot": {
+            "q": "What COVID-19 protocol will be implemented at the festival?",
+            "a": "We will follow the regulations set by the competent authorities at the time of the festival. We will provide information on these regulations as the event date approaches."
+          }
+        }
+      }
+    }
+  }
+}

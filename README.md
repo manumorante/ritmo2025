@@ -1,1 +1,1 @@
-# ritmo2025
+[![wakatime](https://wakatime.com/badge/user/c8d2802f-0742-4964-bd79-1cb374b6de43/project/1f95c344-b7c7-42bc-b1f4-0bd96d1ece1e.svg)](https://wakatime.com/badge/user/c8d2802f-0742-4964-bd79-1cb374b6de43/project/1f95c344-b7c7-42bc-b1f4-0bd96d1ece1e)
