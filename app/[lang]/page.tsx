@@ -51,8 +51,6 @@ export default async function Home({
           media="(max-width: 600px)"
         />
       </video>
-
-      <p>un texto</p>
     </>
   )
 }
