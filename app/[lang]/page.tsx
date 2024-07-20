@@ -10,7 +10,7 @@ export default async function Home({
 }) {
   const { d, t } = getDictionary(lang)
   const headerCx = cx("Header", "fixed top-6 left-0 right-0 z-50")
-  const videoCx = "w-full h-full object-cover"
+  const videoCx = "w-sceen h-screen object-cover"
 
   return (
     <>
@@ -40,8 +40,19 @@ export default async function Home({
         className={videoCx}
         poster="/hero.jpg"
       >
-        <source src="/hero.mp4" type="video/mp4" />
+        <source
+          src="/2024/ritmo24-summary-medium.mp4"
+          type="video/mp4"
+          media="(min-width: 601px)"
+        />
+        <source
+          src="/2024/ritmo24-summary-small.mp4"
+          type="video/mp4"
+          media="(max-width: 600px)"
+        />
       </video>
+
+      <p>un texto</p>
     </>
   )
 }
