@@ -10,7 +10,7 @@ export default async function Home({
 }) {
   const { d, t } = getDictionary(lang)
   const headerCx = cx("Header", "fixed top-6 left-0 right-0 z-50")
-  const videoCx = "w-sceen h-screen object-cover"
+  const videoCx = "w-screen h-screen object-cover"
 
   return (
     <>
