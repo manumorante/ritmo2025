@@ -6,7 +6,6 @@ export default function Logo() {
       width={104}
       height={32}
       alt="Ritmo"
-      className="invert"
     />
   )
 }

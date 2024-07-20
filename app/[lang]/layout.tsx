@@ -2,11 +2,10 @@ import "./globals.css"
 
 import { i18n, type Locale } from "@/i18n"
 import type { Metadata } from "next"
-import { getDictionary } from "@/util/dictionary"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import { Exo_2 } from "next/font/google"
-import { Header, Footer, FBPixel } from "@/components"
+import { FBPixel, MailerLiteUniversal } from "@/components"
 
 export async function generateStaticParams(): Promise<{ lang: string }[]> {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -26,14 +25,12 @@ export default function Root({
   params: { lang: Locale }
 }) {
   const lang = params.lang
-  const { d } = getDictionary(lang)
   return (
     <html lang={lang}>
       <body className={exo2.className}>
-        <Header d={d} lang={lang} />
         {children}
-        <Footer lang={lang} />
 
+        <MailerLiteUniversal />
         <FBPixel />
         <SpeedInsights />
         <Analytics />

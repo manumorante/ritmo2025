@@ -1,16 +1,7 @@
+import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import {
-  HeroDate,
-  Photos,
-  Lineup,
-  All,
-  Map,
-  FeaturedFAQs,
-  PreviewSection,
-  BtnPrimary,
-  BuyButton,
-  BtnSecondary,
-} from "@/components"
+import { Logo } from "@/components"
+import Link from "next/link"
 
 export default async function Home({
   params: { lang },
@@ -18,74 +9,39 @@ export default async function Home({
   params: { lang: string }
 }) {
   const { d, t } = getDictionary(lang)
+  const headerCx = cx("Header", "fixed top-6 left-0 right-0 z-50")
+  const videoCx = "w-full h-full object-cover"
 
   return (
-    <main className="Home">
-      <HeroDate />
-
-      <Lineup>
-        <p className="sectionTitle">{t("lineup.title")}</p>
-
-        <All />
-
-        <div className="w-full flex flex-col sm:flex-row justify-center gap-3 mt-8">
-          <BuyButton t={t} />
-
-          <BtnSecondary href={`/${lang}/lineup/friday`}>
-            {t("timetables.title")}
-          </BtnSecondary>
-        </div>
-      </Lineup>
-
-      <Photos />
-      {/* 
-      <PreviewSection title={t("generic.tickets")}>
+    <>
+      <div className={headerCx}>
         <div className="container">
-          <div className="sm:flex sm:gap-10 sm:justify-between items-center">
-            <p className="text-2xl font-light mb-4">{t("about.text")}</p>
-
-            <BuyButton t={t} />
+          <div className="inline-block rounded-full backdrop-filter backdrop-blur-lg bg-neutral-400/20 px-6 py-3">
+            <div className="flex gap-2">
+              <Logo />
+              <Link
+                href="https://2024.ritmofestival.com"
+                target="_blank"
+                className="text-2xl text-pink-400 no-underline hover:underline"
+              >
+                2024
+              </Link>
+            </div>
           </div>
         </div>
-      </PreviewSection> */}
+      </div>
 
-      <PreviewSection
-        title={t("location.title")}
-        href={`/${lang}/location`}
-        html={t("location.large")}
+      <video
+        muted
+        loop
+        autoPlay
+        playsInline
+        preload="auto"
+        className={videoCx}
+        poster="/hero.jpg"
       >
-        <div className="md:container">
-          <Map />
-        </div>
-      </PreviewSection>
-
-      <PreviewSection
-        title={t("about.text")}
-        href={`/${lang}/about`}
-        more={t("about.more")}
-      />
-
-      <PreviewSection
-        title={t("accommodation.title")}
-        href={`/${lang}/accommodation`}
-        more={t("accommodation.more")}
-        html={t("accommodation.intro")}
-      />
-
-      <PreviewSection
-        title={t("airports.title")}
-        href={`/${lang}/airports`}
-        more={t("airports.more")}
-        html={t("airports.intro")}
-      />
-
-      <PreviewSection
-        title={t("faqs.title")}
-        href={`/${lang}/faqs`}
-        more={t("faqs.more")}
-      >
-        <FeaturedFAQs d={d} lang={lang} />
-      </PreviewSection>
-    </main>
+        <source src="/hero.mp4" type="video/mp4" />
+      </video>
+    </>
   )
 }
