@@ -25,7 +25,7 @@ export default function LocaleSwitcher({ lang }: { lang: string }) {
             <Link
               key={key}
               href={redirectedPathName(key)}
-              className="inline-flex gap-1 py-2 pr-3 pl-2 bg-white text-gray no-underline rounded"
+              className="inline-flex gap-1 py-2 pr-3 pl-2 no-underline rounded"
             >
               <LanguageIcon className="w-6 h-6" />
               {value}

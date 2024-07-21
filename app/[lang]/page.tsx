@@ -10,36 +10,26 @@ export default async function Home({
 }) {
   const { d, t } = getDictionary(lang)
   const headerCx = cx("Header", "fixed top-6 left-6 md:left-0 right-0 z-50")
-  const videoCx = "w-screen h-screen object-cover"
+  const videoCx = "w-full h-screen object-cover"
 
   return (
     <>
       <div className={headerCx}>
         <div className="md:container">
-          <div className="inline-block">
-            <div className="flex gap-2">
-              <Logo />
-              <Link
-                href="https://2024.ritmofestival.com"
-                target="_blank"
-                className="text-2xl text-pink-400 no-underline hover:underline"
-              >
-                2024
-              </Link>
-            </div>
+          <div className="flex gap-2">
+            <Logo />
+            <Link
+              href="https://2024.ritmofestival.com"
+              target="_blank"
+              className="text-2xl text-pink-400 no-underline hover:underline"
+            >
+              2024
+            </Link>
           </div>
         </div>
       </div>
 
-      <video
-        muted
-        loop
-        autoPlay
-        playsInline
-        preload="auto"
-        className={videoCx}
-        poster="/hero.jpg"
-      >
+      <video muted loop autoPlay playsInline preload="auto" className={videoCx}>
         <source
           src="/2024/ritmo24-summary-medium.mp4"
           type="video/mp4"

@@ -6,7 +6,7 @@ import Facebook from "./icons/Facebook"
 import Instagram from "./icons/Instagram"
 
 export default function Footer({ lang }: { lang?: any }) {
-  const mainCx = cx("Footer", "py-12 bg-neutral-900")
+  const mainCx = cx("Footer", "py-12 bg-neutral-900 text-white")
 
   return (
     <div className={mainCx}>
