@@ -9,15 +9,17 @@ export default async function Home({
   params: { lang: string }
 }) {
   const { d, t } = getDictionary(lang)
-  const headerCx = cx("Header", "fixed top-6 left-6 md:left-0 right-0 z-50")
+  const headerCx = cx("Header", "fixed py-8 top-0 z-40 w-full")
   const videoCx = "w-full h-screen object-cover"
 
   return (
     <>
       <div className={headerCx}>
-        <div className="md:container">
+        <div className="container">
           <div className="flex gap-2">
-            <Logo />
+            <div className="w-24">
+              <Logo />
+            </div>
             <Link
               href="https://2024.ritmofestival.com"
               target="_blank"
@@ -28,6 +30,8 @@ export default async function Home({
           </div>
         </div>
       </div>
+
+      {/* <div className="sticky top-0 w-full z-40">hola</div> */}
 
       <video muted loop autoPlay playsInline preload="auto" className={videoCx}>
         <source
