@@ -3,7 +3,10 @@
     "home": "Home",
     "tickets": "Tickets",
     "buyTickets": "Buy tickets",
-    "viewMore": "View more"
+    "privacy": "Privacy policy",
+    "legal": "Legal notice",
+    "viewMore": "View more",
+    "previousEdition": "Previous edition (2024)"
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },

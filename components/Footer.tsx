@@ -1,11 +1,13 @@
 import cx from "clsx"
 import Link from "next/link"
 import Image from "next/image"
+import { getDictionary } from "@/util/dictionary"
 import { LocaleSwitcher } from "@/components"
 import Facebook from "./icons/Facebook"
 import Instagram from "./icons/Instagram"
 
 export default function Footer({ lang }: { lang?: any }) {
+  const { d, t } = getDictionary(lang)
   const mainCx = cx("Footer", "py-12 bg-neutral-900 text-white")
 
   return (
@@ -52,7 +54,14 @@ export default function Footer({ lang }: { lang?: any }) {
           </div>
 
           <div className="flex flex-wrap gap-3 sm:gap-6 items-center">
-            <span className="text-white text-sm">Copyright © RITMO 2024</span>
+            {/* RITMO 2024 */}
+            <Link
+              className="text-white text-sm"
+              href="https://2024.ritmofestival.com"
+              target="_blank"
+            >
+              {t("generic.previousEdition")}
+            </Link>
 
             {/* Social */}
             <div className="flex flex-wrap gap-5 content-center [&_a]:no-underline ">
@@ -74,6 +83,26 @@ export default function Footer({ lang }: { lang?: any }) {
             {/* Languge */}
             <LocaleSwitcher lang={lang} />
           </div>
+        </div>
+
+        <div className="mt-12 flex items-center gap-5">
+          <span className="text-white text-sm">Copyright © RITMO 2024</span>
+
+          <Link
+            className="text-white text-sm"
+            href={`/${lang}/privacy`}
+            target="_blank"
+          >
+            {t("generic.privacy")}
+          </Link>
+
+          <Link
+            className="text-white text-sm"
+            href={`/${lang}/legal`}
+            target="_blank"
+          >
+            {t("generic.legal")}
+          </Link>
         </div>
       </div>
     </div>

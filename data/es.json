@@ -3,7 +3,10 @@
     "home": "Inicio",
     "tickets": "Tickets",
     "buyTickets": "Comprar tickets",
-    "viewMore": "Ver más"
+    "privacy": "Politica de privacidad",
+    "legal": "Aviso legal",
+    "viewMore": "Ver más",
+    "previousEdition": "Edición anterior (2024)"
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },
