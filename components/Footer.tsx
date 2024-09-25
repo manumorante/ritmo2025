@@ -12,11 +12,11 @@ export default function Footer({ lang }: { lang?: any }) {
 
   return (
     <>
-      <div className="py-12 bg-neutral-100">
+      {/* <div className="py-12 bg-neutral-100">
         <div className="container">
           <div className="ml-embedded" data-form="8Sa5YY"></div>
         </div>
-      </div>
+      </div> */}
 
       <div className={mainCx}>
         <div className="container">
