@@ -10,7 +10,7 @@ export default async function Home({
 }) {
   const { d, t } = getDictionary(lang)
   const headerCx = cx("Header", "fixed py-8 top-0 z-40 w-full")
-  const videoCx = "w-full h-screen object-cover"
+  const videoCx = "w-full h-[85vh] object-cover"
 
   return (
     <>
@@ -22,11 +22,6 @@ export default async function Home({
             </div>
             <span className="text-2xl text-pink-400">2025</span>
           </div>
-
-          <div
-            className="ml-embedded w-[344px] mt-12 rounded-lg overflow-hidden"
-            data-form="8Sa5YY"
-          ></div>
         </div>
       </div>
 
