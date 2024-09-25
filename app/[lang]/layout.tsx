@@ -5,7 +5,7 @@ import type { Metadata } from "next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import { Exo_2 } from "next/font/google"
-import { FBPixel, MailerLiteUniversal } from "@/components"
+import { Footer, FBPixel, MailerLiteUniversal } from "@/components"
 
 export async function generateStaticParams(): Promise<{ lang: string }[]> {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -29,6 +29,7 @@ export default function Root({
     <html lang={lang}>
       <body className={exo2.className}>
         {children}
+        <Footer lang={lang} />
 
         <MailerLiteUniversal />
         <FBPixel />

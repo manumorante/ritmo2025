@@ -1,6 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { Footer, Logo } from "@/components"
+import { Logo } from "@/components"
 import Link from "next/link"
 
 export default async function Home({
@@ -20,13 +20,7 @@ export default async function Home({
             <div className="w-24">
               <Logo />
             </div>
-            <Link
-              href="https://2024.ritmofestival.com"
-              target="_blank"
-              className="text-2xl text-pink-400 no-underline hover:underline"
-            >
-              2024
-            </Link>
+            <span className="text-2xl text-pink-400">2025</span>
           </div>
 
           <div
@@ -48,8 +42,6 @@ export default async function Home({
           media="(max-width: 600px)"
         />
       </video>
-
-      <Footer lang={lang} />
     </>
   )
 }
