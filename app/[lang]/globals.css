@@ -22,6 +22,10 @@ p {
   @apply mb-4;
 }
 
+.ml-form-embedWrapper.embedForm {
+  background-color: #ffffffc1 !important;
+}
+
 .bg-header {
   @apply backdrop-filter backdrop-blur-sm bg-opacity-90 bg-white/90 dark:bg-zinc-950/80;
 }
