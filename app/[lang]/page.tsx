@@ -23,11 +23,6 @@ export default async function Home({
               </div>
               <span className="text-2xl text-pink-400">2025</span>
             </div>
-
-            <div
-              className="ml-embedded mt-10 w-[344px] rounded-lg overflow-hidden"
-              data-form="8Sa5YY"
-            ></div>
           </div>
         </div>
       </div>
