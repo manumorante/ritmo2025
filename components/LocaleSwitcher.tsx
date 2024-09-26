@@ -1,7 +1,6 @@
 "use client"
 import { LanguageIcon } from "@heroicons/react/24/solid"
 import { usePathname } from "next/navigation"
-import Link from "next/link"
 
 const locales = {
   en: "English",
@@ -22,14 +21,14 @@ export default function LocaleSwitcher({ lang }: { lang: string }) {
       {Object.entries(locales).map(([key, value]) => {
         if (key !== lang)
           return (
-            <Link
+            <a
               key={key}
               href={redirectedPathName(key)}
               className="inline-flex gap-1 py-2 pr-3 pl-2 no-underline rounded"
             >
               <LanguageIcon className="w-6 h-6" />
               {value}
-            </Link>
+            </a>
           )
       })}
     </>
