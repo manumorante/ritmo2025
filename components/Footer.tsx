@@ -9,16 +9,24 @@ import Instagram from "./icons/Instagram"
 export default function Footer({ lang }: { lang?: any }) {
   const { d, t } = getDictionary(lang)
   const mainCx = cx("Footer", "py-12 bg-neutral-900 text-white")
+  const newsLetterID = lang === "es" ? "qcWPXv" : "yT3TRe"
 
   return (
     <>
-      <div className="py-12 bg-neutral-100">
+      <div className="py-16 bg-neutral-100">
         <div className="container">
-          {lang === "es" ? (
-            <div className="ml-embedded" data-form="qcWPXv"></div>
-          ) : (
-            <div className="ml-embedded" data-form="yT3TRe"></div>
-          )}
+          <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">
+                {t("newsletter.title")}
+              </h3>
+              <p className="text-xl mb-4 ">{t("newsletter.text")}</p>
+            </div>
+            <div
+              className="ml-embedded w-full md:w-[460px] shrink-0"
+              data-form={newsLetterID}
+            ></div>
+          </div>
         </div>
       </div>
 

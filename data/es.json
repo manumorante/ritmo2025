@@ -30,6 +30,10 @@
       "lg": "<strong>3 y 4 de mayo de 2024</strong> en Atarfe (Granada)<br>Paraje natural Ermita de los Tres Juanes"
     }
   },
+  "newsletter": {
+    "title": "Newsletter",
+    "text": "¿RIT/MO? Acceso anticipado a las noticias sobre RIT/MO, venta de entradas, fechas importantes y más."
+  },
   "timetables": {
     "title": "Horarios",
     "opening": "Apertura de puertas: 16:30",
