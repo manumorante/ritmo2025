@@ -15,7 +15,7 @@ export default function Footer({ lang }: { lang?: any }) {
     <>
       <div className="py-16 bg-neutral-100">
         <div className="container">
-          <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 items-center justify-between">
             <div>
               <h3 className="text-2xl font-semibold mb-2">
                 {t("newsletter.title")}
