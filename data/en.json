@@ -19,6 +19,11 @@
     { "title": "Airports", "href": "airports" },
     { "title": "FAQs", "href": "faqs" }
   ],
+  "tickets": {
+    "earlyBird": "Early bird tickets are now on sale!",
+    "buy": "Buy tickets",
+    "link": "https://entradastickbox.com/ritmo-2025/40440"
+  },
   "date": {
     "short": "MAY 3/4",
     "large": "May 3 and 4, 2024"

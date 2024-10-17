@@ -13,9 +13,29 @@ export default function Footer({ lang }: { lang?: any }) {
 
   return (
     <>
+      <div className="py-16 bg-white">
+        <div className="container">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 lg:items-center justify-between">
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">
+                {t("generic.tickets")}
+              </h3>
+              <p className="text-xl mb-4 ">{t("tickets.earlyBird")}</p>
+            </div>
+            <a
+              target="_blank"
+              className="text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 active:bg-blue-700 transition transform active:scale-95"
+              href={t("tickets.link")}
+            >
+              {t("tickets.buy")}
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="py-16 bg-neutral-100">
         <div className="container">
-          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 items-center justify-between">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 lg:items-center justify-between">
             <div>
               <h3 className="text-2xl font-semibold mb-2">
                 {t("newsletter.title")}
