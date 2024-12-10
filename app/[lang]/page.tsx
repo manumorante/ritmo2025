@@ -1,7 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
 import { All, Logo } from "@/components"
-import Link from "next/link"
 
 export default async function Home({
   params: { lang },
