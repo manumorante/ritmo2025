@@ -22,7 +22,7 @@ const config: Config = {
     maxWidth: screens,
     extend: {
       colors: {
-        primary: colors.blue[600],
+        primary: colors.blue[700],
         main: colors.neutral[800],
         gray: colors.gray[500],
         facebook: "#1877f2",

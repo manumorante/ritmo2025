@@ -41,6 +41,9 @@ export default async function Home({
 
       <div className="py-16">
         <div className="container">
+          <h3 className="text-primary text-2xl font-semibold mb-2">
+            {t("lineup.title")} {t("lineup.previews.1")}
+          </h3>
           <All />
         </div>
       </div>
