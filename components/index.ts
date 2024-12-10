@@ -1,5 +1,6 @@
 export { default as Logo } from "./Logo"
 export { default as LocaleSwitcher } from "./LocaleSwitcher"
+export { default as All } from "./Lineup/All"
 export { default as Footer } from "./Footer"
 export { default as Map } from "./Map"
 export { default as FBPixel } from "./FBPixel"

@@ -1,6 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { Logo } from "@/components"
+import { All, Logo } from "@/components"
 import Link from "next/link"
 
 export default async function Home({
@@ -39,6 +39,12 @@ export default async function Home({
           media="(max-width: 600px)"
         />
       </video>
+
+      <div className="py-16">
+        <div className="container">
+          <All />
+        </div>
+      </div>
     </>
   )
 }

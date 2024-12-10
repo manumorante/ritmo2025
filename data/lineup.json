@@ -1,32 +1,20 @@
 {
   "previews": [
-    { "id": 1, "date": "2023/12/01" },
-    { "id": 2, "date": "2024/02/06" },
-    { "id": 3, "date": "2024/03/04" }
+    { "id": 1, "date": "2024/12/10" },
+    { "id": 2, "date": "2025/12/01" },
+    { "id": 3, "date": "2025/12/01" }
   ],
   "lineup": [
-    { "name": "Alex Kassian", "preview": 1 },
-    { "name": "Baldman", "preview": 2 },
-    { "name": "Bihotza", "preview": 3 },
-    { "name": "Budino", "preview": 1 },
-    { "name": "Certain People", "preview": 3 },
-    { "name": "Daniel Kelsan", "preview": 3 },
-    { "name": "Fafi Abdel Nour", "preview": 3 },
-    { "name": "Fuentes Guerra", "preview": 3 },
-    { "name": "Garrita", "preview": 2 },
-    { "name": "Iro Aka", "preview": 1 },
-    { "name": "Jane Fitz", "preview": 3 },
-    { "name": "Jennifer Loveless", "preview": 2 },
-    { "name": "Kamboya", "preview": 2 },
-    { "name": "Marc Piñol", "preview": 3 },
-    { "name": "María Latina", "preview": 1 },
-    { "name": "Mena G", "preview": 2 },
-    { "name": "Octo Octa", "preview": 1 },
-    { "name": "Promising/Youngster live", "preview": 3 },
-    { "name": "Senda Fatal", "preview": 1 },
-    { "name": "Spray", "preview": 2 },
-    { "name": "Vladimir Ivkovic", "preview": 1 },
-    { "name": "Younger Than Me", "preview": 2 }
+    { "name": "JASSS B2B JOHN TALABOT", "preview": 1 },
+    { "name": "KIA", "preview": 1 },
+    { "name": "LOLA HARO", "preview": 1 },
+    { "name": "MARCO SHUTLE", "preview": 1 },
+    { "name": "OMA TOTEM", "preview": 1 },
+    { "name": "ROOTIAN", "preview": 1 },
+    { "name": "SEDEF ADASI", "preview": 1 },
+    { "name": "SYSTEMA", "preview": 1 },
+    { "name": "TAMARINDO", "preview": 1 },
+    { "name": "TORNADO WALLACE", "preview": 1 }
   ],
   "timetables": {
     "friday": {
