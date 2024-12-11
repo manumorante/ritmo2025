@@ -1,7 +1,7 @@
 import cx from "clsx"
 import Link from "next/link"
 
-export const sectionCx = cx("Section relative z-10 py-12 md:py-12")
+export const sectionCx = cx("Section section")
 
 export default function Section({
   children,

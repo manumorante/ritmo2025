@@ -36,7 +36,7 @@ export default function Root({
           content="black-translucent"
         />
       </head>
-      <body className={`${font.className} h-screen overflow-hidden`}>
+      <body className={`${font.className}`}>
         <Header d={d} lang={lang} />
 
         {children}

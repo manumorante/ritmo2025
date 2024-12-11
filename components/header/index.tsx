@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Logo, MenuItems, SubMenuItems, Date, MobileMenu } from "@/components"
 
 export default function Header({ d, lang }: { d: any; lang: string }) {
-  const mainCx = cx("Header", "min-h-[4.5rem] lg:min-h-[6rem]")
+  const mainCx = cx("Header", "bg-black min-h-[4.5rem] lg:min-h-[6rem]")
   const desktopCx = cx(
     "Desktop",
     "hidden lg:flex",

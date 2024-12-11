@@ -3,7 +3,6 @@ import {
   All,
   BuyButton,
   Hero,
-  Lineup,
   Photos,
   Map,
   PreviewSection,
@@ -19,23 +18,25 @@ export default async function Home({
   const newsLetterID = lang === "es" ? "qcWPXv" : "yT3TRe"
 
   return (
-    <>
-      <div className="pointer-events-none">
+    <main className="h-screen overflow-hidden">
+      <div className="pointer-events-none relative z-10">
         <Hero />
       </div>
 
-      <main className="Home h-screen overflow-y-auto">
-        <div className="h-[70vh] bg-slate-400"></div>
+      <div className="Home h-screen overflow-y-auto relative z-20">
+        <div className="h-[70vh] bg-black/20"></div>
 
         {/* Lineup */}
-        <div className="Lineup bg-white relative py-16 md:py-24">
+        <div className="Lineup bg-white relative section">
           <div className="container">
             <p className="sectionTitle">{t("lineup.title")}</p>
             <All />
           </div>
         </div>
 
-        <Photos />
+        <div className="Photos bg-white">
+          <Photos />
+        </div>
 
         <PreviewSection title={t("generic.tickets")} className="bg-white">
           <div className="container">
@@ -51,7 +52,7 @@ export default async function Home({
           title={t("location.title")}
           // href={`/${lang}/location`}
           html={t("location.large")}
-          className="bg-white"
+          className="bg-neutral-100"
         >
           <div className="md:container">
             <Map />
@@ -70,7 +71,7 @@ export default async function Home({
           href={`/${lang}/accommodation`}
           more={t("accommodation.more")}
           html={t("accommodation.intro")}
-          className="bg-white"
+          className="bg-neutral-100"
         />
 
         <PreviewSection
@@ -106,7 +107,7 @@ export default async function Home({
             </div>
           </div>
         </div>
-      </main>
-    </>
+      </div>
+    </main>
   )
 }

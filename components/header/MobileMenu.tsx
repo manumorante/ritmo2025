@@ -13,7 +13,6 @@ export default function MobileMenu({ lang }: { lang: string }) {
   const burgerCx = cx(
     "BurgerMenu",
     "lg:hidden",
-    // "bg-header",
     "flex justify-between gap-2",
     "fixed top-0 left-0 right-0 z-40 p-5"
   )

@@ -2,73 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply h-full scroll-smooth bg-black;
-}
+@layer base {
+  html {
+    @apply h-full scroll-smooth bg-black;
+  }
 
-body {
-  @apply h-full text-lg font-normal text-main bg-white;
-}
+  body {
+    @apply h-full text-lg font-normal text-main bg-white;
+  }
 
-strong {
-  @apply font-semibold;
-}
+  strong {
+    @apply font-semibold;
+  }
 
-a {
-  @apply underline decoration-1 decoration-inherit underline-offset-4;
-}
+  a {
+    @apply underline decoration-1 decoration-inherit underline-offset-4;
+  }
 
-p {
-  @apply mb-4;
-}
-
-@layer utilities {
-  .container {
-    @apply max-w-md px-8;
+  p {
+    @apply mb-4;
   }
 }
 
-.bg-header {
-  @apply backdrop-filter backdrop-blur-sm bg-opacity-90 bg-white/90 dark:bg-zinc-950/80;
-}
-
-.html-content a {
-  @apply underline decoration-1 decoration-inherit underline-offset-4;
-}
-
-.html-content p {
-  @apply mb-4;
-}
-.html-content h1 {
-  @apply py-6 text-3xl text-primary;
-}
-
-.html-content h2 {
-  @apply font-semibold text-primary text-xl md:text-2xl no-underline block mt-4 mb-2;
-}
-
-.ml-form-embedWrapper.embedForm {
-  background-color: #ffffffc1 !important;
-}
-
 @layer components {
+  .html-content a {
+    @apply underline decoration-1 decoration-inherit underline-offset-4;
+  }
+
+  .html-content p {
+    @apply mb-4;
+  }
+  .html-content h1 {
+    @apply py-6 text-3xl text-primary;
+  }
+
+  .html-content h2 {
+    @apply font-semibold text-primary text-xl md:text-2xl no-underline block mt-4 mb-2;
+  }
+
+  .ml-form-embedWrapper.embedForm {
+    background-color: #ffffffc1 !important;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
   .pageTitle {
     @apply py-6 text-3xl text-primary;
   }
 
   .sectionTitle {
-    @apply font-semibold text-primary text-2xl no-underline block mb-2;
+    @apply font-medium text-primary text-2xl no-underline block mb-2;
+  }
+
+  /* Slider */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    padding: 0;
   }
 }
 
-/* Slider */
+@layer utilities {
+  :root {
+    --swiper-theme-color: var(--text-primary) !important;
+  }
 
-.swiper {
-  --swiper-theme-color: var(--text-primary);
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  padding: 0;
+  .container {
+    @apply max-w-md px-8;
+  }
 }
