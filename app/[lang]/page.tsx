@@ -24,7 +24,7 @@ export default async function Home({
       </div>
 
       <div className="Home h-screen overflow-y-auto relative z-20">
-        <div className="h-[70vh] bg-black/20"></div>
+        <div className="h-[80vh]"></div>
 
         {/* Lineup */}
         <div className="Lineup bg-white relative section">
