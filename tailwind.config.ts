@@ -27,15 +27,6 @@ const config: Config = {
         gray: colors.gray[500],
         facebook: "#1877f2",
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "2rem",
-          ms: "2rem",
-          sm: "2rem",
-          xl: "6rem",
-        },
-      },
     },
   },
   plugins: [],

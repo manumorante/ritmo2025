@@ -4,15 +4,16 @@ import { Fragment } from "react"
 
 export default function All() {
   const artists = getPublishedArtists()
-  const nameCx = cx("text-3xl md:text-3xl md:leading-10", "font-semibold")
-  const dotCx = cx("text-3xl text-primary font-semibold")
 
   return (
-    <div className="LineupAll flex flex-wrap gap-y-1 gap-x-2 items-center">
+    <div className="LineupAll text-3xl font-medium">
       {artists.map((artist: any, index: number) => (
         <Fragment key={artist.name}>
-          <span className={nameCx}>{artist.name}</span>
-          {index < artists.length - 1 && <span className={dotCx}>•</span>}
+          {artist.name}
+
+          {index < artists.length - 1 && (
+            <span className="text-primary"> • </span>
+          )}
         </Fragment>
       ))}
     </div>

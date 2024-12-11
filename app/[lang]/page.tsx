@@ -28,7 +28,7 @@ export default async function Home({
         <div className="h-[70vh] bg-slate-400"></div>
 
         {/* Lineup */}
-        <div className="Lineup bg-white relative py-14 md:py-24">
+        <div className="Lineup bg-white relative py-16 md:py-24">
           <div className="container">
             <p className="sectionTitle">{t("lineup.title")}</p>
             <All />
