@@ -8,7 +8,7 @@ export default function All() {
   const dotCx = cx("text-3xl text-primary font-semibold")
 
   return (
-    <div className="LineupAll flex flex-wrap gap-2 items-center">
+    <div className="LineupAll flex flex-wrap gap-y-1 gap-x-2 items-center">
       {artists.map((artist: any, index: number) => (
         <Fragment key={artist.name}>
           <span className={nameCx}>{artist.name}</span>

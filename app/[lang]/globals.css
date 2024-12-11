@@ -14,6 +14,18 @@ strong {
   @apply font-semibold;
 }
 
+a {
+  @apply underline decoration-1 decoration-inherit underline-offset-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+.bg-header {
+  @apply backdrop-filter backdrop-blur-sm bg-opacity-90 bg-white/90 dark:bg-zinc-950/80;
+}
+
 .html-content a {
   @apply underline decoration-1 decoration-inherit underline-offset-4;
 }
@@ -31,4 +43,26 @@ strong {
 
 .ml-form-embedWrapper.embedForm {
   background-color: #ffffffc1 !important;
+}
+
+@layer components {
+  .pageTitle {
+    @apply py-6 text-3xl text-primary;
+  }
+
+  .sectionTitle {
+    @apply font-semibold text-primary text-2xl no-underline block mb-2;
+  }
+}
+
+/* Slider */
+
+.swiper {
+  --swiper-theme-color: var(--text-primary);
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  padding: 0;
 }
