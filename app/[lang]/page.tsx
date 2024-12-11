@@ -20,13 +20,20 @@ export default async function Home({
 
   return (
     <>
-      <Hero />
+      <div className="pointer-events-none">
+        <Hero />
+      </div>
+
       <main className="Home h-screen overflow-y-auto">
         <div className="h-[70vh] bg-slate-400"></div>
-        <Lineup>
-          <p className="sectionTitle">{t("lineup.title")}</p>
-          <All />
-        </Lineup>
+
+        {/* Lineup */}
+        <div className="Lineup bg-white relative py-14 md:py-24">
+          <div className="container">
+            <p className="sectionTitle">{t("lineup.title")}</p>
+            <All />
+          </div>
+        </div>
 
         <Photos />
 

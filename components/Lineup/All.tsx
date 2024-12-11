@@ -4,7 +4,7 @@ import { Fragment } from "react"
 
 export default function All() {
   const artists = getPublishedArtists()
-  const nameCx = cx("text-2xl md:text-3xl md:leading-10", "font-semibold")
+  const nameCx = cx("text-3xl md:text-3xl md:leading-10", "font-semibold")
   const dotCx = cx("text-3xl text-primary font-semibold")
 
   return (

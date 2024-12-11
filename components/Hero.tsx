@@ -6,6 +6,7 @@ export default function Hero() {
       autoPlay
       playsInline
       preload="auto"
+      poster="/2024/ritmo24-summary.jpg"
       className="fixed top-0 left-0 w-full h-screen object-cover pointer-events-none"
     >
       <source

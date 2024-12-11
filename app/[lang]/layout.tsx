@@ -29,6 +29,13 @@ export default function Root({
   const { d } = getDictionary(lang)
   return (
     <html lang={lang}>
+      <head>
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+      </head>
       <body className={`${exo2.className} h-screen overflow-hidden`}>
         <Header d={d} lang={lang} />
 

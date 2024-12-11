@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply h-full scroll-smooth scroll-pt-12 xl:scroll-pt-24;
+  @apply h-full scroll-smooth bg-black;
 }
 
 body {
