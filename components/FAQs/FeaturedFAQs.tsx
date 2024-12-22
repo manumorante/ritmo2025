@@ -41,7 +41,7 @@ export default function FeaturedFAQs({ d, lang }: { d: any; lang: string }) {
     "flex gap-12",
     "snap-x xl:snap-none",
     "overflow-x-auto xl:overflow-x-visible",
-    "px-6 xl:px-0"
+    "px-7 xl:px-0"
   )
 
   return (
