@@ -16,13 +16,16 @@ export default function Photos() {
       slidesPerView={1}
       spaceBetween={20}
       loop={true}
-      // autoplay={{
-      //   delay: 3500,
-      //   disableOnInteraction: false,
-      // }}
+      autoplay={{
+        delay: 3500,
+        disableOnInteraction: false,
+      }}
       breakpoints={{
         768: {
           slidesPerView: 2,
+        },
+        1440: {
+          slidesPerView: 3,
         },
       }}
       navigation={true}
