@@ -31,6 +31,10 @@ export function getSubMenuItems({ lang }: { lang: string }) {
   return _dictionary({ lang }).submenu as Links
 }
 
+export function getAllMenuItems({ lang }: { lang: string }) {
+  return getMenuItems({ lang }).concat(getSubMenuItems({ lang }))
+}
+
 function _dictionary({ lang }: { lang: string }) {
   return lang === "es" ? esJSON : enJSON
 }

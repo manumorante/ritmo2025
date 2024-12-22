@@ -1,10 +1,9 @@
 import Link from "next/link"
-import { getMenuItems, getSubMenuItems } from "@/util/data"
+import { getAllMenuItems } from "@/util/data"
 import { Logo, MobileMenu } from "@/components"
 
 export default function Header({ lang }: { lang: string }) {
-  const menuItems = getMenuItems({ lang })
-  const subMenuItems = getSubMenuItems({ lang })
+  const menuItems = getAllMenuItems({ lang })
 
   return (
     <div className="Header">
@@ -17,7 +16,7 @@ export default function Header({ lang }: { lang: string }) {
             <Logo />
           </Link>
 
-          <div className="flex gap-x-4 mb-1">
+          {/* <div className="flex gap-x-4 mb-1">
             {menuItems.map((item) => {
               let href = `/${lang}/${item.href}`
               let target = "_self"
@@ -37,19 +36,7 @@ export default function Header({ lang }: { lang: string }) {
                 </Link>
               )
             })}
-
-            {subMenuItems.map((item) => {
-              return (
-                <Link
-                  className="no-underline text-white text-xl font-normal"
-                  href={`/${lang}/${item.href}`}
-                  key={item.title}
-                >
-                  {item.title}
-                </Link>
-              )
-            })}
-          </div>
+          </div> */}
         </div>
       </div>
 

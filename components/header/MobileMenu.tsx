@@ -47,9 +47,9 @@ export default function MobileMenu({ lang }: { lang: string }) {
           <Logo />
         </Link>
 
-        <button className={burgerIconCx} onClick={toggle}>
+        {/* <button className={burgerIconCx} onClick={toggle}>
           <Bars3Icon className="w-8 h-8 text-white" />
-        </button>
+        </button> */}
       </div>
 
       <div className={mainCx} onClick={toggle}>

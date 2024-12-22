@@ -28,11 +28,9 @@ export default async function Home({
 
           {/* Lineup */}
           <div className="Lineup bg-white relative section">
-            <div className="container text-center">
+            <div className="text-center">
               <p className="sectionTitle">{t("lineup.title")}</p>
-              <div className="px-4 sm:px-6 lg:px-20">
-                <All />
-              </div>
+              <All />
             </div>
           </div>
 
@@ -56,8 +54,16 @@ export default async function Home({
             html={t("location.large")}
             className="bg-neutral-100"
           >
-            <div className="md:container">
+            {/* <div className="md:container">
               <Map />
+            </div> */}
+            <div className="container">
+              <a
+                target="_blank"
+                href="https://www.google.com/maps?ll=37.236176,-3.687694&z=15&t=m&hl=es-ES&gl=US&mapclient=embed&cid=7038520705456199891"
+              >
+                Google Maps →
+              </a>
             </div>
           </PreviewSection>
 
@@ -84,14 +90,14 @@ export default async function Home({
             className="bg-white"
           /> */}
 
-          <PreviewSection
+          {/* <PreviewSection
             title={t("faqs.title")}
             href={`/${lang}/faqs`}
             more={t("faqs.more")}
             className="bg-white"
           >
             <FeaturedFAQs d={d} lang={lang} />
-          </PreviewSection>
+          </PreviewSection> */}
 
           <div className="py-16 bg-neutral-100">
             <div className="container">
