@@ -90,14 +90,14 @@ export default async function Home({
             className="bg-white"
           /> */}
 
-          {/* <PreviewSection
+          <PreviewSection
             title={t("faqs.title")}
             href={`/${lang}/faqs`}
             more={t("faqs.more")}
             className="bg-white"
           >
             <FeaturedFAQs d={d} lang={lang} />
-          </PreviewSection> */}
+          </PreviewSection>
 
           <div className="py-16 bg-neutral-100">
             <div className="container">

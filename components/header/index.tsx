@@ -16,7 +16,7 @@ export default function Header({ lang }: { lang: string }) {
             <Logo />
           </Link>
 
-          {/* <div className="flex gap-x-4 mb-1">
+          <div className="flex gap-x-4 mb-1">
             {menuItems.map((item) => {
               let href = `/${lang}/${item.href}`
               let target = "_self"
@@ -36,7 +36,7 @@ export default function Header({ lang }: { lang: string }) {
                 </Link>
               )
             })}
-          </div> */}
+          </div>
         </div>
       </div>
 
