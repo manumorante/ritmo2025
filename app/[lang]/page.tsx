@@ -2,7 +2,6 @@ import { getDictionary } from "@/util/dictionary"
 import {
   All,
   BuyButton,
-  Hero,
   Photos,
   Map,
   PreviewSection,
@@ -19,12 +18,9 @@ export default async function Home({
 
   return (
     <main>
-      <div className="relative z-10">
-        <Hero />
-      </div>
-
       <div className="Home relative z-20">
         <div className="h-[80vh]"></div>
+        <div className="h-[4.6rem] -mb-[4.6rem] bg-white w-full sticky top-0 z-20"></div>
 
         {/* Lineup */}
         <div className="Lineup bg-white relative section">

@@ -8,8 +8,8 @@ export default function MenuItems({ lang }: { lang: string }) {
       {menuItems.map((item) => {
         return (
           <Link
-            className="no-underline hover:text-pink-600 transition-colors duration-100"
             key={item.title}
+            className="no-underline text-current"
             href={`/${lang}/${item.href}`}
           >
             {item.title}

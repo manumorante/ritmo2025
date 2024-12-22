@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function VideoHero({ className }: { className?: string }) {
   return (
     <video
       muted
@@ -7,7 +7,7 @@ export default function Hero() {
       playsInline
       preload="auto"
       poster="/2024/ritmo24-summary.jpg"
-      className="fixed top-0 left-0 w-full h-screen object-cover pointer-events-none"
+      className={className}
     >
       <source
         src="/2024/ritmo24-summary-medium.mp4"

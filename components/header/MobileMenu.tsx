@@ -12,6 +12,7 @@ export default function MobileMenu({ lang }: { lang: string }) {
 
   const burgerCx = cx(
     "BurgerMenu",
+    "mix-blend-difference",
     "lg:hidden",
     "flex justify-between gap-2",
     "fixed top-0 left-0 right-0 z-40 p-5"
@@ -33,7 +34,7 @@ export default function MobileMenu({ lang }: { lang: string }) {
     "flex flex-col items-start justify-start gap-5",
 
     // Items
-    "[&_a]:no-underline [&_a]:text-3xl [&_a]:pl-3"
+    "[&_a]:text-3xl [&_a]:pl-3"
   )
 
   return (
@@ -56,7 +57,9 @@ export default function MobileMenu({ lang }: { lang: string }) {
           <XMarkIcon className="text-primary w-9 h-9 " onClick={toggle} />
         </button>
 
-        <Link href={`/${lang}`}>Home</Link>
+        <Link href={`/${lang}`} className="no-underline">
+          Home
+        </Link>
         <MenuItems lang={lang} />
         <SubMenuItems lang={lang} />
         <LocaleSwitcher lang={lang} />

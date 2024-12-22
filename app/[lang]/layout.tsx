@@ -4,9 +4,15 @@ import { i18n, type Locale } from "@/i18n"
 import type { Metadata } from "next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
-import { getDictionary } from "@/util/dictionary"
+// import { getDictionary } from "@/util/dictionary"
 import { Signika } from "next/font/google"
-import { Footer, FBPixel, MailerLiteUniversal, Header } from "@/components"
+import {
+  Footer,
+  FBPixel,
+  MailerLiteUniversal,
+  Header,
+  VideoHero,
+} from "@/components"
 
 export async function generateStaticParams(): Promise<{ lang: string }[]> {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -26,7 +32,7 @@ export default function Root({
   params: { lang: Locale }
 }) {
   const lang = params.lang
-  const { d } = getDictionary(lang)
+  // const { d } = getDictionary(lang)
   return (
     <html lang={lang}>
       <head>
@@ -37,7 +43,8 @@ export default function Root({
         />
       </head>
       <body className={`${font.className}`}>
-        <Header d={d} lang={lang} />
+        <Header lang={lang} />
+        <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
 
         {children}
 
