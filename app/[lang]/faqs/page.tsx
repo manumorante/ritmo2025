@@ -10,11 +10,8 @@ export default async function FaqsPage({
   const { d, t } = getDictionary(lang)
   const sections = Object.keys(d.faqs.sections)
 
-  const sectionsCx = cx("Sections flex flex-col gap-10")
-
-  const faqsCx = cx("FAQs grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8")
   const questionCx = cx(
-    "cursor-pointer font-semibold no-underline text-lg md:text-xl"
+    "cursor-pointer font-medium no-underline text-lg md:text-xl"
   )
   const answerCx = cx(
     "Answer font-light text-gray text-lg md:text-xl",
@@ -46,7 +43,7 @@ export default async function FaqsPage({
           {"..."}
         </p>
 
-        <div className={sectionsCx}>
+        <div className="Sections space-y-10">
           {sections.map((key) => {
             const sectionKey = key
             const section = d.faqs.sections[sectionKey]
@@ -57,7 +54,7 @@ export default async function FaqsPage({
                   {section.title}
                 </Link>
 
-                <div className={faqsCx}>
+                <div className="FAQs space-y-8">
                   {items.map((key) => (
                     <div
                       key={key}
