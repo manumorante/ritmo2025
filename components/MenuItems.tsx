@@ -6,12 +6,15 @@ export default function MenuItems({ lang }: { lang: string }) {
   return (
     <>
       {menuItems.map((item) => {
+        let href = `/${lang}/${item.href}`
+        let target = "_self"
+        if (item.href.startsWith("https")) {
+          href = item.href
+          target = "_blank"
+        }
+
         return (
-          <Link
-            key={item.title}
-            className="no-underline text-current"
-            href={`/${lang}/${item.href}`}
-          >
+          <Link href={href} target={target} key={item.title}>
             {item.title}
           </Link>
         )

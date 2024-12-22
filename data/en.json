@@ -10,9 +10,7 @@
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },
-    { "title": "What is RIT/MO?", "href": "about" }
-  ],
-  "submenu": [
+    { "title": "What is RIT/MO?", "href": "about" },  
     { "title": "Location", "href": "location" },
     { "title": "Accommodation", "href": "accommodation" },
     { "title": "Airports", "href": "airports" },
@@ -245,7 +243,7 @@
           },
           "horfest": {
             "q": "Festival schedule?",
-            "a": "<p>Doors will open at <strong>16:30</strong>.<br><br>Musical performances will take place continuously from <strong>17:00 to 4:00</strong>.<br><br>The schedule will be the same for both days of the festival.</p>"
+            "a": "<p>Doors will open at <strong>16:30</strong>. Musical performances will take place continuously from <strong>17:00 to 4:00</strong>.<br><br>The schedule will be the same for both days of the festival.</p>"
           },
           "guiavuelos": {
             "q": "Are you traveling by plane?: Airport and Transportation Guide",

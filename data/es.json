@@ -13,9 +13,7 @@
       "title": "Tickets",
       "href": "https://entradastickbox.com/ritmo-2025/40440"
     },
-    { "title": "¿Qué es RIT/MO?", "href": "about" }
-  ],
-  "submenu": [
+    { "title": "¿Qué es RIT/MO?", "href": "about" },
     { "title": "Ubicación", "href": "location" },
     { "title": "Alojamiento", "href": "accommodation" },
     { "title": "Aeropuertos", "href": "airports" },
@@ -239,7 +237,7 @@
         "items": {
           "autobus": {
             "q": "¿Hay servicio de autobuses?",
-            "a": "<strong>Sí</strong>, habrá disponible una línea de bus de ida y vuelta desde Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
+            "a": "<strong>Sí</strong>, habrá disponible una línea de bus de ida y vuelta desde Granada. Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
           },
           "comlleg": {
             "q": "¿Cómo llego a RIT/MO?",
@@ -250,8 +248,8 @@
             "a": "<strong>Sí</strong>, hay aparcamiento para automóviles disponible con pago por día. Recuerda que también puedes venir en el bus habilitado por la organización."
           },
           "horfest": {
-            "q": "¿Cuáles son los horarios del festival?",
-            "a": "<p>Apertura de puertas: <strong>16:30</strong>.<br><br>Actuaciones desde las <strong>17:00 hasta las 4:00</strong> de manera ininterrumpida.<br><br>Ambos días.</p>"
+            "q": "¿Cuáles son los horarios?",
+            "a": "<p>Apertura de puertas: <strong>16:30</strong>. Actuaciones desde las <strong>17:00 hasta las 4:00</strong> de manera ininterrumpida. Ambos días.</p>"
           },
           "guiavuelos": {
             "q": "¿Si viajo en avión?",

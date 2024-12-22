@@ -2,7 +2,7 @@
 
 import cx from "clsx"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-import { MenuItems, SubMenuItems, LocaleSwitcher, Logo } from "@/components"
+import { MenuItems, LocaleSwitcher, Logo } from "@/components"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -34,7 +34,7 @@ export default function MobileMenu({ lang }: { lang: string }) {
     "flex flex-col items-start justify-start gap-5",
 
     // Items
-    "[&_a]:text-3xl [&_a]:pl-3"
+    "[&_a]:text-3xl [&_a]:pl-3 [&_a]:no-underline"
   )
 
   return (
@@ -61,7 +61,6 @@ export default function MobileMenu({ lang }: { lang: string }) {
           Home
         </Link>
         <MenuItems lang={lang} />
-        <SubMenuItems lang={lang} />
         <LocaleSwitcher lang={lang} />
       </div>
     </>
