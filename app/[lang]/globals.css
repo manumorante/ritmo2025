@@ -4,11 +4,11 @@
 
 @layer base {
   html {
-    @apply h-full scroll-smooth bg-black;
+    @apply scroll-smooth;
   }
 
   body {
-    @apply h-full text-lg font-normal text-main bg-white;
+    @apply text-lg font-normal text-main bg-white;
   }
 
   strong {

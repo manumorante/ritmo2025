@@ -1,4 +1,3 @@
-import cx from "clsx"
 import Link from "next/link"
 import Image from "next/image"
 import { getDictionary } from "@/util/dictionary"
@@ -7,12 +6,11 @@ import Facebook from "./icons/Facebook"
 import Instagram from "./icons/Instagram"
 
 export default function Footer({ lang }: { lang?: any }) {
-  const { d, t } = getDictionary(lang)
-  const mainCx = cx("Footer", "py-12 bg-neutral-900 text-white")
+  const { t } = getDictionary(lang)
 
   return (
-    <>
-      <div className={mainCx}>
+    <footer className="relative z-10 h-56 bg-black/60">
+      <div className="absolute bottom-0 w-full z-10 py-12  text-white">
         <div className="container">
           <div className="w-full flex flex-col md:flex-row gap-12 justify-between items-center">
             {/* Colaboradores */}
@@ -107,6 +105,6 @@ export default function Footer({ lang }: { lang?: any }) {
           </div>
         </div>
       </div>
-    </>
+    </footer>
   )
 }

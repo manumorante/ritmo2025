@@ -18,12 +18,12 @@ export default async function Home({
   const newsLetterID = lang === "es" ? "qcWPXv" : "yT3TRe"
 
   return (
-    <main className="h-screen overflow-hidden">
-      <div className="pointer-events-none relative z-10">
+    <main>
+      <div className="relative z-10">
         <Hero />
       </div>
 
-      <div className="Home h-screen overflow-y-auto relative z-20">
+      <div className="Home relative z-20">
         <div className="h-[80vh]"></div>
 
         {/* Lineup */}
