@@ -9,7 +9,9 @@ export default async function LocationPage({
   const { t } = getDictionary(lang)
 
   return (
-    <main className="Location">
+    <main className="Page Location">
+      <div className="header-bg" />
+
       <div className="container">
         <h2 className="pageTitle">{t("location.title")}</h2>
       </div>

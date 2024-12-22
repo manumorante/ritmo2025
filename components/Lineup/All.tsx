@@ -6,7 +6,7 @@ export default function All() {
   const artists = getPublishedArtists()
 
   return (
-    <div className="LineupAll text-3xl font-medium">
+    <div className="LineupAll text-3xl lg:text-4xl xl:text-5xl font-medium">
       {artists.map((artist: any, index: number) => (
         <Fragment key={artist.name}>
           {artist.name}

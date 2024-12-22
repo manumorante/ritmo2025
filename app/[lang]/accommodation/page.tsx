@@ -14,7 +14,9 @@ export default async function AccommodationPage({
   const noteCx = cx("text-base text-gray")
 
   return (
-    <main className="Accommodation text-lg">
+    <main className="Page Accommodation text-lg">
+      <div className="header-bg" />
+
       <div className="container">
         <h2 className="pageTitle">{t("accommodation.title")}</h2>
         <p dangerouslySetInnerHTML={{ __html: t("accommodation.intro") }} />

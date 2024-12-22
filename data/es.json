@@ -9,8 +9,10 @@
     "previousEdition": "Edición anterior (2024)"
   },
   "menu": [
-    { "title": "Tickets", "href": "tickets" },
-    { "title": "Line-up", "href": "lineup" },
+    {
+      "title": "Tickets",
+      "href": "https://entradastickbox.com/ritmo-2025/40440"
+    },
     { "title": "¿Qué es RIT/MO?", "href": "about" }
   ],
   "submenu": [

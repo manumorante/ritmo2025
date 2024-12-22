@@ -8,11 +8,13 @@ export default async function TicketsPage({
   const { t } = getDictionary(lang)
 
   return (
-    <main className="Tickets bg-white">
+    <main className="Tickets ">
+      <div className="header-bg" />
+
       <div className="container">
         <h2 className="pageTitle">{t("generic.tickets")}</h2>
         <iframe
-          src="https://venta.enterticket.es/buy/?id=31225&amp;color=ec4899"
+          src="https://venta.enterticket.es/buy/?id=40440&amp;color=ec4899"
           id="etktfrm31225"
           width="100%"
           style={{ height: "1000px" }}

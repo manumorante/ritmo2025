@@ -11,7 +11,7 @@ export default function FAQ({
 }) {
   const boxCx = cx(
     "snap-proximity shrink-0",
-    "w-[70%] sm:w-[40%] md:w-[35%] lg:w-[30%] xl:w-[24%] h-auto",
+    "w-[90%] sm:w-[45%] md:w-[35%] lg:w-[30%] xl:w-[24%] h-auto",
     "p-6",
 
     "font-normal",

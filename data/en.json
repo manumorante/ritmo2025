@@ -10,7 +10,6 @@
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },
-    { "title": "Line-up", "href": "lineup" },
     { "title": "What is RIT/MO?", "href": "about" }
   ],
   "submenu": [

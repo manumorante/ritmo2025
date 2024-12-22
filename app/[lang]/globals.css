@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-lg font-normal text-main bg-white;
+    @apply text-lg font-light text-main bg-white;
   }
 
   strong {
@@ -45,11 +45,11 @@
   }
 
   .section {
-    @apply py-16 md:py-24;
+    @apply py-16 md:py-24 lg:py-32;
   }
 
   .pageTitle {
-    @apply py-6 text-3xl text-primary;
+    @apply pt-0 pb-6 text-3xl text-primary font-medium;
   }
 
   .sectionTitle {
@@ -74,5 +74,13 @@
 
   .container {
     @apply max-w-xl mx-auto px-8;
+  }
+
+  .Page {
+    @apply pb-[4.8rem];
+  }
+
+  .header-bg {
+    @apply h-[4.8rem] bg-white w-full sticky top-0 z-20;
   }
 }

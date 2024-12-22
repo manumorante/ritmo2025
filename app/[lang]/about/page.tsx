@@ -9,7 +9,9 @@ export default async function AboutPage({
   const { t } = getDictionary(lang)
 
   return (
-    <main className="About">
+    <main className="Page About">
+      <div className="header-bg" />
+
       <div className="container">
         <h2 className="pageTitle">{t("about.title")}</h2>
         <p

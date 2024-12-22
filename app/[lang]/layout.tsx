@@ -11,7 +11,6 @@ import {
   FBPixel,
   MailerLiteUniversal,
   Header,
-  VideoHero,
 } from "@/components"
 
 export async function generateStaticParams(): Promise<{ lang: string }[]> {
@@ -44,7 +43,6 @@ export default function Root({
       </head>
       <body className={`${font.className}`}>
         <Header lang={lang} />
-        <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
 
         {children}
 

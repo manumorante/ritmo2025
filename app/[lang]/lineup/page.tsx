@@ -10,7 +10,7 @@ export default async function Timetables({
   const { t } = getDictionary(lang)
 
   return (
-    <>
+    <main className="Page Timetables">
       <div className="container">
         <Title title={t("lineup.title")} />
       </div>
@@ -20,6 +20,6 @@ export default async function Timetables({
       <div className="container">
         <All />
       </div>
-    </>
+    </main>
   )
 }

@@ -16,7 +16,9 @@ export default async function AirportsPage({
   const boxTitleCx = cx("text-xl font-light text-gray pt-0")
 
   return (
-    <main className="Airports">
+    <main className="Page Airports">
+      <div className="header-bg" />
+
       <div className="container">
         <h2 className="pageTitle">{t("airports.title")}</h2>
         <p

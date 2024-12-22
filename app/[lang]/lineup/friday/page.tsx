@@ -10,7 +10,8 @@ export default async function Timetables({
   const { t } = getDictionary(lang)
 
   return (
-    <>
+    <main className="Page Timetables Friday">
+      <div className="header-bg" />
       <div className="container">
         <Title
           title={t("timetables.friday")}
@@ -25,6 +26,6 @@ export default async function Timetables({
       </div>
 
       <TimetablesPage t={t} day={timetables.friday} />
-    </>
+    </main>
   )
 }
