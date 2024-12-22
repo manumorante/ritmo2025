@@ -113,7 +113,7 @@
     "more": "Saber más de nuestro festival",
     "text": "El festival español de música electrónica gourmet por excelencia.",
     "text2": "RIT/MO es sin duda algo inusual dentro del panorama nacional e internacional de festivales de música electrónica. Hay muchas características que lo hacen distinto, pero entre ellas destacarían las de ser un festival para un aforo muy reducido, y que es celebrado en plena naturaleza. Aunque presenta el formato de festival, al organizar su oferta musical en dos jornadas y contar con dos escenarios, lo cierto es que no tiene nada que ver con los macrofestivales. Se baila con espacio suficiente, no existen las odiadas colas para entrar, pedir en barra, baños, etc., y el recinto tiene la magia de estar ubicado en las faldas de Sierra Elvira (Atarfe, Granada) en un entorno donde bailar se vuelve muy especial.",
-    "text3": "Aunque RIT/MO es un evento para un aforo reducido, esto no significa que no se apueste por un lineup con artistas de primer nivel (y sin que esto suponga unos precios de los abonos prohibitivos!!). Por ejemplo, por RIT/MO han pasado artistas internacionales de la talla de (a-z) Audrey Danza, CC: DISCO!, Chinaski, Curses, Erol Alkan, D. Tiffany, Identified Patient, Interstellar Funk, Local Suicide, Naone, Pablo Bozzi, Red Axes, Zombies in Miami, etc. Dentro de la esfera nacional, se ha podido disfrutar de Baldo, Cora Novoa, Javi Redondo, Oma Totem o Undo, por nombrar sólo algunos. En definitiva, se consigue aunar calidad de la propuesta musical y del recinto, con el hecho de ser para un grupo de clubbers reducido. Todo un lujo.",
+    "text3": "Aunque RIT/MO es un evento para un aforo reducido, esto no significa que no se apueste por un lineup con artistas de primer nivel (y sin que esto suponga unos precios de los abonos prohibitivos!!).",
     "text4": "¿Tienes RIT/MO?"
   },
   "previous": {
@@ -152,7 +152,7 @@
           },
           "atencli": {
             "q": "¿Cómo puedo ponerme en contacto con el servicio de atención al cliente?",
-            "a": "Si no encuentras la solución a tu consulta en estas respuestas puedes contactarnos en el email <strong>info@ritmofestival.com</strong>."
+            "a": "<strong>Sí</strong> no encuentras la solución a tu consulta en estas respuestas puedes contactarnos en el email <strong>info@ritmofestival.com</strong>."
           },
           "factura": {
             "q": "¿Puedo obtener una factura de mi entrada?",
@@ -164,16 +164,16 @@
           },
           "nominal": {
             "q": "¿Las entradas son nominales?",
-            "a": "Sí"
+            "a": "<strong>Sí</strong>"
           }
         }
       },
       "services": {
         "title": "Servicios",
         "items": {
-          "guardarop": {
-            "q": "¿Hay servicio de guardarropas?",
-            "a": "No."
+          "tqlls": {
+            "q": "¿Hay taquillas en el recinto?",
+            "a": "<strong>Sí</strong>, servicio prestado por <strong>Mobile Locker</strong>."
           },
           "objper": {
             "q": "¿Existe un punto de objetos perdidos?",
@@ -181,27 +181,27 @@
           },
           "comglu": {
             "q": "¿Puedo adquirir comida sin gluten, vegetariana o vegana en RIT/MO?",
-            "a": "Sí."
+            "a": "<strong>Sí</strong>"
           },
           "cerveglu": {
             "q": "¿Puedo adquirir cerveza sin gluten en RIT/MO?",
-            "a": "Sí."
+            "a": "<strong>Sí</strong>"
           },
           "comprataba": {
             "q": "¿Puedo adquirir tabaco en el recinto?",
-            "a": "No."
+            "a": "<strong>No</strong>"
           },
           "internet": {
             "q": "¿Hay conexión a Internet?",
-            "a": "No. El recinto cuenta con cobertura móvil, aunque no podemos garantizar su calidad."
+            "a": "<strong>No</strong>. El recinto cuenta con cobertura móvil, aunque no podemos garantizar su calidad."
           },
           "banoreduci": {
             "q": "¿Existen baños para personas con movilidad reducida?",
-            "a": "Sí."
+            "a": "<strong>Sí</strong>"
           },
           "acampa": {
             "q": "¿Hay zona de acampada en RIT/MO?",
-            "a": "No."
+            "a": "<strong>No</strong>"
           }
         }
       },
@@ -226,11 +226,11 @@
           },
           "accreduci": {
             "q": "¿Existe acceso al recinto para personas con movilidad reducida?",
-            "a": "Sí, el festival cuenta con acceso a la zona de público general (Espacio Baila) para personas con movilidad reducida."
+            "a": "<strong>Sí</strong>, el festival cuenta con acceso a la zona de público general (Espacio Baila) para personas con movilidad reducida."
           },
           "volveracc": {
             "q": "¿Puedo volver a entrar a RIT/MO si salgo del recinto?",
-            "a": "Sí"
+            "a": "<strong>Sí</strong>"
           }
         }
       },
@@ -239,7 +239,7 @@
         "items": {
           "autobus": {
             "q": "¿Hay servicio de autobuses?",
-            "a": "<strong>Sí.</strong> Habrá disponible una línea de bus de ida y vuelta desde Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
+            "a": "<strong>Sí</strong>, habrá disponible una línea de bus de ida y vuelta desde Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
           },
           "comlleg": {
             "q": "¿Cómo llego a RIT/MO?",
@@ -247,7 +247,7 @@
           },
           "parking": {
             "q": "¿Hay parking?",
-            "a": "Sí. Aparcamiento para automóviles (10€ cada día).<br><br>Te recordamos que puedes venir en el bus habilitado por la organización."
+            "a": "<strong>Sí</strong>, hay aparcamiento para automóviles disponible con pago por día. Recuerda que también puedes venir en el bus habilitado por la organización."
           },
           "horfest": {
             "q": "¿Cuáles son los horarios del festival?",

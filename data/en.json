@@ -64,7 +64,7 @@
     "more": "Learn more about our festival",
     "text": "The premier Spanish electronic music festival ",
     "text2": "RIT/MO is undoubtedly something unusual within the national and international panorama of electronic music festivals. There are many characteristics that make it different, but among them the most notable are that it is a festival with a very small capacity, and that it is celebrated in the middle of nature. Although it presents the festival format, organizing its musical offering over two days and having two stages, the truth is that it has nothing to do with macro festivals. You dance with enough space, there are no hated lines to enter, order at the bar, bathrooms, etc., and the venue has the magic of being located in the foothills of Sierra Elvira (Atarfe, Granada) in an environment where dancing becomes special.",
-    "text3": "Although RIT/MO is an event with a reduced capacity, this does not mean that it does not bet on a lineup with top-level artists (and without this implying prohibitive subscription prices!!). For example, international artists such as (a-z) Audrey Danza, CC: DISCO!, Chinaski, Curses, Erol Alkan, D. Tiffany, Identified Patient, Interstellar Funk, Local Suicide, Naone, Pablo Bozzi have passed through RIT/MO , Red Axes, Zombies in Miami, etc. Within the national sphere, we have been able to enjoy Baldo, Cora Novoa, Javi Redondo, Oma Totem and Undo, to name just a few. In short, it is possible to combine the quality of the musical proposal and the venue, with the fact that it is for a small group of clubbers. A luxury.",
+    "text3": "Although RIT/MO is an event with a reduced capacity, this does not mean that it does not bet on a lineup with top-level artists (and without this implying prohibitive subscription prices!!).",
     "text4": "Do you have RIT/MO?"
   },
   "previous": {
@@ -165,37 +165,37 @@
       "services": {
         "title": "Services",
         "items": {
-          "guardarop": {
-            "q": "Is there a cloakroom service?",
-            "a": "No."
+          "tqlls": {
+            "q": "Are there lockers on site?",
+            "a": "<strong>Yes</strong>, service provided by <strong>Mobile Locker</strong>."
           },
           "objper": {
             "q": "Is there a lost and found area?",
-            "a": "Yes, if you find or lose an item at RIT/MO, please go to the information point."
+            "a": "<strong>Yes</strong>, if you find or lose an item at RIT/MO, please go to the information point."
           },
           "comglu": {
             "q": "Can I buy gluten-free, vegetarian, or vegan food at RIT/MO?",
-            "a": "Yes."
+            "a": "<strong>Yes</strong>"
           },
           "cerveglu": {
             "q": "Can I buy gluten-free beer at RIT/MO?",
-            "a": "Yes."
+            "a": "<strong>Yes</strong>"
           },
           "comprataba": {
             "q": "Can I buy tobacco at the venue?",
-            "a": "No."
+            "a": "<strong>No</strong>"
           },
           "internet": {
             "q": "Is there internet access?",
-            "a": "No. The venue has mobile coverage, but we cannot guarantee its quality."
+            "a": "<strong>No</strong>. The venue has mobile coverage, but we cannot guarantee its quality."
           },
           "banoreduci": {
             "q": "Are there accessible toilets for people with reduced mobility?",
-            "a": "Yes."
+            "a": "<strong>Yes</strong>"
           },
           "acampa": {
             "q": "Is there a camping area at RIT/MO?",
-            "a": "No."
+            "a": "<strong>No</strong>"
           }
         }
       },
@@ -212,7 +212,7 @@
           },
           "objgrand": {
             "q": "Can I bring my motorcycle helmet or other transportation items such as skateboards or bicycles?",
-            "a": "No, entry with large objects such as suitcases, large bags, backpacks, skateboards, or motorcycle helmets is not allowed.<br><br>Objects that may be considered dangerous by the organization, as well as aerosols, laser pointers, and sharp objects, are also not allowed."
+            "a": "<strong>No</strong>, entry with large objects such as suitcases, large bags, backpacks, skateboards, or motorcycle helmets is not allowed.<br><br>Objects that may be considered dangerous by the organization, as well as aerosols, laser pointers, and sharp objects, are also not allowed."
           },
           "edadmin": {
             "q": "What is the minimum age to access RIT/MO?",
@@ -220,7 +220,7 @@
           },
           "accreduci": {
             "q": "Is there access for people with reduced mobility?",
-            "a": "Yes, the festival has access to the general public area (Espacio Baila) for people with reduced mobility."
+            "a": "<strong>Yes</strong>, the festival has access to the general public area (Espacio Baila) for people with reduced mobility."
           },
           "volveracc": {
             "q": "Can I re-enter RIT/MO if I leave the venue?",
@@ -241,7 +241,7 @@
           },
           "parking": {
             "q": "Does RIT/MO have parking?",
-            "a": "Yes. Car parking (€10 each day).<br><br>We remind you that you can come on the bus provided by the organization."
+            "a": "Yes. Car parking (pay per day).<br><br>We remind you that you can come on the bus provided by the organization."
           },
           "horfest": {
             "q": "Festival schedule?",
