@@ -1,4 +1,3 @@
-import cx from "clsx"
 import Link from "next/link"
 import Image from "next/image"
 import { getDictionary } from "@/util/dictionary"
@@ -7,50 +6,11 @@ import Facebook from "./icons/Facebook"
 import Instagram from "./icons/Instagram"
 
 export default function Footer({ lang }: { lang?: any }) {
-  const { d, t } = getDictionary(lang)
-  const mainCx = cx("Footer", "py-12 bg-neutral-900 text-white")
-  const newsLetterID = lang === "es" ? "qcWPXv" : "yT3TRe"
+  const { t } = getDictionary(lang)
 
   return (
-    <>
-      <div className="py-16 bg-white">
-        <div className="container">
-          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 lg:items-center justify-between">
-            <div>
-              <h3 className="text-2xl font-semibold mb-2">
-                {t("generic.tickets")}
-              </h3>
-              <p className="text-xl mb-4 ">{t("tickets.earlyBird")}</p>
-            </div>
-            <a
-              target="_blank"
-              className="text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 active:bg-blue-700 transition transform active:scale-95"
-              href={t("tickets.link")}
-            >
-              {t("tickets.buy")}
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="py-16 bg-neutral-100">
-        <div className="container">
-          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 lg:items-center justify-between">
-            <div>
-              <h3 className="text-2xl font-semibold mb-2">
-                {t("newsletter.title")}
-              </h3>
-              <p className="text-xl mb-4 ">{t("newsletter.text")}</p>
-            </div>
-            <div
-              className="ml-embedded w-full md:w-[460px] shrink-0"
-              data-form={newsLetterID}
-            ></div>
-          </div>
-        </div>
-      </div>
-
-      <div className={mainCx}>
+    <footer className="relative z-10 h-56 bg-black/80">
+      <div className="absolute bottom-0 w-full z-10 py-12  text-white">
         <div className="container">
           <div className="w-full flex flex-col md:flex-row gap-12 justify-between items-center">
             {/* Colaboradores */}
@@ -145,6 +105,6 @@ export default function Footer({ lang }: { lang?: any }) {
           </div>
         </div>
       </div>
-    </>
+    </footer>
   )
 }

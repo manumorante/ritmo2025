@@ -1,20 +1,36 @@
-import { getPublishedArtists } from "@/util/data"
-import cx from "clsx"
-import { Fragment } from "react"
-
 export default function All() {
-  const artists = getPublishedArtists()
-  const nameCx = cx("text-2xl md:text-3xl md:leading-10", "font-semibold")
-  const dotCx = cx("text-3xl text-primary font-semibold")
+  const Dot = () => (
+    <div className="Dot hidden md:inline-block text-primary mx-2">•</div>
+  )
+
+  const Br = () => <div className="Br" />
+
+  const Name = ({ children }: { children: React.ReactNode }) => (
+    <span className="Name block md:inline whitespace-nowrap">{children}</span>
+  )
 
   return (
-    <div className="LineupAll flex flex-wrap gap-2 items-center">
-      {artists.map((artist: any, index: number) => (
-        <Fragment key={artist.name}>
-          <span className={nameCx}>{artist.name}</span>
-          {index < artists.length - 1 && <span className={dotCx}>•</span>}
-        </Fragment>
-      ))}
+    <div className="Lineup text-3xl lg:text-4xl xl:text-5xl font-medium">
+      <Name>
+        JASSS <span className="text-[0.6em]">B2B</span> JOHN TALABOT
+      </Name>
+      <Br />
+      <Name>KIA</Name>
+      <Dot />
+      <Name>LOLA HARO</Name>
+      <Dot />
+      <Name>MARCO SHUTTLE</Name>
+      <Br />
+      <Name>OMA TOTEM</Name>
+      <Name>ROOTIAN</Name>
+      <Dot />
+      <Name>SEDEF ADASÏ</Name>
+      <Dot />
+      <Name>SYSTEMA</Name>
+      <Br />
+      <Name>TAMARINDO</Name>
+      <Dot />
+      <Name>TORNADO WALLACE</Name>
     </div>
   )
 }

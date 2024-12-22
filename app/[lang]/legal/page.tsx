@@ -1,20 +1,16 @@
-import { Logo, LegalES, LegalEN } from "@/components"
-import { getDictionary } from "@/util/dictionary"
-import Link from "next/link"
-export default async function Page({
+import { LegalES, LegalEN } from "@/components"
+export default async function Legal({
   params: { lang },
 }: {
   params: { lang: string }
 }) {
-  const { d, t } = getDictionary(lang)
   return (
-    <>
+    <main className="Page Legal">
+      <div className="header-bg" />
+
       <div className="container">
-        <Link href="/" className="block my-8 w-24 invert">
-          <Logo />
-        </Link>
         {lang === "es" ? <LegalES /> : <LegalEN />}
       </div>
-    </>
+    </main>
   )
 }

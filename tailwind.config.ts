@@ -22,19 +22,10 @@ const config: Config = {
     maxWidth: screens,
     extend: {
       colors: {
-        primary: colors.blue[700],
+        primary: "#a4752a",
         main: colors.neutral[800],
         gray: colors.gray[500],
         facebook: "#1877f2",
-      },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "2rem",
-          ms: "1rem",
-          sm: "2rem",
-          xl: "6rem",
-        },
       },
     },
   },

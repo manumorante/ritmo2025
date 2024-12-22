@@ -1,20 +1,16 @@
-import { Logo, PrivacyES, PrivacyEN } from "@/components"
-import { getDictionary } from "@/util/dictionary"
-import Link from "next/link"
-export default async function Page({
+import { PrivacyES, PrivacyEN } from "@/components"
+export default async function Privacy({
   params: { lang },
 }: {
   params: { lang: string }
 }) {
-  const { d, t } = getDictionary(lang)
   return (
-    <>
+    <main className="Page Privacy">
+      <div className="header-bg" />
+
       <div className="container">
-        <Link href="/" className="block my-8 w-24 invert">
-          <Logo />
-        </Link>
         {lang === "es" ? <PrivacyES /> : <PrivacyEN />}
       </div>
-    </>
+    </main>
   )
 }
