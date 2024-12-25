@@ -2,9 +2,8 @@ import { getDictionary } from "@/util/dictionary"
 import {
   VideoHero,
   All,
-  BuyButton,
+  BtnPrimary,
   Photos,
-  Map,
   PreviewSection,
   FeaturedFAQs,
 } from "@/components"
@@ -21,18 +20,21 @@ export default async function Home({
     <>
       <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
 
-      <div className="fixed bottom-[15vh] z-10 w-full  ">
+      <div className="h-[54vh] md:h-[70vh]" />
+
+      <div className="relative z-20 w-full mb-8">
         <div className="container">
           <div className="sm:flex sm:gap-10 sm:justify-between items-center">
             <p className="text-2xl text-white font-light mb-4">
               {t("about.text")}
             </p>
 
-            <BuyButton t={t} />
+            <BtnPrimary href={`${lang}/tickets`}>
+              <div>{t("generic.buyTickets")}</div>
+            </BtnPrimary>
           </div>
         </div>
       </div>
-      <div className="h-[80vh]" />
 
       <main>
         <div className="Home relative z-20">
@@ -43,6 +45,9 @@ export default async function Home({
             <div className="text-center">
               <p className="sectionTitle">{t("lineup.title")}</p>
               <All />
+              <p className="text-xl uppercase my-8 text-primary">
+                {t("lineup.more")}
+              </p>
             </div>
           </div>
 

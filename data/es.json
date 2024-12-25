@@ -49,11 +49,7 @@
   },
   "lineup": {
     "title": "Line-up",
-    "previews": {
-      "1": "(primeras confirmaciones)",
-      "2": "(más por anunciar)",
-      "3": ""
-    }
+    "more": "more to be announced"
   },
   "stages": {
     "main": "Escenario MORDISCO",

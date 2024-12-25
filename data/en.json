@@ -10,7 +10,7 @@
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },
-    { "title": "What is RIT/MO?", "href": "about" },  
+    { "title": "What is RIT/MO?", "href": "about" },
     { "title": "Location", "href": "location" },
     { "title": "Accommodation", "href": "accommodation" },
     { "title": "Airports", "href": "airports" },
@@ -45,11 +45,7 @@
   },
   "lineup": {
     "title": "Line-up",
-    "previews": {
-      "1": "(first confirmations)",
-      "2": "(more to be announced)",
-      "3": ""
-    }
+    "more": "more to be announced"
   },
   "stages": {
     "main": "MORDISCO Stage",
