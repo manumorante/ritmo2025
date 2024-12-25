@@ -9,13 +9,8 @@
     "previousEdition": "Edición anterior (2024)"
   },
   "menu": [
-    {
-      "title": "Tickets",
-      "href": "https://entradastickbox.com/ritmo-2025/40440"
-    },
-    { "title": "¿Qué es RIT/MO?", "href": "about" }
-  ],
-  "submenu": [
+    { "title": "Tickets", "href": "tickets" },
+    { "title": "¿Qué es RIT/MO?", "href": "about" },
     { "title": "Ubicación", "href": "location" },
     { "title": "Alojamiento", "href": "accommodation" },
     { "title": "Aeropuertos", "href": "airports" },
@@ -51,11 +46,7 @@
   },
   "lineup": {
     "title": "Line-up",
-    "previews": {
-      "1": "(primeras confirmaciones)",
-      "2": "(más por anunciar)",
-      "3": ""
-    }
+    "more": "more to be announced"
   },
   "stages": {
     "main": "Escenario MORDISCO",
@@ -113,7 +104,7 @@
     "more": "Saber más de nuestro festival",
     "text": "El festival español de música electrónica gourmet por excelencia.",
     "text2": "RIT/MO es sin duda algo inusual dentro del panorama nacional e internacional de festivales de música electrónica. Hay muchas características que lo hacen distinto, pero entre ellas destacarían las de ser un festival para un aforo muy reducido, y que es celebrado en plena naturaleza. Aunque presenta el formato de festival, al organizar su oferta musical en dos jornadas y contar con dos escenarios, lo cierto es que no tiene nada que ver con los macrofestivales. Se baila con espacio suficiente, no existen las odiadas colas para entrar, pedir en barra, baños, etc., y el recinto tiene la magia de estar ubicado en las faldas de Sierra Elvira (Atarfe, Granada) en un entorno donde bailar se vuelve muy especial.",
-    "text3": "Aunque RIT/MO es un evento para un aforo reducido, esto no significa que no se apueste por un lineup con artistas de primer nivel (y sin que esto suponga unos precios de los abonos prohibitivos!!). Por ejemplo, por RIT/MO han pasado artistas internacionales de la talla de (a-z) Audrey Danza, CC: DISCO!, Chinaski, Curses, Erol Alkan, D. Tiffany, Identified Patient, Interstellar Funk, Local Suicide, Naone, Pablo Bozzi, Red Axes, Zombies in Miami, etc. Dentro de la esfera nacional, se ha podido disfrutar de Baldo, Cora Novoa, Javi Redondo, Oma Totem o Undo, por nombrar sólo algunos. En definitiva, se consigue aunar calidad de la propuesta musical y del recinto, con el hecho de ser para un grupo de clubbers reducido. Todo un lujo.",
+    "text3": "Aunque RIT/MO es un evento para un aforo reducido, esto no significa que no se apueste por un lineup con artistas de primer nivel (y sin que esto suponga unos precios de los abonos prohibitivos!!).",
     "text4": "¿Tienes RIT/MO?"
   },
   "previous": {
@@ -123,7 +114,7 @@
   },
   "faqs": {
     "title": "FAQs",
-    "intro": "Hemos recopilado las dudas que más nos preguntais. Echa un ojo y seguro que podemos ayudarte sobre: ",
+    "intro": "Hemos recopilado las consultas más comunes para facilitarte la información que necesitas sobre:",
     "more": "Ver más preguntas",
 
     "sections": {
@@ -131,77 +122,77 @@
         "title": "Entradas",
         "items": {
           "doncompr": {
-            "q": "¿Dónde puedo adquirir mi entrada para RIT/MO?",
-            "a": "A través de nuestro canal de venta oﬁcial. Puedes acceder a él desde <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Tickbox</a>."
+            "q": "¿Dónde puedo comprar mi entrada para RIT/MO?",
+            "a": "Compra tus entradas exclusivamente a través de nuestro canal oficial en Tickbox. Accede directamente desde este enlace: <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Compra aquí tu entrada</a>."
           },
           "puecom": {
-            "q": "¿Puedo comprar entradas en el festival?",
-            "a": "<strong>Sí</strong>, en nuestras taquillas según disponibilidad."
+            "q": "¿Es posible comprar entradas directamente en el festival?",
+            "a": "<strong>Sí</strong>, podrás comprarlas en nuestras taquillas, sujeto a disponibilidad."
           },
           "noemail": {
-            "q": "He adquirido mi entrada pero no he recibido ningún email de conﬁrmación de venta, ¿qué debo hacer?",
-            "a": "No te preocupes, contacta con TickBox a en <strong>info@tickbox.es</strong> indicando tu nombre completo y fecha de compra."
+            "q": "Compré mi entrada pero no he recibido el email de confirmación, ¿qué debo hacer?",
+            "a": "Contacta con nuestro equipo de soporte de TickBox enviando un correo a <strong>info@tickbox.es</strong> con tu nombre completo y la fecha de tu compra."
           },
           "nooficial": {
-            "q": "¿Qué ocurre en el caso de adquirir una entrada en un canal de venta no oﬁcial?",
-            "a": "RIT/MO no puede garantizar la validez de una entrada comprada en un canal de venta no oﬁcial."
+            "q": "¿Qué sucede si compro una entrada a través de un canal no oficial?",
+            "a": "No podemos garantizar la validez de entradas compradas fuera de nuestros canales oficiales."
           },
           "perdida": {
             "q": "¿Qué debo hacer si pierdo mi entrada?",
-            "a": "Asegúrate de que la entrada no ha llegado a manos de otra persona. Sólo será válida la primera entrada que se presente en el acceso al recinto. Cualquier entrada con el mismo código, presentada posteriormente, será inválida."
+            "a": "Verifica que tu entrada no haya sido usada por otra persona. La primera entrada presentada en el acceso será la única válida. Cualquier entrada duplicada será considerada inválida."
           },
           "atencli": {
-            "q": "¿Cómo puedo ponerme en contacto con el servicio de atención al cliente?",
-            "a": "Si no encuentras la solución a tu consulta en estas respuestas puedes contactarnos en el email <strong>info@ritmofestival.com</strong>."
+            "q": "¿Cómo puedo contactar al servicio de atención al cliente?",
+            "a": "Si tienes consultas que no están resueltas en esta sección, puedes escribirnos a <strong>info@ritmofestival.com</strong>."
           },
           "factura": {
-            "q": "¿Puedo obtener una factura de mi entrada?",
-            "a": "La propia entrada es válida como factura. No obstante, si eres una empresa puedes solicitarla a través de este <strong>info@tickbox.es</strong>."
+            "q": "¿Puedo obtener una factura por la compra de mi entrada?",
+            "a": "Tu entrada sirve como comprobante de compra. Si necesitas una factura formal, especialmente si eres una empresa, solicítala enviando un correo a <strong>info@tickbox.es</strong>."
           },
           "devolentr": {
-            "q": "¿Puedo devolver o modiﬁcar mi entrada?",
-            "a": "La entrada no admite cancelaciones o modiﬁcaciones una vez adquirida."
+            "q": "¿Puedo devolver o modificar mi entrada después de comprarla?",
+            "a": "Las entradas no son reembolsables ni modificables una vez compradas."
           },
           "nominal": {
             "q": "¿Las entradas son nominales?",
-            "a": "Sí"
+            "a": "<strong>Sí</strong>, las entradas son personales e intransferibles."
           }
         }
       },
       "services": {
         "title": "Servicios",
         "items": {
-          "guardarop": {
-            "q": "¿Hay servicio de guardarropas?",
-            "a": "No."
+          "tqlls": {
+            "q": "¿Hay taquillas disponibles en el recinto?",
+            "a": "<strong>Sí</strong>, contamos con el servicio de taquillas proporcionado por <strong>Mobile Locker</strong>."
           },
           "objper": {
-            "q": "¿Existe un punto de objetos perdidos?",
-            "a": "Si encuentras o pierdes algún objeto en RIT/MO, dirígete al punto de información."
+            "q": "¿Hay un servicio de objetos perdidos?",
+            "a": "Si pierdes o encuentras algún objeto, acude a nuestro punto de información en el festival."
           },
           "comglu": {
-            "q": "¿Puedo adquirir comida sin gluten, vegetariana o vegana en RIT/MO?",
-            "a": "Sí."
+            "q": "¿Están disponibles opciones de comida sin gluten, vegetariana o vegana?",
+            "a": "<strong>Sí</strong>, ofrecemos diversas opciones alimenticias para satisfacer diferentes necesidades y preferencias."
           },
           "cerveglu": {
-            "q": "¿Puedo adquirir cerveza sin gluten en RIT/MO?",
-            "a": "Sí."
+            "q": "¿Hay cerveza sin gluten disponible?",
+            "a": "<strong>Sí</strong>, disponemos de opciones de cerveza sin gluten."
           },
           "comprataba": {
-            "q": "¿Puedo adquirir tabaco en el recinto?",
-            "a": "No."
+            "q": "¿Puedo comprar tabaco en el recinto?",
+            "a": "<strong>No</strong>, no vendemos tabaco en el festival."
           },
           "internet": {
-            "q": "¿Hay conexión a Internet?",
-            "a": "No. El recinto cuenta con cobertura móvil, aunque no podemos garantizar su calidad."
+            "q": "¿Hay conexión a Internet disponible?",
+            "a": "<strong>No</strong>. Aunque el recinto tiene cobertura móvil, no garantizamos la calidad de la conexión."
           },
           "banoreduci": {
-            "q": "¿Existen baños para personas con movilidad reducida?",
-            "a": "Sí."
+            "q": "¿Existen baños adaptados para personas con movilidad reducida?",
+            "a": "<strong>Sí</strong>, disponemos de instalaciones accesibles para personas con movilidad reducida."
           },
           "acampa": {
-            "q": "¿Hay zona de acampada en RIT/MO?",
-            "a": "No."
+            "q": "¿Hay áreas de acampada en el festival?",
+            "a": "<strong>No</strong>, no ofrecemos zonas de acampada dentro del recinto del festival."
           }
         }
       },
@@ -209,61 +200,61 @@
         "title": "Acceso",
         "items": {
           "accanima": {
-            "q": "¿Puedo introducir animales al recinto?",
-            "a": "No está permitido entrar con animales de ningún tipo, excepto en el caso de perros de asistencia que, debidamente identiﬁcados, acompañen a personas invidentes."
+            "q": "¿Puedo llevar animales al festival?",
+            "a": "El acceso con animales no está permitido, excepto para perros de asistencia debidamente identificados."
           },
           "accamara": {
-            "q": "¿Puedo acceder con cámara?",
-            "a": "No está permitida la entrada al recinto con cámaras profesionales de fotografía, vídeo o grabadoras, drones o palos selﬁe."
+            "q": "¿Puedo entrar al recinto con mi cámara?",
+            "a": "No se permite la entrada con equipos profesionales de fotografía, vídeo, drones o palos selfie."
           },
           "objgrand": {
-            "q": "¿Puedo acceder con el casco de mi moto u otros elementos de transporte como tablas de skate o bicicletas?",
-            "a": "No, no está permitida la entrada con objetos de gran tamaño como maletas, bolsas, mochilas grandes, monopatines o cascos de moto.<br><br>Tampoco podrán ser introducidos objetos que puedan ser considerados peligrosos por la Organización, así como aerosoles, punteros láser y objetos aﬁlados."
+            "q": "¿Puedo acceder con elementos grandes como el casco de mi moto?",
+            "a": "No está permitido el acceso con objetos de gran tamaño o que puedan considerarse peligrosos por la organización, como maletas grandes, mochilas, monopatines o cascos de moto."
           },
           "edadmin": {
-            "q": "¿Cuál es la edad mínima para acceder a RIT/MO?",
-            "a": "Los menores de edad podrán acceder al recinto de RIT/MO siempre que estén acompañados de su progenitor o tutor legal (los menores a partir de los 10 años deberán pagar entrada).<br><br>Los progenitores o tutores deberán completar la presente <a href='/docs/autorizacion-menores.pdf' target='blank'>carta de autorización y responsabilidad de acceso a menores</a> y llevarla consigo en todo momento.<br><br>La Organización de RIT/MO se reserva la facultad de solicitar la mencionada carta de tutorización en cualquier momento."
+            "q": "¿Cuál es la edad mínima para entrar al festival?",
+            "a": "Los menores de edad pueden acceder acompañados de un adulto responsable. Mayores de 10 años deben tener entrada. Es obligatorio presentar una autorización firmada por los padres o tutores legales en <a href='/docs/autorizacion-menores.pdf' target='blank'>este enlace</a>."
           },
           "accreduci": {
-            "q": "¿Existe acceso al recinto para personas con movilidad reducida?",
-            "a": "Sí, el festival cuenta con acceso a la zona de público general (Espacio Baila) para personas con movilidad reducida."
+            "q": "¿Hay accesibilidad para personas con movilidad reducida?",
+            "a": "<strong>Sí</strong>, proporcionamos accesos adecuados para personas con movilidad reducida."
           },
           "volveracc": {
-            "q": "¿Puedo volver a entrar a RIT/MO si salgo del recinto?",
-            "a": "Sí"
+            "q": "¿Puedo salir y volver a entrar al festival?",
+            "a": "<strong>Sí</strong>, el reingreso está permitido."
           }
         }
       },
       "site-and-schedule": {
-        "title": "Recinto y horarios",
+        "title": "Recinto y Horarios",
         "items": {
           "autobus": {
-            "q": "¿Hay servicio de autobuses?",
-            "a": "<strong>Sí.</strong> Habrá disponible una línea de bus de ida y vuelta desde Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
+            "q": "¿Hay un servicio de autobús para el festival?",
+            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada al Centro Comercial Neptuno y al Gimnasio O<sup>2</sup>."
           },
           "comlleg": {
-            "q": "¿Cómo llego a RIT/MO?",
-            "a": "RIT/MO se celebra en el Paraje Natural de la Ermita de los Tres Juanes (Atarfe, Granada).<br><br>Desde Granada se llega a través de la Circunvalación dirección Jaén. Salida 3 (Almería/Murcia - Málaga/Algeciras - Córdoba - Aeropuerto) dirección Málaga/Algeciras Córdoba.<br><br>Continuar hasta salida 238 (Atarfe / Las Canteras).<br><br>Girar a la derecha dirección “Las Canteras” hasta desvío a la derecha siguiendo indicación “La Ermita”.<br><br>Esa carretera ya te conducirá directamente hasta el recinto de RIT/MO."
+            "q": "¿Cómo llego al festival RIT/MO?",
+            "a": "El festival se celebra en el Paraje Natural de la Ermita de los Tres Juanes, Atarfe, Granada. Sigue las indicaciones para llegar desde Granada por la Circunvalación dirección Jaén."
           },
           "parking": {
-            "q": "¿Hay parking?",
-            "a": "Sí. Aparcamiento para automóviles (10€ cada día).<br><br>Te recordamos que puedes venir en el bus habilitado por la organización."
+            "q": "¿Existe aparcamiento en el recinto?",
+            "a": "<strong>Sí</strong>, contamos con aparcamiento disponible con tarifa diaria."
           },
           "horfest": {
             "q": "¿Cuáles son los horarios del festival?",
-            "a": "<p>Apertura de puertas: <strong>16:30</strong>.<br><br>Actuaciones desde las <strong>17:00 hasta las 4:00</strong> de manera ininterrumpida.<br><br>Ambos días.</p>"
+            "a": "Las puertas abren a las <strong>16:30</strong> con actuaciones continuas de <strong>17:00 a 4:00</strong>."
           },
           "guiavuelos": {
-            "q": "¿Si viajo en avión?",
-            "a": "<p>Echa un ojo a nuestra <a href='/es/airports' target='blank'>Guía de Aeropuertos y Transporte</a>.</p>"
+            "q": "¿Qué opciones tengo si viajo en avión?",
+            "a": "Consulta nuestra guía de aeropuertos y transporte para más detalles en <a href='/es/airports' target='blank'>este enlace</a>."
           },
           "recaloja": {
-            "q": "¿Recomendaciones para el alojamiento?",
-            "a": "<p><strong>Sí</strong>, mira nuestras <a href='/es/airports' target='blank'>recomendaciones de alojamiento</a></p>"
+            "q": "¿Dónde puedo alojarme durante el festival?",
+            "a": "Visita nuestras recomendaciones de alojamiento para opciones cerca del evento en <a href='/es/airports' target='blank'>este enlace</a>."
           },
           "coviprot": {
-            "q": "¿Cuál será el protocolo que se aplicará en el festival en relación al Covid-19?",
-            "a": "Aplicaremos la normativa que marquen las autoridades competentes en el momento en el que tenga lugar el festival. Informaremos sobre las mismas según se acerque la fecha de celebración."
+            "q": "¿Qué medidas de seguridad se aplicarán respecto al Covid-19?",
+            "a": "Seguiremos las directrices de las autoridades sanitarias y proporcionaremos actualizaciones conforme se acerque la fecha del evento."
           }
         }
       }

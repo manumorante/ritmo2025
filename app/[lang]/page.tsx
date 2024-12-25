@@ -4,7 +4,6 @@ import {
   All,
   BuyButton,
   Photos,
-  Map,
   PreviewSection,
   FeaturedFAQs,
 } from "@/components"
@@ -20,7 +19,20 @@ export default async function Home({
   return (
     <>
       <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
-      <div className="h-[80vh]" />
+
+      <div className="h-[54vh] md:h-[70vh]" />
+
+      <div className="relative z-20 w-full mb-8">
+        <div className="container">
+          <div className="sm:flex sm:gap-10 sm:justify-between items-center">
+            <p className="text-2xl text-white font-light mb-4">
+              {t("about.text")}
+            </p>
+
+            <BuyButton lang={lang} t={t} />
+          </div>
+        </div>
+      </div>
 
       <main>
         <div className="Home relative z-20">
@@ -31,6 +43,9 @@ export default async function Home({
             <div className="text-center">
               <p className="sectionTitle">{t("lineup.title")}</p>
               <All />
+              <p className="text-xl uppercase my-8 text-primary">
+                {t("lineup.more")}
+              </p>
             </div>
           </div>
 
@@ -38,26 +53,12 @@ export default async function Home({
             <Photos />
           </div>
 
-          <PreviewSection title={t("generic.tickets")} className="bg-white">
-            <div className="container">
-              <div className="sm:flex sm:gap-10 sm:justify-between items-center">
-                <p className="text-2xl font-light mb-4">{t("about.text")}</p>
-
-                <BuyButton t={t} />
-              </div>
-            </div>
-          </PreviewSection>
-
-          <PreviewSection
-            title={t("location.title")}
-            // href={`/${lang}/location`}
-            html={t("location.large")}
-            className="bg-neutral-100"
-          >
-            {/* <div className="md:container">
-              <Map />
-            </div> */}
-            <div className="container">
+          <div className="Section section bg-neutral-100">
+            <div className="container text-center">
+              <div
+                className="text-3xl text-primary text-center mb-4"
+                dangerouslySetInnerHTML={{ __html: t("location.large") }}
+              />
               <a
                 target="_blank"
                 href="https://www.google.com/maps?ll=37.236176,-3.687694&z=15&t=m&hl=es-ES&gl=US&mapclient=embed&cid=7038520705456199891"
@@ -65,7 +66,7 @@ export default async function Home({
                 Google Maps →
               </a>
             </div>
-          </PreviewSection>
+          </div>
 
           {/* <PreviewSection
             title={t("about.text")}
@@ -90,14 +91,14 @@ export default async function Home({
             className="bg-white"
           /> */}
 
-          {/* <PreviewSection
+          <PreviewSection
             title={t("faqs.title")}
             href={`/${lang}/faqs`}
             more={t("faqs.more")}
             className="bg-white"
           >
             <FeaturedFAQs d={d} lang={lang} />
-          </PreviewSection> */}
+          </PreviewSection>
 
           <div className="py-16 bg-neutral-100">
             <div className="container">

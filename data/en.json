@@ -10,9 +10,7 @@
   },
   "menu": [
     { "title": "Tickets", "href": "tickets" },
-    { "title": "What is RIT/MO?", "href": "about" }
-  ],
-  "submenu": [
+    { "title": "What is RIT/MO?", "href": "about" },
     { "title": "Location", "href": "location" },
     { "title": "Accommodation", "href": "accommodation" },
     { "title": "Airports", "href": "airports" },
@@ -47,11 +45,7 @@
   },
   "lineup": {
     "title": "Line-up",
-    "previews": {
-      "1": "(first confirmations)",
-      "2": "(more to be announced)",
-      "3": ""
-    }
+    "more": "more to be announced"
   },
   "stages": {
     "main": "MORDISCO Stage",
@@ -64,7 +58,7 @@
     "more": "Learn more about our festival",
     "text": "The premier Spanish electronic music festival ",
     "text2": "RIT/MO is undoubtedly something unusual within the national and international panorama of electronic music festivals. There are many characteristics that make it different, but among them the most notable are that it is a festival with a very small capacity, and that it is celebrated in the middle of nature. Although it presents the festival format, organizing its musical offering over two days and having two stages, the truth is that it has nothing to do with macro festivals. You dance with enough space, there are no hated lines to enter, order at the bar, bathrooms, etc., and the venue has the magic of being located in the foothills of Sierra Elvira (Atarfe, Granada) in an environment where dancing becomes special.",
-    "text3": "Although RIT/MO is an event with a reduced capacity, this does not mean that it does not bet on a lineup with top-level artists (and without this implying prohibitive subscription prices!!). For example, international artists such as (a-z) Audrey Danza, CC: DISCO!, Chinaski, Curses, Erol Alkan, D. Tiffany, Identified Patient, Interstellar Funk, Local Suicide, Naone, Pablo Bozzi have passed through RIT/MO , Red Axes, Zombies in Miami, etc. Within the national sphere, we have been able to enjoy Baldo, Cora Novoa, Javi Redondo, Oma Totem and Undo, to name just a few. In short, it is possible to combine the quality of the musical proposal and the venue, with the fact that it is for a small group of clubbers. A luxury.",
+    "text3": "Although RIT/MO is an event with a reduced capacity, this does not mean that it does not bet on a lineup with top-level artists (and without this implying prohibitive subscription prices!!).",
     "text4": "Do you have RIT/MO?"
   },
   "previous": {
@@ -118,7 +112,7 @@
   },
   "faqs": {
     "title": "FAQs",
-    "intro": "We have compiled the questions that you ask us most. Take a look and we can surely help you with: ",
+    "intro": "We have compiled the most frequently asked questions to assist you with:",
     "more": "See more questions",
     "sections": {
       "tickets": {
@@ -126,76 +120,76 @@
         "items": {
           "doncompr": {
             "q": "Where can I buy my ticket for RIT/MO?",
-            "a": "Through our official ticket channel. You can access it at <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Tickbox</a>."
+            "a": "Purchase your tickets through our official ticket channel at <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Tickbox</a>."
           },
           "puecom": {
             "q": "Can I buy tickets at the festival?",
-            "a": "<strong>Yes</strong>, at our ticket booths subject to availability."
+            "a": "<strong>Yes</strong>, you can purchase them at our ticket booths, subject to availability."
           },
           "noemail": {
             "q": "I purchased my ticket but haven't received any confirmation email, what should I do?",
-            "a": "Don't worry, contact TickBox at <strong>info@tickbox.es</strong> and provide your full name and purchase date."
+            "a": "Please contact TickBox at <strong>info@tickbox.es</strong> with your full name and purchase date."
           },
           "nooficial": {
-            "q": "What happens if I purchase a ticket from a non-official sales channel?",
-            "a": "RIT/MO cannot guarantee the validity of a ticket purchased from a non-official sales channel."
+            "q": "What happens if I buy a ticket from a non-official sales channel?",
+            "a": "RIT/MO cannot guarantee the validity of tickets purchased from non-official sales channels."
           },
           "perdida": {
             "q": "What should I do if I lose my ticket?",
-            "a": "Make sure the ticket hasn't fallen into someone else's hands. Only the first ticket presented at the entrance will be valid. Any subsequent ticket with the same code will be invalid."
+            "a": "Ensure the ticket has not been used by someone else. Only the first ticket presented at the entrance will be considered valid. Any subsequent tickets with the same code will be deemed invalid."
           },
           "atencli": {
             "q": "How can I contact customer service?",
-            "a": "If you can't find the answer to your question in these responses, you can contact us at <strong>info@ritmofestival.com</strong>."
+            "a": "If your query is not addressed here, please contact us at <strong>info@ritmofestival.com</strong>."
           },
           "factura": {
-            "q": "Can I get an invoice for my ticket?",
-            "a": "The ticket itself is valid as an invoice. However, if you are a company, you can request it through this email: <strong>info@tickbox.es</strong>."
+            "q": "Can I receive an invoice for my ticket purchase?",
+            "a": "Your ticket serves as an invoice. However, if you are a business, you can request an invoice by emailing <strong>info@tickbox.es</strong>."
           },
           "devolentr": {
-            "q": "Can I return or modify my ticket?",
-            "a": "Tickets cannot be canceled or modified once purchased."
+            "q": "Can I return or modify my ticket after purchase?",
+            "a": "Tickets are non-refundable and cannot be modified after purchase."
           },
           "nominal": {
             "q": "Are tickets personalized?",
-            "a": "Yes"
+            "a": "<strong>Yes</strong>, tickets are personalized and non-transferable."
           }
         }
       },
       "services": {
         "title": "Services",
         "items": {
-          "guardarop": {
-            "q": "Is there a cloakroom service?",
-            "a": "No."
+          "tqlls": {
+            "q": "Are there lockers available on site?",
+            "a": "<strong>Yes</strong>, lockers are provided by <strong>Mobile Locker</strong>."
           },
           "objper": {
-            "q": "Is there a lost and found area?",
-            "a": "Yes, if you find or lose an item at RIT/MO, please go to the information point."
+            "q": "Is there a lost and found service?",
+            "a": "Yes, if you find or lose an item at RIT/MO, please visit the information point."
           },
           "comglu": {
             "q": "Can I buy gluten-free, vegetarian, or vegan food at RIT/MO?",
-            "a": "Yes."
+            "a": "<strong>Yes</strong>, we offer a variety of food options to accommodate different dietary needs."
           },
           "cerveglu": {
-            "q": "Can I buy gluten-free beer at RIT/MO?",
-            "a": "Yes."
+            "q": "Can I purchase gluten-free beer at RIT/MO?",
+            "a": "<strong>Yes</strong>, gluten-free beer is available."
           },
           "comprataba": {
-            "q": "Can I buy tobacco at the venue?",
-            "a": "No."
+            "q": "Is tobacco available for purchase at the venue?",
+            "a": "<strong>No</strong>, tobacco is not sold at the festival."
           },
           "internet": {
-            "q": "Is there internet access?",
-            "a": "No. The venue has mobile coverage, but we cannot guarantee its quality."
+            "q": "Is there Internet access?",
+            "a": "<strong>No</strong>. The venue has mobile coverage, although we cannot guarantee connectivity quality."
           },
           "banoreduci": {
-            "q": "Are there accessible toilets for people with reduced mobility?",
-            "a": "Yes."
+            "q": "Are there accessible restrooms for people with reduced mobility?",
+            "a": "<strong>Yes</strong>, we provide accessible facilities for individuals with reduced mobility."
           },
           "acampa": {
             "q": "Is there a camping area at RIT/MO?",
-            "a": "No."
+            "a": "<strong>No</strong>, there is no camping area available at the festival."
           }
         }
       },
@@ -204,27 +198,27 @@
         "items": {
           "accanima": {
             "q": "Can I bring animals to the venue?",
-            "a": "It is not allowed to bring animals of any kind, except for guide dogs that are properly identified and accompany visually impaired individuals."
+            "a": "Animals are not allowed, with the exception of guide dogs for visually impaired individuals, which must be properly identified."
           },
           "accamara": {
-            "q": "Can I enter with a camera?",
-            "a": "Professional photography, video or recording cameras, drones, or selfie sticks are not allowed inside the venue."
+            "q": "Am I allowed to enter with a camera?",
+            "a": "Entrance with professional photography, video cameras, drones, or selfie sticks is prohibited."
           },
           "objgrand": {
-            "q": "Can I bring my motorcycle helmet or other transportation items such as skateboards or bicycles?",
-            "a": "No, entry with large objects such as suitcases, large bags, backpacks, skateboards, or motorcycle helmets is not allowed.<br><br>Objects that may be considered dangerous by the organization, as well as aerosols, laser pointers, and sharp objects, are also not allowed."
+            "q": "Can I bring my motorcycle helmet or other large transport items like skateboards or bicycles?",
+            "a": "No, entry with large items such as suitcases, large bags, backpacks, skateboards, or motorcycle helmets is not allowed. Additionally, objects deemed dangerous by the organization, such as aerosols, laser pointers, and sharp objects, are also prohibited."
           },
           "edadmin": {
-            "q": "What is the minimum age to access RIT/MO?",
-            "a": "Minors can enter the RIT/MO venue as long as they are accompanied by their parent or legal guardian (minors from 10 years old are required to purchase a ticket).<br><br>Parents or guardians must complete the <a href='/docs/autorizacion-menores.pdf' target='blank'>authorization and responsibility letter for access by minors (spanish)</a> and carry it with them at all times.<br><br>The RIT/MO organization reserves the right to request the aforementioned letter of authorization at any time."
+            "q": "What is the minimum age requirement to access RIT/MO?",
+            "a": "Minors are permitted entry when accompanied by a parent or legal guardian. Minors aged 10 and above must purchase a ticket. An authorization and responsibility form for minors must be completed and carried at all times, available here: <a href='/docs/autorizacion-menores.pdf' target='blank'>Authorization Form</a>. The RIT/MO organization reserves the right to request this document at any time."
           },
           "accreduci": {
             "q": "Is there access for people with reduced mobility?",
-            "a": "Yes, the festival has access to the general public area (Espacio Baila) for people with reduced mobility."
+            "a": "<strong>Yes</strong>, the festival provides access to the general public area (Espacio Baila) for individuals with reduced mobility."
           },
           "volveracc": {
             "q": "Can I re-enter RIT/MO if I leave the venue?",
-            "a": "Yes"
+            "a": "<strong>Yes</strong>, re-entry is permitted."
           }
         }
       },
@@ -233,34 +227,35 @@
         "items": {
           "comlleg": {
             "q": "How do I get to RIT/MO?",
-            "a": "RIT/MO takes place at the Natural Area of Ermita de los Tres Juanes (Atarfe, Granada).<br><br>From Granada, you can reach the venue via the Circunvalación in the direction of Jaén. Take Exit 3 (Almería/Murcia - Málaga/Algeciras - Córdoba - Aeropuerto) in the direction of Málaga/Algeciras Córdoba.<br><br>Continue until Exit 238 (Atarfe / Las Canteras).<br><br>Turn right towards 'Las Canteras' and then take a right turn following the sign for 'La Ermita'.<br><br>That road will lead you directly to the RIT/MO venue."
+            "a": "RIT/MO is located at the Natural Area of Ermita de los Tres Juanes in Atarfe, Granada. From Granada, travel via the Circunvalación towards Jaén, taking Exit 238 for Atarfe / Las Canteras, and follow signs to 'La Ermita'."
           },
           "autobus": {
-            "q": "Does RIT/MO provide bus services?",
-            "a": "<strong>Yes.</strong> The organization will provide a bus service to and from RIT/MO from Granada.<br><br>Centro Comercial Neptuno; Gimnasio O<sup>2</sup>."
+            "q": "Is there a bus service to RIT/MO?",
+            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada, with stops at Centro Comercial Neptuno and Gimnasio O<sup>2</sup>."
           },
           "parking": {
-            "q": "Does RIT/MO have parking?",
-            "a": "Yes. Car parking (€10 each day).<br><br>We remind you that you can come on the bus provided by the organization."
+            "q": "Is there parking at RIT/MO?",
+            "a": "<strong>Yes</strong>, parking is available at the venue for a daily fee. We also recommend using the provided shuttle bus service."
           },
           "horfest": {
-            "q": "Festival schedule?",
-            "a": "<p>Doors will open at <strong>16:30</strong>.<br><br>Musical performances will take place continuously from <strong>17:00 to 4:00</strong>.<br><br>The schedule will be the same for both days of the festival.</p>"
+            "q": "What are the festival hours?",
+            "a": "Doors open at <strong>16:30</strong>. Live performances run from <strong>17:00 to 4:00</strong>, continuously over both days of the festival."
           },
           "guiavuelos": {
-            "q": "Are you traveling by plane?: Airport and Transportation Guide",
-            "a": "<p>If you're planning to join us to enjoy the best electronic dance music and you plan to use the plane as your means of transportation, here is some useful information about the <strong>nearest airports and how to get to Granada</strong> from there.</p><h2>Federico García Lorca Granada-Jaén Airport (GRX)</h2><p>Located approximately 15 kilometers west of Granada, this is the closest airport to the city. Due to its proximity to Granada, it is the most convenient option, although direct international connections are limited.</p><h4>How to get from the airport to Granada</h4><p><strong>Taxi:</strong> Taxis are available outside the airport terminal. The trip to Granada takes about 20 minutes, depending on traffic, and costs approximately 28€.</p><p><strong>Bus:</strong> Undoubtedly, the best and cheapest way to get from Granada Airport to the city center is by bus. The company ALSA operates a bus service that takes you to the city center for only 3 euros. The bus stop is right outside the arrivals terminal, and you can buy the ticket from the driver without the need for advance reservation. The bus schedule is arranged according to flight arrivals and departures. Currently, buses from the airport to Granada city center run from 6:00 a.m. to 11:30 p.m., and in the opposite direction from 5:00 a.m. to 9:45 p.m.</p><h2>Málaga Airport (AGP)</h2><p>Although a little further (approximately 135 kilometers south of Granada), Málaga Airport is a major international hub with a wide variety of flights. It is a good alternative for those looking for more flight options.</p><h4>How to get from Málaga Airport:</h4><p><strong>Bus:</strong> There are direct bus services from Málaga Airport to Granada, with a travel time of approximately 2 hours.</p><p><strong>Rental Cars:</strong> For those who prefer flexibility, car rental is an excellent option. Rental services are available at both airports, allowing you to explore the beautiful surroundings of Granada at your own pace.</p>"
+            "q": "Traveling by plane?",
+            "a": "<p>Check our <a href='/es/airports' target='blank'>Airport and Transportation Guide</a> for detailed information on airports near Granada and transportation options to the festival.</p>"
           },
           "recaloja": {
-            "q": "Accommodation recommendations?",
-            "a": "<p>One accommodation option is <strong>Granada city</strong>. It is located <strong>just a 15-minute drive</strong> from the festival venue. Although you can drive to the festival as there is private parking available, we recommend taking the bus. If you stay in Granada, you can take the <a href='/#site-and-schedule-autobus'>round-trip buses</a> provided by the organization.</p><p>A second option is to stay in one of the <strong>closest towns</strong> to the festival venue. If you choose this option, we recommend taking a taxi to the festival in groups of 3-4 people. The nearest town is <strong>Atarfe, an 8-minute drive</strong> away. If you choose this option, the price for a one-way taxi ride is around 10€. We recommend arranging the return trip with a 24-hour taxi service (the price for the return taxi ride increases to approximately 15€ or 18€ as you need to call the taxi to pick you up at the venue).</p><p>If you call for a taxi at the end of each day of the festival, you may have to wait due to high demand during those times. There is no taxi or Uber stand at the festival venue, so the return trip by taxi must be arranged by calling one of the available taxi services.</p><p>Next to the town of Atarfe, for accommodation, we recommend <strong>Albolote</strong>, which is <strong>a 10-minute drive</strong> away. Although it is a few minutes further from the venue, this town has a tram service from the town to the city of Granada. If you want to visit Granada, the tram option is very convenient. For the other towns near the venue, the public bus service should be used to travel to Granada.</p>"
+            "q": "Looking for accommodation recommendations?",
+            "a": "<p>Check our <a href='/es/airports' target='blank'>recommended accommodations</a> for options near the festival site.</p>"
           },
           "coviprot": {
-            "q": "What COVID-19 protocol will be implemented at the festival?",
-            "a": "We will follow the regulations set by the competent authorities at the time of the festival. We will provide information on these regulations as the event date approaches."
+            "q": "What COVID-19 protocols will be implemented at the festival?",
+            "a": "We will adhere to guidelines set by health authorities at the time of the festival and will provide updates as the event approaches."
           }
         }
       }
     }
   }
+
 }

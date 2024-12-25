@@ -1,7 +1,6 @@
 export { default as Logo } from "./Logo"
 export { default as Header } from "./header"
 export { default as MenuItems } from "./MenuItems"
-export { default as SubMenuItems } from "./SubMenuItems"
 export { default as MobileMenu } from "./header/MobileMenu"
 export { default as Date } from "./header/Date"
 export { default as Title } from "./Title"

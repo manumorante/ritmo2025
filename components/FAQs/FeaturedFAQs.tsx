@@ -38,10 +38,10 @@ export default function FeaturedFAQs({ d, lang }: { d: any; lang: string }) {
   ]
   const faqsCx = cx(
     "FAQs",
-    "flex gap-4",
+    "flex gap-12",
     "snap-x xl:snap-none",
     "overflow-x-auto xl:overflow-x-visible",
-    "py-5 px-4 xl:px-0"
+    "px-7 xl:px-0"
   )
 
   return (

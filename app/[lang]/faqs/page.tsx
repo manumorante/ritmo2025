@@ -1,4 +1,3 @@
-import cx from "clsx"
 import Link from "next/link"
 import { getDictionary } from "@/util/dictionary"
 
@@ -10,27 +9,14 @@ export default async function FaqsPage({
   const { d, t } = getDictionary(lang)
   const sections = Object.keys(d.faqs.sections)
 
-  const sectionsCx = cx("Sections flex flex-col gap-10")
-
-  const faqsCx = cx("FAQs grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8")
-  const questionCx = cx(
-    "cursor-pointer font-semibold no-underline text-lg md:text-xl"
-  )
-  const answerCx = cx(
-    "Answer font-light text-gray text-lg md:text-xl",
-    // Links
-    "[&_a]:text-rose-500"
-  )
-
   return (
     <main className="Page FAQs">
       <div className="header-bg" />
 
       <div className="container">
         <h2 className="pageTitle">{t("faqs.title")}</h2>
-
         <p className="mb-6">
-          {t("faqs.intro")}
+          {t("faqs.intro")}{" "}
           {sections.map((key) => {
             const sectionKey = key
             const section = d.faqs.sections[sectionKey]
@@ -45,8 +31,7 @@ export default async function FaqsPage({
           })}
           {"..."}
         </p>
-
-        <div className={sectionsCx}>
+        <div className="Sections space-y-10">
           {sections.map((key) => {
             const sectionKey = key
             const section = d.faqs.sections[sectionKey]
@@ -57,7 +42,7 @@ export default async function FaqsPage({
                   {section.title}
                 </Link>
 
-                <div className={faqsCx}>
+                <div className="FAQs space-y-12">
                   {items.map((key) => (
                     <div
                       key={key}
@@ -65,14 +50,14 @@ export default async function FaqsPage({
                       className="group"
                     >
                       <Link
-                        className={questionCx}
+                        className="cursor-pointer font-medium text-[1.2em] block mb-2 no-underline"
                         href={`#${sectionKey}-${key}`}
                       >
                         {section.items[key].q}
                       </Link>
 
                       <div
-                        className={answerCx}
+                        className="font-light text-gray"
                         dangerouslySetInnerHTML={{
                           __html: section.items[key].a,
                         }}

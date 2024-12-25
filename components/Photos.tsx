@@ -31,7 +31,7 @@ export default function Photos() {
       navigation={true}
       modules={[Autoplay, Navigation]}
     >
-      {Array.from({ length: 10 }).map((_, i) => (
+      {Array.from({ length: 5 }).map((_, i) => (
         <SwiperSlide key={i}>
           <Image
             src={`/photos/photo-${i + 1}.jpg`}

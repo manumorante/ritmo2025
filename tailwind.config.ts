@@ -24,7 +24,7 @@ const config: Config = {
       colors: {
         primary: "#a4752a",
         main: colors.neutral[800],
-        gray: colors.gray[500],
+        gray: colors.gray[600],
         facebook: "#1877f2",
       },
     },

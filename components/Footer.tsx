@@ -9,8 +9,8 @@ export default function Footer({ lang }: { lang?: any }) {
   const { t } = getDictionary(lang)
 
   return (
-    <footer className="relative z-10 h-56 bg-black/80">
-      <div className="absolute bottom-0 w-full z-10 py-12  text-white">
+    <footer className="relative z-10  bg-black">
+      <div className=" w-full z-10 py-12  text-white">
         <div className="container">
           <div className="w-full flex flex-col md:flex-row gap-12 justify-between items-center">
             {/* Colaboradores */}
@@ -79,7 +79,7 @@ export default function Footer({ lang }: { lang?: any }) {
             <span className="text-white text-sm">© 2024 RITMO</span>
 
             <Link
-              className="text-white text-sm"
+              className="text-white text-sm no-underline"
               href={`/${lang}/privacy`}
               target="_blank"
             >
@@ -87,7 +87,7 @@ export default function Footer({ lang }: { lang?: any }) {
             </Link>
 
             <Link
-              className="text-white text-sm"
+              className="text-white text-sm no-underline"
               href={`/${lang}/legal`}
               target="_blank"
             >
@@ -96,7 +96,7 @@ export default function Footer({ lang }: { lang?: any }) {
 
             {/* RITMO 2024 */}
             <Link
-              className="text-white text-sm"
+              className="text-white text-sm no-underline"
               href="https://2024.ritmofestival.com"
               target="_blank"
             >
