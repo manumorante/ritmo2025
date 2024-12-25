@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply text-lg font-light text-main bg-white;
+    @apply text-xl md:text-lg font-light text-main bg-white;
   }
 
   strong {
