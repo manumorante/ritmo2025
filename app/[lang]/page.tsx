@@ -2,7 +2,7 @@ import { getDictionary } from "@/util/dictionary"
 import {
   VideoHero,
   All,
-  BtnPrimary,
+  BuyButton,
   Photos,
   PreviewSection,
   FeaturedFAQs,
@@ -29,9 +29,7 @@ export default async function Home({
               {t("about.text")}
             </p>
 
-            <BtnPrimary href={`${lang}/tickets`}>
-              <div>{t("generic.buyTickets")}</div>
-            </BtnPrimary>
+            <BuyButton lang={lang} t={t} />
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ export default async function AboutPage({
         </div>
         <p dangerouslySetInnerHTML={{ __html: t("about.text4") }} />
 
-        <BuyButton t={t} />
+        <BuyButton lang={lang} t={t} />
       </div>
     </main>
   )
