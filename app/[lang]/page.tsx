@@ -42,7 +42,7 @@ export default async function Home({
           <div className="Lineup bg-white relative section">
             <div className="text-center">
               <p className="sectionTitle">{t("lineup.title")}</p>
-              <All />
+              <All lang={lang} />
               <p className="text-xl uppercase my-8 text-primary">
                 {t("lineup.more")}
               </p>

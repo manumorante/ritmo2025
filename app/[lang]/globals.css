@@ -11,6 +11,10 @@
     @apply text-xl md:text-lg font-light text-main bg-white;
   }
 
+  main {
+    @apply min-h-[75vh];
+  }
+
   strong {
     @apply font-semibold;
   }
