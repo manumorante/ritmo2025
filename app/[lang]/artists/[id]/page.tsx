@@ -12,15 +12,13 @@ export default async function Artists({
       <div className="Artist relative z-20">
         <div className="h-[4.8rem] -mb-[4rem] bg-white w-full sticky top-0 z-20"></div>
 
-        <div className="Lineup bg-white relative section">
+        <div className="Lineup bg-white relative section px-[20vw]">
           <div className="container">
             <p className="text-primary text-4xl font-medium">
               {t(`artists.${id}.name`)}
             </p>
             {t(`artists.${id}.bio`) && (
-              <div
-                dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
-              />
+              <p dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }} />
             )}
           </div>
         </div>
