@@ -18,7 +18,7 @@ export default async function Timetables({
       <TimetablesMenu t={t} lang={lang} active="all" />
 
       <div className="container">
-        <All />
+        <All lang={lang} />
       </div>
     </main>
   )
