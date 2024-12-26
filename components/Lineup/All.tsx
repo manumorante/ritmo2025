@@ -15,7 +15,7 @@ export default function All({ lang }: { lang: string }) {
     <Link
       // href={`${lang}/artists/${id}`}
       href="#"
-      className="Name no-underline hover:text-primary block md:inline whitespace-nowrap transition-colors duration-300"
+      className="Name no-underline hover:text-primary inline whitespace-nowrap transition-colors duration-300"
     >
       {children}
     </Link>
