@@ -231,7 +231,7 @@
           },
           "autobus": {
             "q": "Is there a bus service to RIT/MO?",
-            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada, with stops at Centro Comercial Neptuno and Gimnasio O<sup>2</sup>."
+            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada, with stops at Centro Comercial Neptuno (Gimnasio O<sup>2</sup>)."
           },
           "parking": {
             "q": "Is there parking at RIT/MO?",

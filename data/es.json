@@ -230,7 +230,7 @@
         "items": {
           "autobus": {
             "q": "¿Hay un servicio de autobús para el festival?",
-            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada al Centro Comercial Neptuno y al Gimnasio O<sup>2</sup>."
+            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada al Centro Comercial Neptuno (Gimnasio O<sup>2</sup>)."
           },
           "comlleg": {
             "q": "¿Cómo llego al festival RIT/MO?",
