@@ -14,7 +14,10 @@ export default async function Artists({
 
         <div className="Lineup bg-white relative section lg:px-[20vw]">
           <div className="container">
-            <p className="text-primary text-7xl">{t(`artists.${id}.name`)}</p>
+            <p className="text-primary text-4xl sm:text-5xl lg:text-7xl">
+              {t(`artists.${id}.name`)}
+            </p>
+
             {t(`artists.${id}.bio`) && (
               <p dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }} />
             )}
