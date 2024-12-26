@@ -13,7 +13,7 @@ export default function All({ lang }: { lang: string }) {
   )
 
   return (
-    <div className="Lineup text-3xl lg:text-4xl xl:text-5xl font-medium">
+    <div className="Lineup text-3xl lg:text-5xl xl:text-6xl font-medium">
       {artists.map((artist, index) => (
         <Fragment key={index}>
           <Link
