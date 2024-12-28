@@ -6,12 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 // import { getDictionary } from "@/util/dictionary"
 import { Signika } from "next/font/google"
-import {
-  Footer,
-  FBPixel,
-  MailerLiteUniversal,
-  Header,
-} from "@/components"
+import { Footer, FBPixel, MailerLiteUniversal, Header } from "@/components"
 
 export async function generateStaticParams(): Promise<{ lang: string }[]> {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -35,10 +30,10 @@ export default function Root({
   return (
     <html lang={lang}>
       <head>
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#ffffff" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
+          content="white-translucent"
         />
       </head>
       <body className={`${font.className}`}>

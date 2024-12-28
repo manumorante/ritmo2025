@@ -51,7 +51,12 @@
       "video": "https://www.youtube.com/watch?v=3ftXuppg_dM",
       "session": "https://soundcloud.com/dkmntl/dekmantel-podcast-452-sedef-adasi"
     },
-    { "name": "SYSTEMA", "id": "systema", "video": "", "session": "" },
+    {
+      "name": "SYSTEMA",
+      "id": "systema",
+      "video": "",
+      "session": "https://soundcloud.com/tombololive/tombolomixx-128-nogue"
+    },
     {
       "name": "TAMARINDO",
       "id": "tamarindo",

@@ -34,7 +34,7 @@ export default function Photos() {
       {Array.from({ length: 21 }).map((_, i) => (
         <SwiperSlide key={i}>
           <Image
-            src={`/photos/photo-${i + 1}.jpg`}
+            src={`/photos/${i + 1}.jpg`}
             alt="img"
             width={1500}
             height={1000}

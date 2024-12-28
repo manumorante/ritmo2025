@@ -17,9 +17,7 @@ export default function All({ lang }: { lang: string }) {
       {artists.map((artist, index) => (
         <Fragment key={index}>
           <Link
-            href={
-              artist.id === "systema" ? "#" : `${lang}/artists/${artist.id}`
-            }
+            href={`${lang}/artists/${artist.id}`}
             className="Name no-underline md:hover:text-primary inline whitespace-nowrap transition-colors duration-200"
           >
             {artist.name}

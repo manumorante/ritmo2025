@@ -20,7 +20,7 @@ export default async function Home({
     <>
       <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
 
-      <div className="h-[54vh] md:h-[92vh]" />
+      <div className="h-[66vh] md:h-[92vh]" />
 
       <div className="relative z-20 w-full mb-8">
         <div className="container">
@@ -36,7 +36,7 @@ export default async function Home({
 
       <main>
         <div className="Home relative z-20">
-          <div className="h-[4.8rem] bg-white w-full sticky top-0 z-20"></div>
+          <div className="header-flat" />
 
           {/* Lineup */}
           <div className="Lineup bg-white relative section -mt-[3rem]">

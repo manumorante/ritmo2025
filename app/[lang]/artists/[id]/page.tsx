@@ -23,28 +23,32 @@ export default async function Artists({
 
       <div className="header-flat" />
 
+      <div className="block sticky top-16 py-3 text-primary text-4xl sm:text-5xl lg:text-7xl bg-white/80 backdrop-blur">
+        <div className="container">{artist?.name && artist.name}</div>
+      </div>
+
       <div className="container">
-        <h1 className=" text-primary text-4xl sm:text-5xl lg:text-7xl mb-5">
-          {artist?.name && artist.name}
-        </h1>
+        <div className="lg:flex gap-8">
+          {t(`artists.${id}.bio`) && (
+            <div
+              className="flex-[2] text-2xl lg:text-xl lg:pl-6"
+              dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
+            />
+          )}
 
-        {t(`artists.${id}.bio`) && (
-          <div
-            className=" text-2xl lg:text-xl"
-            dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
-          />
-        )}
-
-        {artist?.session && (
-          <p>
-            <Link
-              href={artist?.session}
-              className="text-2xl text-primary no-underline"
-            >
-              SoundCloud →
-            </Link>
-          </p>
-        )}
+          <div className="flex-[2] text-right">
+            {artist?.session && (
+              <p>
+                <Link
+                  href={artist?.session}
+                  className="text-2xl text-primary no-underline"
+                >
+                  SoundCloud →
+                </Link>
+              </p>
+            )}
+          </div>
+        </div>
       </div>
     </main>
   )
