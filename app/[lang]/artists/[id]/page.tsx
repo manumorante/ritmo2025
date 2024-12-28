@@ -16,7 +16,7 @@ export default async function Artists({
 
       <div className="Artist">
         <div className="sticky top-20">
-          <h1 className="inline-block text-primary text-4xl sm:text-5xl lg:text-7xl mb-4 mt-3 px-5 bg-white/20 backdrop-blur-xl">
+          <h1 className="inline-block text-primary text-4xl sm:text-5xl lg:text-7xl mb-4 mt-3 pl-5 pr-3 pt-1 bg-white/70 backdrop-blur-lg">
             {artist?.name && artist.name}
           </h1>
         </div>
