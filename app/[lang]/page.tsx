@@ -20,7 +20,7 @@ export default async function Home({
     <>
       <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
 
-      <div className="h-[54vh] md:h-[70vh]" />
+      <div className="h-[54vh] md:h-[92vh]" />
 
       <div className="relative z-20 w-full mb-8">
         <div className="container">

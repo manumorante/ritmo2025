@@ -85,6 +85,6 @@
   }
 
   .header-flat {
-    @apply h-[4.8rem] -mt-[4.8rem] bg-white w-full sticky top-0 z-20;
+    @apply h-[65px] bg-white w-full sticky top-0 z-20;
   }
 }

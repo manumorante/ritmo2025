@@ -1,6 +1,7 @@
 import { getDictionary } from "@/util/dictionary"
 import { getArtistById } from "@/util/data"
 import Image from "next/image"
+import Link from "next/link"
 
 export default async function Artists({
   params: { lang, id },
@@ -11,35 +12,39 @@ export default async function Artists({
   const artist = getArtistById(id)
 
   return (
-    <main>
+    <main className="Artist pb-16">
+      <Image
+        src={`/artists/${id}/${id}.jpg`}
+        className="w-full relative z-0"
+        alt={id}
+        width={1000}
+        height={500}
+      />
+
       <div className="header-flat" />
 
-      <div className="Artist">
-        <div className="sticky top-20">
-          <h1 className="inline-block text-primary text-4xl sm:text-5xl lg:text-7xl mb-4 mt-3 pl-5 pr-3 pt-1 bg-white/70 backdrop-blur-lg">
-            {artist?.name && artist.name}
-          </h1>
-        </div>
+      <div className="container">
+        <h1 className=" text-primary text-4xl sm:text-5xl lg:text-7xl mb-5">
+          {artist?.name && artist.name}
+        </h1>
 
-        <div className="lg:flex lg:gap-8 lg:px-10">
-          {/* Photo */}
-          <div className="Photo flex-[1] mb-8">
-            <Image
-              src={`/artists/${id}/${id}.jpg`}
-              alt={id}
-              width={1000}
-              height={500}
-            />
-          </div>
+        {t(`artists.${id}.bio`) && (
+          <div
+            className=" text-2xl lg:text-xl"
+            dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
+          />
+        )}
 
-          <div className="Info flex-[1] px-5">
-            {t(`artists.${id}.bio`) && (
-              <div
-                dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
-              />
-            )}
-          </div>
-        </div>
+        {artist?.session && (
+          <p>
+            <Link
+              href={artist?.session}
+              className="text-2xl text-primary no-underline"
+            >
+              SoundCloud →
+            </Link>
+          </p>
+        )}
       </div>
     </main>
   )

@@ -4,8 +4,8 @@ import { Logo, MenuItems, MobileMenu } from "@/components"
 export default function Header({ lang }: { lang: string }) {
   return (
     <div className="Header">
-      <div className="Desktop hidden lg:block h-[4.6rem] fixed top-3 left-0 right-0 z-40 container mix-blend-difference">
-        <div className="w-full md:w-auto flex items-center justify-between py-3 gap-8">
+      <div className="Desktop hidden lg:block w-full fixed top-0 left-0 right-0 z-40 container mix-blend-difference">
+        <div className="w-full h-[65px] md:w-auto flex items-center justify-between gap-8">
           <Link
             href="/"
             className="no-underline flex-grow-0 flex-shrink-0 w-24 invert"
@@ -19,7 +19,7 @@ export default function Header({ lang }: { lang: string }) {
         </div>
       </div>
 
-      <div className="pb-[4.6rem]"></div>
+      {/* <div className="pb-[4.6rem]" /> */}
 
       <MobileMenu lang={lang} />
     </div>

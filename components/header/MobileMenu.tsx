@@ -14,8 +14,8 @@ export default function MobileMenu({ lang }: { lang: string }) {
     "BurgerMenu",
     "mix-blend-difference",
     "lg:hidden",
-    "flex justify-between gap-2",
-    "fixed top-0 left-0 right-0 z-40 p-5"
+    "flex items-center justify-between gap-2",
+    "fixed top-0 left-0 right-0 z-40 px-5 h-[65px]"
   )
   const burgerIconCx = cx("flex-shrink-0 flex-grow-0 text-primary")
 
