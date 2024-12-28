@@ -25,7 +25,6 @@ export default function MobileMenu({ lang }: { lang: string }) {
 
     // Box
     "fixed inset-0 z-40 lg:hidden",
-    "p-3",
 
     // Filters
     "transition-opacity backdrop-filter backdrop-blur-sm bg-opacity-90 bg-white/90 dark:bg-black/80",
@@ -34,7 +33,7 @@ export default function MobileMenu({ lang }: { lang: string }) {
     "flex flex-col items-start justify-start gap-5",
 
     // Items
-    "[&_a]:text-3xl [&_a]:pl-3 [&_a]:no-underline"
+    "[&_a]:text-4xl [&_a]:pl-5 [&_a]:no-underline"
   )
 
   return (
@@ -48,14 +47,16 @@ export default function MobileMenu({ lang }: { lang: string }) {
         </Link>
 
         <button className={burgerIconCx} onClick={toggle}>
-          <Bars3Icon className="w-8 h-8 text-white" />
+          <Bars3Icon className="w-9 h-9 text-white" />
         </button>
       </div>
 
       <div className={mainCx} onClick={toggle}>
-        <button>
-          <XMarkIcon className="text-primary w-9 h-9 " onClick={toggle} />
-        </button>
+        <div className="flex items-center justify-end  w-full px-5 h-[65px]">
+          <button>
+            <XMarkIcon className="text-primary w-9 h-9 " onClick={toggle} />
+          </button>
+        </div>
 
         <Link href={`/${lang}`} className="no-underline">
           Home
