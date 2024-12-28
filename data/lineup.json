@@ -1,6 +1,6 @@
 {
   "lineup": [
-    { "name": "JASSS", "id": "jass", "b2b": true },
+    { "name": "JASSS", "id": "jasss", "b2b": true },
     { "name": "JOHN TALABOT", "id": "john-talabot", "br": true },
     { "name": "KIA", "id": "kia" },
     { "name": "LOLA HARO", "id": "lola-haro" },
