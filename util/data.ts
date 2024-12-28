@@ -20,6 +20,10 @@ export function getPublishedArtists() {
   return lineup as Artist[]
 }
 
+export function getArtistById(id: string) {
+  return lineup.find((artist) => artist.id === id)
+}
+
 export function getMenuItems({ lang }: { lang: string }) {
   return _dictionary({ lang }).menu as Links
 }
