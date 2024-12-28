@@ -1,20 +1,16 @@
 {
-  "previews": [
-    { "id": 1, "date": "2024/12/10" },
-    { "id": 2, "date": "2025/12/01" },
-    { "id": 3, "date": "2025/12/01" }
-  ],
   "lineup": [
-    { "name": "JASSS B2B JOHN TALABOT", "preview": 1 },
-    { "name": "KIA", "preview": 1 },
-    { "name": "LOLA HARO", "preview": 1 },
-    { "name": "MARCO SHUTTLE", "preview": 1 },
-    { "name": "OMA TOTEM", "preview": 1 },
-    { "name": "ROOTIAN", "preview": 1 },
-    { "name": "SEDEF ADASÏ", "preview": 1 },
-    { "name": "SYSTEMA", "preview": 1 },
-    { "name": "TAMARINDO", "preview": 1 },
-    { "name": "TORNADO WALLACE", "preview": 1 }
+    { "name": "JASSS", "id": "jasss", "b2b": true },
+    { "name": "JOHN TALABOT", "id": "john-talabot", "br": true },
+    { "name": "KIA", "id": "kia" },
+    { "name": "LOLA HARO", "id": "lola-haro" },
+    { "name": "MARCO SHUTTLE", "id": "marco-shuttle", "br": true },
+    { "name": "OMA TOTEM", "id": "oma-totem" },
+    { "name": "ROOTIAN", "id": "rootian" },
+    { "name": "SEDEF ADASÏ", "id": "sedef-adasi", "br": true },
+    { "name": "SYSTEMA", "id": "systema" },
+    { "name": "TAMARINDO", "id": "tamarindo" },
+    { "name": "TORNADO WALLACE", "id": "tornado-wallace", "br": true }
   ],
   "timetables": {
     "friday": {
