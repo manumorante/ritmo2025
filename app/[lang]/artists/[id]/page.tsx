@@ -19,7 +19,9 @@ export default async function Artists({
             </p>
 
             {t(`artists.${id}.bio`) && (
-              <p dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }} />
+              <div
+                dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
+              />
             )}
           </div>
         </div>
