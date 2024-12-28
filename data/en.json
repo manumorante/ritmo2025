@@ -114,13 +114,13 @@
   },
   "accommodation": {
     "title": "Recommendations for accommodation",
-    "intro": "In Granada or in nearby towns or next to the town of Atarfe. Check out these recommendations for accommodation.",
+    "intro": "Accommodation in Granada, in nearby towns or next to the town of Atarfe",
     "granada": {
-      "title": "In Granada",
+      "title": "Granada city",
       "text": "It is located <strong>only 15 minutes by car</strong> from the festival site. Although you can go to the festival by car since private parking is offered, we recommend that you take the bus. If you are staying in Granada, you can take the <a href='/#site-and-schedule-autobus'>round-trip buses</a> that the organization will enable."
     },
     "pueblos": {
-      "title": "In closer towns",
+      "title": "Nearest towns",
       "text": "A second option is to stay in some of the closest towns to the festival site. If this is done, we recommend going to the festival by taxi in groups of 3-4 people. The closest town is <strong>Atarfe, 8 minutes by car</strong>. If you choose this option, the price of the one-way taxi is around €10 one way. We recommend arranging the return trip with a 24-hour taxi service (the price of the taxi on the return increases to around €15 or €18 as you have to call it to come to the premises to pick up users).",
       "note": "If you call the taxi at the end of each day of the festival, you will have to wait due to the high demand at those times. There is no taxi or Uber stop on the festival grounds, so the return trip by taxi must be made by calling one of the available taxi services."
     },

@@ -100,13 +100,13 @@
   },
   "accommodation": {
     "title": "Recomendaciones para alojamiento",
-    "intro": "En Granada o en pueblos cercanos o junto al pueblo de Atarfe. Mira estas recomendaciones para alojamiento.",
+    "intro": "Alojamiento en Granada, pueblos cercanos o junto al pueblo de Atarfe",
     "granada": {
-      "title": "En Granada",
-      "text": "Está situada a <strong>sólo 15 minutos en coche</strong> del recinto del festival. Aunque puedes ir al festival en coche dado que se ofrece parking privado, te recomendamos que cojas el bus. Si te alojas en Granada, podrás coger los <a href='/#site-and-schedule-autobus'>buses ida-vuelta</a> que habilitará la organización."
+      "title": "Granada",
+      "text": "Está situada a <strong>sólo 15 minutos en coche</strong> del recinto del festival. Aunque puedes ir al festival en coche dado que se ofrece parking privado, te recomendamos que cojas el bus. Si te alojas en Granada, podrás coger los <a href='/es/faqs#site-and-schedule-autobus'>buses ida-vuelta</a> que habilitará la organización."
     },
     "pueblos": {
-      "title": "En pueblos más cercanos",
+      "title": "Pueblos más cercanos",
       "text": "Una segunda opción es alojarse en algunos de los <strong>pueblos más cercanos</strong> al recinto del festival. Si se hace esto, recomendamos ir al festival en taxi en grupos de 3-4 personas. El pueblo más cercano es <strong>Atarfe, a 8 minutos en coche</strong>. Si se elige esta opción el precio del taxi de ida es alrededor de 10€ la ida. Recomendamos acordar la vuelta con un servicio de taxi de 24h (el precio del taxi a la vuelta se encarece a unos 15€ o 18€ al tener que llamarlo para que acuda al recinto a recoger a los usuarios).",
       "note": "Si se llama el taxi al terminar cada una de las jornadas del festival, se tendrá que esperar debido a la alta demanda de esos momentos. No hay parada de taxi o uber en el mismo recinto del festival, por lo que la vuelta en taxi debe hacerse llamando a algunos de los servicios de taxis disponibles."
     },

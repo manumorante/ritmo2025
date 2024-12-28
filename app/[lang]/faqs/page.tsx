@@ -42,7 +42,7 @@ export default async function FaqsPage({
                   {section.title}
                 </Link>
 
-                <div className="FAQs space-y-12">
+                <div className="FAQs space-y-10 max-w-md mx-auto">
                   {items.map((key) => (
                     <div
                       key={key}
@@ -50,7 +50,7 @@ export default async function FaqsPage({
                       className="group"
                     >
                       <Link
-                        className="cursor-pointer font-medium text-[1.2em] block mb-2 no-underline"
+                        className="cursor-pointer font-medium text-[1.2em] block mb-1 no-underline"
                         href={`#${sectionKey}-${key}`}
                       >
                         {section.items[key].q}
