@@ -11,7 +11,7 @@ export default async function Timetables({
 
   return (
     <main className="Page Timetables Saturday">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <Title

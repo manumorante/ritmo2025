@@ -10,7 +10,7 @@ export default async function AboutPage({
 
   return (
     <main className="Page About">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <h2 className="pageTitle">{t("about.title")}</h2>

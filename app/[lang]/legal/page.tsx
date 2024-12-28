@@ -6,7 +6,7 @@ export default async function Legal({
 }) {
   return (
     <main className="Page Legal">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         {lang === "es" ? <LegalES /> : <LegalEN />}

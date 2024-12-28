@@ -17,7 +17,7 @@ export default async function AirportsPage({
 
   return (
     <main className="Page Airports">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <h2 className="pageTitle">{t("airports.title")}</h2>

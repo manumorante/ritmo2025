@@ -1,16 +1,70 @@
 {
   "lineup": [
-    { "name": "JASSS", "id": "jasss", "b2b": true },
-    { "name": "JOHN TALABOT", "id": "john-talabot", "br": true },
-    { "name": "KIA", "id": "kia" },
-    { "name": "LOLA HARO", "id": "lola-haro" },
-    { "name": "MARCO SHUTTLE", "id": "marco-shuttle", "br": true },
-    { "name": "OMA TOTEM", "id": "oma-totem" },
-    { "name": "ROOTIAN", "id": "rootian" },
-    { "name": "SEDEF ADASÏ", "id": "sedef-adasi", "br": true },
-    { "name": "SYSTEMA", "id": "systema" },
-    { "name": "TAMARINDO", "id": "tamarindo" },
-    { "name": "TORNADO WALLACE", "id": "tornado-wallace", "br": true }
+    {
+      "name": "JASSS",
+      "id": "jasss",
+      "b2b": true,
+      "video": "https://www.youtube.com/watch?v=OapoX4niFSA",
+      "session": "https://soundcloud.com/breakfast-club-music-1/jasss-b2b-john-talabot-bfc-ade-marathon-2023-radion"
+    },
+    {
+      "name": "JOHN TALABOT",
+      "id": "john-talabot",
+      "br": true,
+      "video": "https://www.youtube.com/watch?v=88rR6OZ6JNM",
+      "session": "https://soundcloud.com/gala-festival/live-from-the-patio-john-talabot?in=john-talabot/sets/dj-sets"
+    },
+    {
+      "name": "KIA",
+      "id": "kia",
+      "session": "https://soundcloud.com/draaimolen/kia-at-draaimolen-festival-2025?in=kia-sydney/sets/live-sets"
+    },
+    {
+      "name": "LOLA HARO",
+      "id": "lola-haro",
+      "video": "https://www.youtube.com/watch?v=gqrC6fsqnhI",
+      "session": "https://soundcloud.com/kioskradio/small-steps-w-lola-haro-kiosk-radio-03102024?in=lola-haro/sets/kiosk-radio"
+    },
+    {
+      "name": "MARCO SHUTTLE",
+      "id": "marco-shuttle",
+      "br": true,
+      "video": "https://www.youtube.com/watch?v=Q3YbE0np4H4",
+      "session": "https://soundcloud.com/parallelfestival/marco-shuttle-parallel-2024?in=marco_shuttle/sets/mixes"
+    },
+    {
+      "name": "OMA TOTEM",
+      "id": "oma-totem",
+      "video": "https://www.youtube.com/watch?v=g-x1XMul3nk",
+      "session": "https://soundcloud.com/cozi-716789961/cozimix-11-oma-totem?in=omatotem/sets/dj-sets"
+    },
+    {
+      "name": "ROOTIAN",
+      "id": "rootian",
+      "video": "https://www.youtube.com/watch?v=nE1Vrzvyu28",
+      "session": "https://soundcloud.com/rootian/sets/yuyu"
+    },
+    {
+      "name": "SEDEF ADASÏ",
+      "id": "sedef-adasi",
+      "br": true,
+      "video": "https://www.youtube.com/watch?v=3ftXuppg_dM",
+      "session": "https://soundcloud.com/dkmntl/dekmantel-podcast-452-sedef-adasi"
+    },
+    { "name": "SYSTEMA", "id": "systema", "video": "", "session": "" },
+    {
+      "name": "TAMARINDO",
+      "id": "tamarindo",
+      "video": "https://www.youtube.com/watch?v=Lv5klWVICBc",
+      "session": "https://soundcloud.com/sweetamarindo/tamarindo-x-paralelo3"
+    },
+    {
+      "name": "TORNADO WALLACE",
+      "id": "tornado-wallace",
+      "br": true,
+      "video": "https://www.youtube.com/watch?v=igVqPIt94Ak",
+      "session": "https://soundcloud.com/tornadowallace/tomato-wallet-imaginary-friend"
+    }
   ],
   "timetables": {
     "friday": {

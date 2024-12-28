@@ -9,11 +9,11 @@ export default async function TicketsPage({
 
   return (
     <main className="Tickets ">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
-      {/* <div className="container">
+      <div className="container">
         <h2 className="pageTitle">{t("generic.tickets")}</h2>
-      </div> */}
+      </div>
       <div className="md:container">
         <iframe
           src="https://venta.enterticket.es/buy/?id=40440&amp;color=ec4899"

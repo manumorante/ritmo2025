@@ -15,7 +15,7 @@ export default async function AccommodationPage({
 
   return (
     <main className="Page Accommodation text-lg">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <h2 className="pageTitle">{t("accommodation.title")}</h2>

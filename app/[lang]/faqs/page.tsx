@@ -11,7 +11,7 @@ export default async function FaqsPage({
 
   return (
     <main className="Page FAQs">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <h2 className="pageTitle">{t("faqs.title")}</h2>

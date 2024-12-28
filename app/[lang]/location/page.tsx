@@ -10,7 +10,7 @@ export default async function LocationPage({
 
   return (
     <main className="Page Location">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         <h2 className="pageTitle">{t("location.title")}</h2>

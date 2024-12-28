@@ -6,7 +6,7 @@ export default async function Privacy({
 }) {
   return (
     <main className="Page Privacy">
-      <div className="header-bg" />
+      <div className="header-flat" />
 
       <div className="container">
         {lang === "es" ? <PrivacyES /> : <PrivacyEN />}
