@@ -130,23 +130,23 @@
 
   "airports": {
     "title": "Guia de vuelos y aeropuertos",
-    "intro": "Si estás planeando usar el avión como medio de transporte, aquí tienes información útil sobre los <strong>aeropuertos más cercanos y cómo llegar a Granada</strong> desde allí.",
+    "intro": "Aeropuertos más cercanos y cómo llegar a Granada fácilmente si viajas en avión",
     "more": "Ir a guiá de vuelos",
     "bus": "Bus",
     "taxi": "Taxi",
     "rent": "Coche de alquiler",
     "granada": {
-      "title": "Aeropuerto Federico García Lorca Granada-Jaén (GRX)",
-      "text": "Ubicado aproximadamente a 15 kilómetros al oeste de Granada. Este es el aeropuerto más cercano a la ciudad. Por su cercanía a la ciudad de Granada es la opción más conveniente, aunque sus conexiones internacionales directas son escasas.",
+      "title": "Aeropuerto Federico García Lorca Granada-Jaén",
+      "text": "Ubicado a 15 km al oeste de Granada, este es el aeropuerto más cercano a la ciudad. Es la opción más conveniente por su proximidad, aunque ofrece pocas conexiones internacionales directas.",
       "how": "Cómo llegar desde el aeropuerto a Granada:",
       "taxi": "Hay taxis disponibles fuera de la terminal del aeropuerto. El viaje a Granada lleva alrededor de 20 minutos, dependiendo del tráfico con un coste aproximado de 28€.",
-      "bus": "La forma más económica de viajar del aeropuerto de Granada al centro es en autobús, operado por ALSA, con un coste de solo 3€. La parada se encuentra justo fuera de la terminal de llegadas y no es necesario reservar billete, se compra directamente al conductor. Los horarios se ajustan a los vuelos, operando desde el aeropuerto de 6h a 23h30 y hacia el aeropuerto de 5h a 21h45."
+      "bus": "La forma más económica de llegar del aeropuerto de Granada al centro es en autobús de ALSA por 3 €. La parada está fuera de la terminal y el billete se compra al conductor. Los horarios se ajustan a los vuelos."
     },
     "malaga": {
-      "title": "Aeropuerto de Málaga (AGP)",
-      "text": "Aunque un poco más lejos (aproximadamente 135 kilómetros al sur de Granada), el Aeropuerto de Málaga es un importante centro internacional con una amplia variedad de vuelos. Es una buena alternativa para aquellos que buscan más opciones de vuelo.",
+      "title": "Aeropuerto de Málaga",
+      "text": "Aunque un poco más distante, a unos 135 km al sur de Granada, el Aeropuerto de Málaga es un importante centro internacional con una amplia variedad de vuelos. Es una excelente alternativa para quienes buscan más opciones de vuelo.",
       "how": "Como llegar desde el aeropuerto de Málaga:",
-      "rent": "Para aquellos que prefieren flexibilidad, el alquiler de coches es una excelente opción. Los servicios de alquiler están disponibles en ambos aeropuertos, lo que te permite explorar los hermosos alrededores de Granada a tu propio ritmo.",
+      "rent": "Para quienes buscan flexibilidad, alquilar un coche es ideal. Los servicios de alquiler están disponibles en ambos aeropuertos, permitiéndote explorar los alrededores de Granada a tu propio ritmo.",
       "bus": "Hay servicios directos de autobús desde el Aeropuerto de Málaga a Granada, con un tiempo de viaje de aproximadamente 2 horas."
     }
   },

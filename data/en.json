@@ -144,20 +144,20 @@
   },
   "airports": {
     "title": "Flight and airport guide",
-    "intro": "If you are planning to join us to enjoy the best electronic dance music, and for this you plan to use the plane as a means of transportation, here you have useful information about the closest airports and how to get to Granada</strong>from there.",
+    "intro": "Nearest airports and how to get to Granada easily if you travel by plane",
     "more": "See accommodation recommendations",
     "bus": "Bus",
     "taxi": "Taxi",
     "rent": "Rental car",
     "granada": {
-      "title": "Federico García Lorca Granada-Jaén Airport (GRX)",
+      "title": "Federico García Lorca Granada-Jaén Airport",
       "text": "Located approximately 15 kilometers west of Granada. This is the closest airport to the city. Due to its proximity to the city of Granada it is the most convenient option, although its direct international connections are scarce.",
       "how": "How to get from the airport to Granada:",
       "taxi": "Taxis are available outside the airport terminal. The trip to Granada takes around 20 minutes, depending on traffic, with a cost of approximately €28.",
-      "bus": "Without a doubt the best way, or at least the cheapest, to get from Granada airport to the center is with the bus service operated by the company ALSA. The bus drops you off in the center of the city for only 3 euros. The bus stop is right at the exit of the arrivals terminal, you can't miss it since the airport is small, and the ticket is bought from the driver without having to reserve it in advance. The company organizes the schedules depending on the arrivals and departures of the flights. Today the bus schedules that go from the airport to the center of Granada operate from 6 a.m. to 11:30 p.m., and in the opposite direction from 5 a.m. to 9:45 p.m."
+      "bus": "The cheapest way to travel from Granada Airport to the city center is by ALSA bus for €3. The stop is right outside the arrivals terminal, and tickets can be purchased directly from the driver. Buses run in sync with flight times, operating from the airport to the city from 6:00 to 23:30, and back from 5:00 to 21:45."
     },
     "malaga": {
-      "title": "Malaga Airport (AGP)",
+      "title": "Malaga Airport",
       "text": "Although a little further away (approximately 135 kilometers south of Granada), Malaga Airport is an important international hub with a wide variety of flights. It is a good alternative for those looking for more flight options.",
       "how": "How to get there from Malaga airport:",
       "rent": "For those who prefer flexibility, car rental is an excellent option. Rental services are available at both airports, allowing you to explore the beautiful surroundings of Granada at your own pace.",

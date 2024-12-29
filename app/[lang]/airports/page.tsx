@@ -1,6 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { HeroImage } from "@/components"
+import { BuyButton, HeroImage } from "@/components"
 import Image from "next/image"
 
 export default async function AirportsPage({
@@ -10,9 +10,13 @@ export default async function AirportsPage({
 }) {
   const { t } = getDictionary(lang)
 
-  const optionCx = cx("[&>p]:py-3")
-  const optionTitleCx = cx("text-primary text-5xl font-light pt-0 mt-12 mb-2")
-  const boxTitleCx = cx("text-4xl font-light pt-0 mb-2")
+  const optionTitleCx = cx(
+    "text-neutral-600 text-3xl lg:text-4xl font-light pt-0 mb-2"
+  )
+  const boxTitleCx = cx("text-3xl  font-light pt-0 mb-2")
+  const idCx = cx(
+    "inline-block text-2xl leading-none  font-mono font-normal text-primary  border-2 rounded-lg px-1.5 py-1 mb-3"
+  )
 
   return (
     <main className="Page Airports">
@@ -28,45 +32,52 @@ export default async function AirportsPage({
 
       <div className="container">
         <div className="max-w-md mx-auto">
-          <h2 className="pageTitle">{t("airports.title")}</h2>
-          <p
-            className="text-lg"
+          <h2
+            className="text-primary text-4xl lg:text-6xl text-center mb-16 mx-7"
             dangerouslySetInnerHTML={{ __html: t("airports.intro") }}
           />
 
-          <div className={optionCx}>
-            <h3 className={optionTitleCx}>{t("airports.granada.title")}</h3>
-            <p>{t("airports.granada.text")}</p>
+          <div className="">
+            <p className={idCx}>GRX</p>
 
-            <div className="flex gap-6">
+            <h3 className={optionTitleCx}>{t("airports.granada.title")}</h3>
+            <p className="text-2xl mb-8">{t("airports.granada.text")}</p>
+
+            <div className="flex flex-col lg:flex-row gap-6">
               <div className="flex-[1]">
                 <p className={boxTitleCx}>{t("airports.taxi")}</p>
                 <p>{t("airports.granada.taxi")}</p>
               </div>
 
-              <div className="flex-[2]">
+              <div className="flex-[1]">
                 <p className={boxTitleCx}>{t("airports.bus")}</p>
                 <p>{t("airports.granada.bus")}</p>
               </div>
             </div>
           </div>
 
-          <div className={optionCx}>
+          <div className="mt-16">
+            <p className={idCx}>AGP</p>
             <h3 className={optionTitleCx}>{t("airports.malaga.title")}</h3>
 
-            <p>{t("airports.malaga.text")}</p>
-            <div className="flex gap-6">
+            <p className="text-2xl mb-8">{t("airports.malaga.text")}</p>
+
+            <div className="flex flex-col lg:flex-row gap-6">
               <div className="flex-[1]">
                 <p className={boxTitleCx}>{t("airports.bus")}</p>
                 <p>{t("airports.malaga.bus")}</p>
               </div>
 
-              <div className="flex-[2]">
+              <div className="flex-[1]">
                 <p className={boxTitleCx}>{t("airports.rent")}</p>
                 <p>{t("airports.malaga.rent")}</p>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mx-auto mt-12 flex justify-center">
+          <BuyButton lang={lang} t={t} />
         </div>
       </div>
     </main>
