@@ -24,27 +24,39 @@ export default async function Artists({
 
       <div className="header-flat" />
 
-      <div className="block sticky top-16 py-3 text-primary text-4xl sm:text-5xl lg:text-7xl bg-white/80 backdrop-blur">
-        <div className="container">{artist?.name && artist.name}</div>
+      <div className="block sticky top-16 py-3  bg-white/80 backdrop-blur">
+        <div className="container">
+          <h1 className="text-primary font-light text-5xl sm:text-5xl lg:text-7xl my-0">
+            {artist?.name && artist.name}
+          </h1>
+        </div>
       </div>
 
       <div className="container">
         <div className="lg:flex gap-8">
           <div className="lg:flex-[2] mb-6">
+            {t(`artists.${id}.intro`).length > 45 && (
+              <p className="lg:flex-[2] text-2xl lg:text-xl">
+                {t(`artists.${id}.intro`)}
+              </p>
+            )}
+
             {artist?.session && (
-              <iframe
-                width="100%"
-                height={166}
-                style={{ border: "0px" }}
-                allow="autoplay"
-                src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${artist?.session_id}&${playerOptions}`}
-              />
+              <div className="my-10">
+                <iframe
+                  width="100%"
+                  height={166}
+                  style={{ border: "0px" }}
+                  allow="autoplay"
+                  src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${artist?.session_id}&${playerOptions}`}
+                />
+              </div>
             )}
           </div>
 
           {t(`artists.${id}.bio`) && (
             <div
-              className="lg:flex-[2] text-2xl lg:text-xl px-4 lg:pl-6"
+              className="lg:flex-[2] text-xl lg:text-xl px-4 lg:pl-6"
               dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
             />
           )}
