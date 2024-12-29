@@ -1,7 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
 import { BuyButton, HeroImage } from "@/components"
-import Image from "next/image"
 
 export default async function AirportsPage({
   params: { lang },
@@ -20,13 +19,7 @@ export default async function AirportsPage({
 
   return (
     <main className="Page Airports">
-      <Image
-        className="w-full h-[40vh] sm:h-[300px] object-cover"
-        src="/air.jpg"
-        width={1120}
-        height={721}
-        alt="Img"
-      />
+      <HeroImage src="/air.jpg" />
 
       <div className="header-flat" />
 

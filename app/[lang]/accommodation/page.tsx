@@ -1,7 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import Image from "next/image"
-import { BuyButton } from "@/components"
+import { BuyButton, HeroImage } from "@/components"
 
 export default async function AccommodationPage({
   params: { lang },
@@ -16,13 +15,7 @@ export default async function AccommodationPage({
 
   return (
     <main className="Page Accommodation">
-      <Image
-        className="w-full h-[40vh] sm:h-[500px] object-cover"
-        src="/granada.jpg"
-        width={1120}
-        height={721}
-        alt="Img"
-      />
+      <HeroImage src="/granada.jpg" />
 
       <div className="header-flat" />
 

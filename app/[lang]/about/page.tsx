@@ -1,5 +1,5 @@
 import { getDictionary } from "@/util/dictionary"
-import { BuyButton } from "@/components"
+import { BuyButton, HeroImage } from "@/components"
 import Image from "next/image"
 
 export default async function AboutPage({
@@ -13,13 +13,7 @@ export default async function AboutPage({
 
   return (
     <main className="Page About">
-      <Image
-        className="w-full h-[45vh] sm:h-[500px] object-cover"
-        src="/about.jpg"
-        width={1120}
-        height={721}
-        alt="Img"
-      />
+      <HeroImage src="/about.jpg" />
 
       <div className="header-flat" />
 
@@ -65,7 +59,7 @@ export default async function AboutPage({
           dangerouslySetInnerHTML={{ __html: t("about.text5") }}
         />
 
-        <div className="mx-auto mt-12 flex justify-center">
+        <div className="container mt-12 flex justify-center">
           <BuyButton lang={lang} t={t} />
         </div>
       </div>
