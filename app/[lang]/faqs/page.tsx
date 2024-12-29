@@ -14,59 +14,62 @@ export default async function FaqsPage({
       <div className="header-flat" />
 
       <div className="container">
-        <h2 className="pageTitle">{t("faqs.title")}</h2>
-        <p className="mb-6">
-          {t("faqs.intro")}{" "}
-          {sections.map((key) => {
-            const sectionKey = key
-            const section = d.faqs.sections[sectionKey]
-            return (
-              <>
-                <Link key={key} href={`#${key}`}>
-                  {section.title}
-                </Link>
-                ,{" "}
-              </>
-            )
-          })}
-          {"..."}
-        </p>
-        <div className="Sections space-y-10">
-          {sections.map((key) => {
-            const sectionKey = key
-            const section = d.faqs.sections[sectionKey]
-            const items = Object.keys(section.items)
-            return (
-              <div key={sectionKey} id={sectionKey}>
-                <Link className="sectionTitle" href={`#${sectionKey}`}>
-                  {section.title}
-                </Link>
+        <div className="max-w-md mx-auto">
+          <h2 className="pageTitle">{t("faqs.title")}</h2>
 
-                <div className="FAQs space-y-10 max-w-md mx-auto">
-                  {items.map((key) => (
-                    <div
-                      key={key}
-                      id={`${sectionKey}-${key}`}
-                      className="group"
-                    >
-                      <Link
-                        className="cursor-pointer font-medium text-[1.2em] block mb-1 no-underline"
-                        href={`#${sectionKey}-${key}`}
-                      >
-                        {section.items[key].q}
-                      </Link>
+          <p className="mb-6">
+            {t("faqs.intro")}{" "}
+            {sections.map((key) => {
+              const sectionKey = key
+              const section = d.faqs.sections[sectionKey]
+              return (
+                <>
+                  <Link key={key} href={`#${key}`}>
+                    {section.title}
+                  </Link>
+                  ,{" "}
+                </>
+              )
+            })}
+            {"..."}
+          </p>
+          <div className="Sections space-y-10">
+            {sections.map((key) => {
+              const sectionKey = key
+              const section = d.faqs.sections[sectionKey]
+              const items = Object.keys(section.items)
+              return (
+                <div key={sectionKey} id={sectionKey}>
+                  <Link className="sectionTitle" href={`#${sectionKey}`}>
+                    {section.title}
+                  </Link>
 
+                  <div className="FAQs space-y-10 max-w-md mx-auto">
+                    {items.map((key) => (
                       <div
-                        dangerouslySetInnerHTML={{
-                          __html: section.items[key].a,
-                        }}
-                      />
-                    </div>
-                  ))}
+                        key={key}
+                        id={`${sectionKey}-${key}`}
+                        className="group"
+                      >
+                        <Link
+                          className="cursor-pointer font-medium text-[1.2em] block mb-1 no-underline"
+                          href={`#${sectionKey}-${key}`}
+                        >
+                          {section.items[key].q}
+                        </Link>
+
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: section.items[key].a,
+                          }}
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )
-          })}
+              )
+            })}
+          </div>
         </div>
       </div>
     </main>
