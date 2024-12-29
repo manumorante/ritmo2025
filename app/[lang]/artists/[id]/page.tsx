@@ -9,6 +9,8 @@ export default async function Artists({
 }) {
   const { t } = getDictionary(lang)
   const artist = getArtistById(id)
+  const playerOptions =
+    "color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"
 
   return (
     <main className="Artist pb-16">
@@ -28,21 +30,21 @@ export default async function Artists({
 
       <div className="container">
         <div className="lg:flex gap-8">
-          <div className="flex-[2] mb-6">
+          <div className="lg:flex-[2] mb-6">
             {artist?.session && (
               <iframe
                 width="100%"
                 height={166}
                 style={{ border: "0px" }}
                 allow="autoplay"
-                src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${artist?.session_id}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`}
+                src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${artist?.session_id}&${playerOptions}`}
               />
             )}
           </div>
 
           {t(`artists.${id}.bio`) && (
             <div
-              className="flex-[2] text-2xl lg:text-xl lg:pl-6"
+              className="lg:flex-[2] text-2xl lg:text-xl px-4 lg:pl-6"
               dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
             />
           )}
