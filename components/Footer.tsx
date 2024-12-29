@@ -52,7 +52,7 @@ export default function Footer({ lang }: { lang?: any }) {
               />
             </div>
 
-            <div className="w-full md:w-auto flex flex-wrap gap-3 sm:gap-6 items-center justify-between">
+            <div className="text-white  w-full md:w-auto flex flex-wrap gap-3 sm:gap-6 items-center justify-between">
               {/* Social */}
               <div className="flex flex-wrap gap-5 content-center [&_a]:no-underline ">
                 <Link
@@ -75,7 +75,7 @@ export default function Footer({ lang }: { lang?: any }) {
             </div>
           </div>
 
-          <div className="mt-12 flex md:items-center gap-5">
+          <div className="mt-12 text-white  flex md:items-center gap-5">
             <Link
               className="  no-underline"
               href={`/${lang}/privacy`}
