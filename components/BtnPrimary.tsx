@@ -19,7 +19,7 @@ export default function BtnPrimary({
 
     // Text
     "justify-center",
-    "text-xl font-medium",
+    "text-2xl font-medium",
     "text-white",
     "whitespace-nowrap no-underline",
     "bg-black"

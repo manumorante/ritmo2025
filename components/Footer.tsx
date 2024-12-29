@@ -10,7 +10,7 @@ export default function Footer({ lang }: { lang?: any }) {
 
   return (
     <footer className="relative z-10  bg-black">
-      <div className=" w-full z-10 py-12  text-white">
+      <div className=" w-full z-10 py-12  ">
         <div className="container">
           <div className="w-full flex flex-col md:flex-row gap-12 justify-between items-center">
             {/* Colaboradores */}
@@ -75,11 +75,9 @@ export default function Footer({ lang }: { lang?: any }) {
             </div>
           </div>
 
-          <div className="mt-12 flex flex-col md:flex-row md:items-center gap-5">
-            <span className="text-white text-sm">© 2024 RITMO</span>
-
+          <div className="mt-12 flex md:items-center gap-5">
             <Link
-              className="text-white text-sm no-underline"
+              className="  no-underline"
               href={`/${lang}/privacy`}
               target="_blank"
             >
@@ -87,7 +85,7 @@ export default function Footer({ lang }: { lang?: any }) {
             </Link>
 
             <Link
-              className="text-white text-sm no-underline"
+              className="  no-underline"
               href={`/${lang}/legal`}
               target="_blank"
             >
@@ -96,7 +94,7 @@ export default function Footer({ lang }: { lang?: any }) {
 
             {/* RITMO 2024 */}
             <Link
-              className="text-white text-sm no-underline"
+              className="  no-underline"
               href="https://2024.ritmofestival.com"
               target="_blank"
             >

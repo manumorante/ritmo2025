@@ -53,7 +53,7 @@ export default async function Home({
             <Photos />
           </div>
 
-          <div className="Section section bg-neutral-100">
+          <div className="Section py-20 lg:py-40 bg-white">
             <div className="container text-center">
               <div
                 className="text-3xl text-primary text-center mb-4"
@@ -61,6 +61,7 @@ export default async function Home({
               />
               <a
                 target="_blank"
+                className="no-underline"
                 href="https://www.google.com/maps?ll=37.236176,-3.687694&z=15&t=m&hl=es-ES&gl=US&mapclient=embed&cid=7038520705456199891"
               >
                 Google Maps →
@@ -68,39 +69,11 @@ export default async function Home({
             </div>
           </div>
 
-          {/* <PreviewSection
-            title={t("about.text")}
-            href={`/${lang}/about`}
-            more={t("about.more")}
-            className="bg-white"
-          />
+          <div className="Section py-16 bg-neutral-100">
+            <FeaturedFAQs d={d} t={t} lang={lang} />
+          </div>
 
-          <PreviewSection
-            title={t("accommodation.title")}
-            href={`/${lang}/accommodation`}
-            more={t("accommodation.more")}
-            html={t("accommodation.intro")}
-            className="bg-neutral-100"
-          />
-
-          <PreviewSection
-            title={t("airports.title")}
-            href={`/${lang}/airports`}
-            more={t("airports.more")}
-            html={t("airports.intro")}
-            className="bg-white"
-          /> */}
-
-          <PreviewSection
-            title={t("faqs.title")}
-            href={`/${lang}/faqs`}
-            more={t("faqs.more")}
-            className="bg-white"
-          >
-            <FeaturedFAQs d={d} lang={lang} />
-          </PreviewSection>
-
-          <div className="py-16 bg-neutral-100">
+          <div className="py-16 bg-neutral-50">
             <div className="container">
               <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 lg:items-center justify-between">
                 <div>

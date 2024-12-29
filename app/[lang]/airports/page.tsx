@@ -9,9 +9,7 @@ export default async function AirportsPage({
 }) {
   const { t } = getDictionary(lang)
 
-  const optionTitleCx = cx(
-    "text-neutral-600 text-3xl lg:text-4xl font-light pt-0 mb-2"
-  )
+  const optionTitleCx = cx(" text-3xl lg:text-4xl font-light pt-0 mb-2")
   const boxTitleCx = cx("text-3xl  font-light pt-0 mb-2")
   const idCx = cx(
     "inline-block text-2xl leading-none  font-mono font-normal text-primary  border-2 rounded-lg px-1.5 py-1 mb-3"

@@ -1,7 +1,15 @@
 import cx from "clsx"
 import FAQ from "./FAQ"
 
-export default function FeaturedFAQs({ d, lang }: { d: any; lang: string }) {
+export default function FeaturedFAQs({
+  d,
+  t,
+  lang,
+}: {
+  d: any
+  t: any
+  lang: string
+}) {
   const secc = d.faqs.sections
   const faqs = [
     // Horarios
@@ -29,12 +37,12 @@ export default function FeaturedFAQs({ d, lang }: { d: any; lang: string }) {
     },
 
     // Entradas en taquilla
-    {
-      section: "tickets",
-      id: "puecom",
-      q: secc.tickets.items.puecom.q,
-      a: secc.tickets.items.puecom.a,
-    },
+    // {
+    //   section: "tickets",
+    //   id: "puecom",
+    //   q: secc.tickets.items.puecom.q,
+    //   a: secc.tickets.items.puecom.a,
+    // },
   ]
   const faqsCx = cx(
     "FAQs",
@@ -55,6 +63,11 @@ export default function FeaturedFAQs({ d, lang }: { d: any; lang: string }) {
             href={`/${lang}/faqs#${faq.section}-${faq.id}`}
           />
         ))}
+        <FAQ
+          q={`${t("generic.viewMore")} → `}
+          href={`/${lang}/faqs`}
+          className="flex items-center justify-center"
+        />
       </div>
     </div>
   )

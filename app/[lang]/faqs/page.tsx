@@ -57,7 +57,6 @@ export default async function FaqsPage({
                       </Link>
 
                       <div
-                        className="font-light text-gray"
                         dangerouslySetInnerHTML={{
                           __html: section.items[key].a,
                         }}
