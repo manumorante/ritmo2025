@@ -4,11 +4,19 @@ import cx from "clsx"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import { MenuItems, LocaleSwitcher, Logo } from "@/components"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function MobileMenu({ lang }: { lang: string }) {
   const [open, setOpen] = useState(false)
   const toggle = () => setOpen(!open)
+
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("is-modal-open")
+    } else {
+      document.body.classList.remove("is-modal-open")
+    }
+  }, [open])
 
   const burgerCx = cx(
     "BurgerMenu",

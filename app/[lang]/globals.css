@@ -29,6 +29,15 @@
 }
 
 @layer components {
+  .is-modal-open {
+    /* when modal active */
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    /* Other browsers */
+    overscroll-behavior: none;
+  }
+
   .html-content a {
     @apply underline decoration-1 decoration-inherit underline-offset-4;
   }
