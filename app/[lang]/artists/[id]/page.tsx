@@ -1,7 +1,6 @@
 import { getDictionary } from "@/util/dictionary"
 import { getArtistById } from "@/util/data"
 import Image from "next/image"
-import Link from "next/link"
 
 export default async function Artists({
   params: { lang, id },
@@ -38,14 +37,13 @@ export default async function Artists({
 
           <div className="flex-[2] text-right">
             {artist?.session && (
-              <p>
-                <Link
-                  href={artist?.session}
-                  className="text-2xl text-primary no-underline"
-                >
-                  SoundCloud →
-                </Link>
-              </p>
+              <iframe
+                width="100%"
+                height={166}
+                style={{ border: "0px" }}
+                allow="autoplay"
+                src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${artist?.session_id}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`}
+              />
             )}
           </div>
         </div>

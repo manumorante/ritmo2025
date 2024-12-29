@@ -5,70 +5,80 @@
       "id": "jasss",
       "b2b": true,
       "video": "https://www.youtube.com/watch?v=OapoX4niFSA",
-      "session": "https://soundcloud.com/breakfast-club-music-1/jasss-b2b-john-talabot-bfc-ade-marathon-2023-radion"
+      "session": "https://soundcloud.com/breakfast-club-music-1/jasss-b2b-john-talabot-bfc-ade-marathon-2023-radion",
+      "session_id": "1677666105"
     },
     {
       "name": "JOHN TALABOT",
       "id": "john-talabot",
       "br": true,
       "video": "https://www.youtube.com/watch?v=88rR6OZ6JNM",
-      "session": "https://soundcloud.com/gala-festival/live-from-the-patio-john-talabot?in=john-talabot/sets/dj-sets"
+      "session": "https://soundcloud.com/gala-festival/live-from-the-patio-john-talabot?in=john-talabot/sets/dj-sets",
+      "session_id": "1968306979"
     },
     {
       "name": "KIA",
       "id": "kia",
-      "session": "https://soundcloud.com/draaimolen/kia-at-draaimolen-festival-2025?in=kia-sydney/sets/live-sets"
+      "session": "https://soundcloud.com/draaimolen/kia-at-draaimolen-festival-2025?in=kia-sydney/sets/live-sets",
+      "session_id": "1961839179"
     },
     {
       "name": "LOLA HARO",
       "id": "lola-haro",
       "video": "https://www.youtube.com/watch?v=gqrC6fsqnhI",
-      "session": "https://soundcloud.com/kioskradio/small-steps-w-lola-haro-kiosk-radio-03102024?in=lola-haro/sets/kiosk-radio"
+      "session": "https://soundcloud.com/kioskradio/small-steps-w-lola-haro-kiosk-radio-03102024?in=lola-haro/sets/kiosk-radio",
+      "session_id": "1930332359"
     },
     {
       "name": "MARCO SHUTTLE",
       "id": "marco-shuttle",
       "br": true,
       "video": "https://www.youtube.com/watch?v=Q3YbE0np4H4",
-      "session": "https://soundcloud.com/parallelfestival/marco-shuttle-parallel-2024?in=marco_shuttle/sets/mixes"
+      "session": "https://soundcloud.com/parallelfestival/marco-shuttle-parallel-2024?in=marco_shuttle/sets/mixes",
+      "session_id": "1935974231"
     },
     {
       "name": "OMA TOTEM",
       "id": "oma-totem",
       "video": "https://www.youtube.com/watch?v=g-x1XMul3nk",
-      "session": "https://soundcloud.com/cozi-716789961/cozimix-11-oma-totem?in=omatotem/sets/dj-sets"
+      "session": "https://soundcloud.com/cozi-716789961/cozimix-11-oma-totem?in=omatotem/sets/dj-sets",
+      "session_id": "1802846973"
     },
     {
       "name": "ROOTIAN",
       "id": "rootian",
       "video": "https://www.youtube.com/watch?v=nE1Vrzvyu28",
-      "session": "https://soundcloud.com/rootian/sets/yuyu"
+      "session": "https://soundcloud.com/rootian/sets/yuyu",
+      "session_id": "1652821086"
     },
     {
       "name": "SEDEF ADASÏ",
       "id": "sedef-adasi",
       "br": true,
       "video": "https://www.youtube.com/watch?v=3ftXuppg_dM",
-      "session": "https://soundcloud.com/dkmntl/dekmantel-podcast-452-sedef-adasi"
+      "session": "https://soundcloud.com/dkmntl/dekmantel-podcast-452-sedef-adasi",
+      "session_id": "1731985965"
     },
     {
       "name": "SYSTEMA",
       "id": "systema",
-      "video": "",
-      "session": "https://soundcloud.com/tombololive/tombolomixx-128-nogue"
+      "session": "https://soundcloud.com/tombololive/tombolomixx-128-nogue",
+      "session_id": "1954710767"
     },
     {
       "name": "TAMARINDO",
       "id": "tamarindo",
       "video": "https://www.youtube.com/watch?v=Lv5klWVICBc",
-      "session": "https://soundcloud.com/sweetamarindo/tamarindo-x-paralelo3"
+      "session": "https://soundcloud.com/sweetamarindo/tamarindo-x-paralelo3",
+      "session_id": "1752606966"
     },
     {
       "name": "TORNADO WALLACE",
       "id": "tornado-wallace",
       "br": true,
       "video": "https://www.youtube.com/watch?v=igVqPIt94Ak",
-      "session": "https://soundcloud.com/tornadowallace/tomato-wallet-imaginary-friend"
+      "session": "https://soundcloud.com/tornadowallace/tomato-wallet-imaginary-friend",
+      "session_id": "1897089102"
     }
   ],
   "timetables": {
