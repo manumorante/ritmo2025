@@ -18,7 +18,7 @@ export default function All({ lang }: { lang: string }) {
         <Fragment key={index}>
           <Link
             href={`${lang}/artists/${artist.id}`}
-            className="Name no-underline md:hover:text-primary inline whitespace-nowrap transition-colors duration-200"
+            className="Name uppercase no-underline md:hover:text-primary inline whitespace-nowrap transition-colors duration-200"
           >
             {artist.name}
           </Link>
