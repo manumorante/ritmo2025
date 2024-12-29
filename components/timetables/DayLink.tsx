@@ -17,12 +17,12 @@ export default function DayLink({
     "transition-all duration-200 ease-in-out",
     {
       "text-neutral-600 hover:text-black": !active,
-      "ring-neutral-300 hover:ring-pink-600/60": !active,
+      "ring-neutral-300 hover:ring-primary": !active,
       "bg-neutral-200": !active,
     },
     {
       "text-black": active,
-      "ring-pink-600": active,
+      "ring-primary": active,
       "bg-white": active,
     }
   )

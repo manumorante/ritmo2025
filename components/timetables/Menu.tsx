@@ -13,9 +13,9 @@ export default function TimetablesMenu({
 }) {
   const mainCx = cx(
     "TimetablesMenu",
-    "sticky z-30 top-14 lg:top-24",
+    "sticky z-30 top-14 lg:top-16",
     "py-4 my-5 sm:my-6",
-    "bg-neutral-200/60 xl:rounded-full"
+    "bg-neutral-200/60"
   )
   return (
     <div className={mainCx}>

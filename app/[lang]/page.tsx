@@ -4,7 +4,6 @@ import {
   All,
   BuyButton,
   Photos,
-  PreviewSection,
   FeaturedFAQs,
 } from "@/components"
 

@@ -1,6 +1,6 @@
 import { getDictionary } from "@/util/dictionary"
-import { All } from "@/components"
-import { TimetablesMenu, Title } from "@/components"
+import { All, Title } from "@/components"
+import { TimetablesMenu } from "@/components"
 
 export default async function Timetables({
   params: { lang },
@@ -11,6 +11,8 @@ export default async function Timetables({
 
   return (
     <main className="Page Timetables">
+      <div className="header-flat" />
+
       <div className="container">
         <Title title={t("lineup.title")} />
       </div>

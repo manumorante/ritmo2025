@@ -1,5 +1,4 @@
 import { getDictionary } from "@/util/dictionary"
-import { Map } from "@/components"
 
 export default async function LocationPage({
   params: { lang },
