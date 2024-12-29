@@ -1,5 +1,7 @@
 "use client"
 
+const TOTAL_PHOTOS = 19
+
 import Image from "next/image"
 
 import { Swiper, SwiperSlide } from "swiper/react"
@@ -31,7 +33,7 @@ export default function Photos() {
       navigation={true}
       modules={[Autoplay, Navigation]}
     >
-      {Array.from({ length: 21 }).map((_, i) => (
+      {Array.from({ length: TOTAL_PHOTOS }).map((_, i) => (
         <SwiperSlide key={i}>
           <Image
             src={`/photos/${i + 1}.jpg`}

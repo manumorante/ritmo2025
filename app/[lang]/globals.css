@@ -71,11 +71,10 @@
   }
 }
 
+:root {
+  --swiper-theme-color: #ffffff !important;
+}
 @layer utilities {
-  :root {
-    --swiper-theme-color: var(--text-primary) !important;
-  }
-
   .container {
     @apply max-w-xl mx-auto px-5;
   }
