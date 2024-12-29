@@ -65,7 +65,7 @@ export default async function AboutPage({
           dangerouslySetInnerHTML={{ __html: t("about.text5") }}
         />
 
-        <div className="mx-10 mt-12">
+        <div className="mx-auto mt-12 flex justify-center">
           <BuyButton lang={lang} t={t} />
         </div>
       </div>

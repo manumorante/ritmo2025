@@ -1,6 +1,7 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
 import Image from "next/image"
+import { BuyButton } from "@/components"
 
 export default async function AccommodationPage({
   params: { lang },
@@ -10,7 +11,7 @@ export default async function AccommodationPage({
   const { t } = getDictionary(lang)
   const optionCx = cx("Option")
   const optionTitleCx = cx("text-primary text-5xl mb-2")
-  const textCx = cx("text-2xl px-4")
+  const textCx = cx("text-2xl px-1")
   const noteCx = cx("text-gray")
 
   return (
@@ -26,12 +27,12 @@ export default async function AccommodationPage({
       <div className="header-flat" />
 
       <div className="container">
-        <h2
-          className="pageTitle text-center mb-12"
-          dangerouslySetInnerHTML={{ __html: t("accommodation.intro") }}
-        />
-
         <div className="max-w-md mx-auto space-y-20">
+          <h2
+            className="text-primary text-4xl lg:text-6xl text-center mb-6 lg:mb-12 mx-7"
+            dangerouslySetInnerHTML={{ __html: t("accommodation.intro") }}
+          />
+
           <div className={optionCx}>
             <h3 className={optionTitleCx}>
               {t("accommodation.granada.title")}
@@ -72,6 +73,10 @@ export default async function AccommodationPage({
                 __html: t("accommodation.atarfe.text"),
               }}
             />
+          </div>
+
+          <div className="mx-auto mt-12 flex justify-center">
+            <BuyButton lang={lang} t={t} />
           </div>
         </div>
       </div>
