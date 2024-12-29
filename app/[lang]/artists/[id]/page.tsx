@@ -28,14 +28,7 @@ export default async function Artists({
 
       <div className="container">
         <div className="lg:flex gap-8">
-          {t(`artists.${id}.bio`) && (
-            <div
-              className="flex-[2] text-2xl lg:text-xl lg:pl-6"
-              dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
-            />
-          )}
-
-          <div className="flex-[2] text-right">
+          <div className="flex-[2] mb-6">
             {artist?.session && (
               <iframe
                 width="100%"
@@ -46,6 +39,13 @@ export default async function Artists({
               />
             )}
           </div>
+
+          {t(`artists.${id}.bio`) && (
+            <div
+              className="flex-[2] text-2xl lg:text-xl lg:pl-6"
+              dangerouslySetInnerHTML={{ __html: t(`artists.${id}.bio`) }}
+            />
+          )}
         </div>
       </div>
     </main>
