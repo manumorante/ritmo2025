@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function Hero({ src }: { src: string }) {
+export default function HeroImage({ src }: { src: string }) {
   return (
     <div className="Hero relative">
       <Image

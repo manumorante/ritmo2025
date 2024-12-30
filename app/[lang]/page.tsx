@@ -1,5 +1,5 @@
 import { getDictionary } from "@/util/dictionary"
-import { Hero, Lineup, Photos, Location, FeaturedFAQs, Newsletter } from "@/components"
+import { Hero, Lineup, Photos, Location, FeaturedFAQs, Newsletter, HomeImage } from "@/components"
 
 export default async function Home({ params: { lang } }: { params: { lang: string } }) {
   const { d, t } = getDictionary(lang)
@@ -9,8 +9,9 @@ export default async function Home({ params: { lang } }: { params: { lang: strin
       <Hero lang={lang} button={t("generic.buyTickets")} text={t("about.text")} />
       <div className="header-flat" />
       <Lineup lang={lang} t={t} />
-      <Photos />
+      <HomeImage src="/photos/1.jpg" />
       <Location t={t} />
+      <Photos />
       <FeaturedFAQs d={d} t={t} lang={lang} />
       <Newsletter lang={lang} t={t} />
     </main>
