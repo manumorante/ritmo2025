@@ -12,7 +12,11 @@ export default async function Home({
 
   return (
     <>
-      <HeroSection lang={lang} t={t} />
+      <HeroSection
+        lang={lang}
+        button={t("generic.buyTickets")}
+        text={t("about.text")}
+      />
 
       <main>
         <div className="Home relative z-20">

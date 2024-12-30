@@ -1,11 +1,34 @@
-import BtnPrimary from "./BtnPrimary"
+"use client"
 
-export default function HeroSection({ lang, t }: { lang: any; t: any }) {
+import { useRef } from "react"
+import BtnPrimary from "./BtnPrimary"
+import { motion, useScroll, useTransform } from "framer-motion"
+
+export default function HeroSection({
+  lang,
+  text,
+  button,
+}: {
+  lang: string
+  text: string
+  button: string
+}) {
+  const sectionRef = useRef(null)
+  const { scrollYProgress } = useScroll()
+  const y = useTransform(scrollYProgress, [0, 1], ["0px", "600px"])
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [0, 1])
   return (
-    <section className="relative h-screen flex flex-col justify-center">
+    <section
+      ref={sectionRef}
+      className="relative h-screen flex flex-col justify-center"
+    >
+      <motion.div
+        className="absolute inset-0 bg-black"
+        style={{ opacity: opacity }}
+      />
+
       {/* Video */}
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-black/30 z-10" />
+      <motion.div className="absolute inset-0 -z-10" style={{ y }}>
         <video
           className="w-full h-full object-cover"
           autoPlay
@@ -26,16 +49,17 @@ export default function HeroSection({ lang, t }: { lang: any; t: any }) {
             media="(max-width: 600px)"
           />
         </video>
-      </div>
+      </motion.div>
 
       {/* Text content */}
-      <div className="HeroContent container flex flex-col items-center text-center">
-        <p className="text-2xl text-white font-light mb-4">{t("about.text")}</p>
+      <motion.div
+        className="HeroContent container flex flex-col items-center text-center"
+        style={{ y }}
+      >
+        <p className="text-2xl text-white font-light mb-4">{text}</p>
 
-        <BtnPrimary href={`/${lang}/tickets`}>
-          <div>{t("generic.buyTickets")}</div>
-        </BtnPrimary>
-      </div>
+        <BtnPrimary href={`/${lang}/tickets`}>{button}</BtnPrimary>
+      </motion.div>
     </section>
   )
 }
