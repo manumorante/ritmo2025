@@ -1,7 +1,6 @@
 import Link from "next/link"
-import Image from "next/image"
 import { getDictionary } from "@/util/dictionary"
-import { LocaleSwitcher } from "@/components"
+import { Lang } from "@/components"
 import Facebook from "./icons/Facebook"
 import Instagram from "./icons/Instagram"
 
@@ -9,96 +8,38 @@ export default function Footer({ lang }: { lang?: any }) {
   const { t } = getDictionary(lang)
 
   return (
-    <footer className="relative z-10  bg-black">
-      <div className=" w-full z-10 py-12  ">
-        <div className="container">
-          <div className="w-full flex flex-col md:flex-row gap-12 justify-between items-center">
-            {/* Colaboradores */}
-            <div className="flex flex-wrap gap-5 sm:gap-10 items-center justify-center">
-              <Image
-                src="/logos/la-maquina-de-escribir-logo.png"
-                alt="La máquina de escribir"
-                className="w-16 h-auto"
-                width={269}
-                height={150}
-              />
-              <Image
-                src="/logos/ayntamiento-atarfe-logo.png"
-                alt="Ayuntamiento de Atarfe"
-                className="w-28 h-auto"
-                width={358}
-                height={212}
-              />
-              <Image
-                src="/logos/latido-logo.png"
-                alt="Latido"
-                className="w-24 h-auto"
-                width={371}
-                height={112}
-              />
-              <Image
-                src="/logos/mordisco-logo.png"
-                alt="Mordisco"
-                className="w-28 h-auto"
-                width={363}
-                height={60}
-              />
-              <Image
-                src="/logos/tickbox-logo.png"
-                alt="Tickbox"
-                className="w-20 h-auto"
-                width={400}
-                height={400}
-              />
-            </div>
-
-            <div className="text-white  w-full md:w-auto flex flex-wrap gap-3 sm:gap-6 items-center justify-between">
-              {/* Social */}
-              <div className="flex flex-wrap gap-5 content-center [&_a]:no-underline ">
-                <Link
-                  href="https://www.instagram.com/ritmo_festival/"
-                  target="_blank"
-                >
-                  <Instagram />
-                </Link>
-
-                <Link
-                  href="https://www.facebook.com/Ritmofestival"
-                  target="_blank"
-                >
-                  <Facebook />
-                </Link>
-              </div>
-
-              {/* Languge */}
-              <LocaleSwitcher lang={lang} />
-            </div>
-          </div>
-
-          <div className="mt-12 text-white  flex md:items-center gap-5">
-            <Link
-              className="  no-underline"
-              href={`/${lang}/privacy`}
-              target="_blank"
-            >
+    <footer className="w-full py-12">
+      <div className="container">
+        <div className="flex justify-between items-center gap-4">
+          {/* FooterLinks */}
+          <div className="FooterLinks flex gap-4 text-neutral-600 *:no-underline">
+            <Link href={`/${lang}/privacy`} target="_blank">
               {t("generic.privacy")}
             </Link>
 
-            <Link
-              className="  no-underline"
-              href={`/${lang}/legal`}
-              target="_blank"
-            >
+            <Link href={`/${lang}/legal`} target="_blank">
               {t("generic.legal")}
             </Link>
+          </div>
 
-            {/* RITMO 2024 */}
+          {/* SocialIcons */}
+          <div className="SocialIcons flex items-center gap-4">
+            <Lang className="text-neutral-600 no-underline font-bold mr-1" lang={lang} />
+
             <Link
-              className="  no-underline"
-              href="https://2024.ritmofestival.com"
+              className="text-neutral-500"
+              href="https://www.instagram.com/ritmo_festival/"
               target="_blank"
             >
-              {t("generic.previousEdition")}
+              <Instagram />
+            </Link>
+
+            <Link
+              className="text-neutral-500"
+              href="https://www.facebook.com/Ritmofestival"
+              target="_blank"
+            >
+              <Facebook />
             </Link>
           </div>
         </div>

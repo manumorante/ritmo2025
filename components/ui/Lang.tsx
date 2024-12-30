@@ -1,5 +1,5 @@
 "use client"
-import { LanguageIcon } from "@heroicons/react/24/solid"
+
 import { usePathname } from "next/navigation"
 
 const locales = {
@@ -7,7 +7,7 @@ const locales = {
   es: "Español",
 }
 
-export default function LocaleSwitcher({ lang }: { lang: string }) {
+export default function Lang({ lang, className }: { lang: string; className?: string }) {
   const pathName = usePathname()
   const redirectedPathName = (lang: string) => {
     if (!pathName) return "/"
@@ -21,13 +21,8 @@ export default function LocaleSwitcher({ lang }: { lang: string }) {
       {Object.entries(locales).map(([key, value]) => {
         if (key !== lang)
           return (
-            <a
-              key={key}
-              href={redirectedPathName(key)}
-              className="inline-flex gap-1 py-2 pr-3 pl-2 no-underline rounded items-center"
-            >
-              <LanguageIcon className="w-6 h-6" />
-              <span>{value}</span>
+            <a className={className} key={key} href={redirectedPathName(key)}>
+              {value}
             </a>
           )
       })}
