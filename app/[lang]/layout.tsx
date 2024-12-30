@@ -1,5 +1,6 @@
 import "./globals.css"
 
+import { ReactLenis } from "@/util/lenis"
 import { type Locale } from "@/i18n"
 import type { Metadata } from "next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
@@ -31,18 +32,18 @@ export default function Root({
           content="white-translucent"
         />
       </head>
-      <body className={`${font.className}`}>
-        <Header lang={lang} />
+      <ReactLenis root>
+        <body className={`${font.className}`}>
+          <Header lang={lang} />
+          {children}
+          <Footer lang={lang} />
 
-        {children}
-
-        <Footer lang={lang} />
-
-        <MailerLiteUniversal />
-        <FBPixel />
-        <SpeedInsights />
-        <Analytics />
-      </body>
+          <MailerLiteUniversal />
+          <FBPixel />
+          <SpeedInsights />
+          <Analytics />
+        </body>
+      </ReactLenis>
     </html>
   )
 }

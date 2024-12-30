@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth scroll-pt-12 xl:scroll-pt-24;
+    @apply scroll-pt-12 xl:scroll-pt-24;
   }
 
   body {
@@ -25,6 +25,23 @@
 
   p {
     @apply mb-4;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: clip;
+  }
+
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
   }
 }
 
