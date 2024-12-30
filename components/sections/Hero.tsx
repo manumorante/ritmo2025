@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react"
-import BtnPrimary from "./BtnPrimary"
+import { Button } from "@/components"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 export default function HeroSection({
@@ -58,7 +58,7 @@ export default function HeroSection({
       >
         <p className="text-2xl text-white font-light mb-4">{text}</p>
 
-        <BtnPrimary href={`/${lang}/tickets`}>{button}</BtnPrimary>
+        <Button href={`/${lang}/tickets`}>{button}</Button>
       </motion.div>
     </section>
   )

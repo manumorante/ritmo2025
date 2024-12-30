@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-export default function HeroImage({ src }: { src: string }) {
+export default function Hero({ src }: { src: string }) {
   return (
-    <div className="HeroImage relative">
+    <div className="Hero relative">
       <Image
         className="w-full h-[45vh] sm:h-[500px] object-cover"
         src={src}

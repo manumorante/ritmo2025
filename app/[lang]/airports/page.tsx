@@ -1,12 +1,8 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { BuyButton, HeroImage } from "@/components"
+import { Buy, HeroImage } from "@/components"
 
-export default async function AirportsPage({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+export default async function AirportsPage({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
 
   const optionTitleCx = cx(" text-3xl lg:text-4xl font-light pt-0 mb-2")
@@ -68,7 +64,7 @@ export default async function AirportsPage({
         </div>
 
         <div className="mx-auto mt-12 flex justify-center">
-          <BuyButton lang={lang} t={t} />
+          <Buy lang={lang} t={t} />
         </div>
       </div>
     </main>

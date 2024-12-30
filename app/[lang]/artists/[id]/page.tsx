@@ -1,11 +1,7 @@
 import { getDictionary } from "@/util/dictionary"
-import {
-  getArtistById,
-  getNextArtistById,
-  getPreviousArtistById,
-} from "@/util/data"
+import { getArtistById, getNextArtistById, getPreviousArtistById } from "@/util/data"
 import Image from "next/image"
-import { BuyButton } from "@/components"
+import { Buy } from "@/components"
 import Link from "next/link"
 import ArtistImage from "@/components/ArtistImage"
 
@@ -38,9 +34,7 @@ export default async function Artists({
       <div className="container">
         <div className=" mb-6">
           {t(`artists.${id}.intro`).length > 45 && (
-            <p className="text-2xl lg:text-4xl mb-14 lg:mb-24">
-              {t(`artists.${id}.intro`)}
-            </p>
+            <p className="text-2xl lg:text-4xl mb-14 lg:mb-24">{t(`artists.${id}.intro`)}</p>
           )}
 
           <div className="max-w-lg mx-auto">
@@ -64,7 +58,7 @@ export default async function Artists({
             )}
 
             <div className="mt-16 flex justify-center">
-              <BuyButton lang={lang} t={t} />
+              <Buy lang={lang} t={t} />
             </div>
 
             <div className="mt-16 flex justify-between items-center">

@@ -1,12 +1,8 @@
 import { getDictionary } from "@/util/dictionary"
-import { All, Title } from "@/components"
+import { LineupAll, Title } from "@/components"
 import { TimetablesMenu } from "@/components"
 
-export default async function Timetables({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+export default async function Timetables({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
 
   return (
@@ -20,7 +16,7 @@ export default async function Timetables({
       <TimetablesMenu t={t} lang={lang} active="all" />
 
       <div className="container">
-        <All lang={lang} />
+        <LineupAll lang={lang} />
       </div>
     </main>
   )

@@ -1,7 +1,7 @@
 import cx from "clsx"
 import Link from "next/link"
 
-export default function BtnPrimary({
+export default function Button({
   children,
   href,
   target = "_self",

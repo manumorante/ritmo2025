@@ -1,12 +1,8 @@
 import { getDictionary } from "@/util/dictionary"
-import { BuyButton, HeroImage } from "@/components"
+import { Buy, HeroImage } from "@/components"
 import Image from "next/image"
 
-export default async function AboutPage({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+export default async function AboutPage({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
   const textCx = "text-xl mx-10"
   const imageCx = "w-full h-[40vh] sm:h-[500px] object-cover my-12"
@@ -23,44 +19,20 @@ export default async function AboutPage({
           dangerouslySetInnerHTML={{ __html: t("about.text") }}
         />
 
-        <p
-          className={textCx}
-          dangerouslySetInnerHTML={{ __html: t("about.text2") }}
-        />
+        <p className={textCx} dangerouslySetInnerHTML={{ __html: t("about.text2") }} />
 
-        <Image
-          className={imageCx}
-          src="/photos/12.jpg"
-          width={1120}
-          height={721}
-          alt="Img"
-        />
+        <Image className={imageCx} src="/photos/12.jpg" width={1120} height={721} alt="Img" />
 
-        <p
-          className={textCx}
-          dangerouslySetInnerHTML={{ __html: t("about.text3") }}
-        />
+        <p className={textCx} dangerouslySetInnerHTML={{ __html: t("about.text3") }} />
 
-        <Image
-          className={imageCx}
-          src="/photos/14.jpg"
-          width={1120}
-          height={721}
-          alt="Img"
-        />
+        <Image className={imageCx} src="/photos/14.jpg" width={1120} height={721} alt="Img" />
 
-        <p
-          className={textCx}
-          dangerouslySetInnerHTML={{ __html: t("about.text4") }}
-        />
+        <p className={textCx} dangerouslySetInnerHTML={{ __html: t("about.text4") }} />
 
-        <p
-          className={textCx}
-          dangerouslySetInnerHTML={{ __html: t("about.text5") }}
-        />
+        <p className={textCx} dangerouslySetInnerHTML={{ __html: t("about.text5") }} />
 
         <div className="container mt-12 flex justify-center">
-          <BuyButton lang={lang} t={t} />
+          <Buy lang={lang} t={t} />
         </div>
       </div>
     </main>

@@ -1,6 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { BuyButton, HeroImage } from "@/components"
+import { Buy, HeroImage } from "@/components"
 
 export default async function AccommodationPage({
   params: { lang },
@@ -28,9 +28,7 @@ export default async function AccommodationPage({
 
           <div className="space-y-20">
             <div className={optionCx}>
-              <h3 className={optionTitleCx}>
-                {t("accommodation.granada.title")}
-              </h3>
+              <h3 className={optionTitleCx}>{t("accommodation.granada.title")}</h3>
 
               <p
                 className={textCx}
@@ -41,9 +39,7 @@ export default async function AccommodationPage({
             </div>
 
             <div className={optionCx}>
-              <h3 className={optionTitleCx}>
-                {t("accommodation.pueblos.title")}
-              </h3>
+              <h3 className={optionTitleCx}>{t("accommodation.pueblos.title")}</h3>
 
               <p
                 className={textCx}
@@ -60,9 +56,7 @@ export default async function AccommodationPage({
             </div>
 
             <div className={optionCx}>
-              <h3 className={optionTitleCx}>
-                {t("accommodation.atarfe.title")}
-              </h3>
+              <h3 className={optionTitleCx}>{t("accommodation.atarfe.title")}</h3>
               <p
                 className={textCx}
                 dangerouslySetInnerHTML={{
@@ -73,7 +67,7 @@ export default async function AccommodationPage({
           </div>
 
           <div className="mx-auto mt-12 flex justify-center">
-            <BuyButton lang={lang} t={t} />
+            <Buy lang={lang} t={t} />
           </div>
         </div>
       </div>

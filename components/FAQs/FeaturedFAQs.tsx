@@ -53,21 +53,23 @@ export default function FeaturedFAQs({
   )
 
   return (
-    <div className="xl:container">
-      <div className={faqsCx}>
-        {faqs.map((faq) => (
+    <div className="FeaturedFAQs py-16 bg-neutral-100">
+      <div className="xl:container ">
+        <div className={faqsCx}>
+          {faqs.map((faq) => (
+            <FAQ
+              key={faq.id}
+              q={faq.q}
+              a={faq.a}
+              href={`/${lang}/faqs#${faq.section}-${faq.id}`}
+            />
+          ))}
           <FAQ
-            key={faq.id}
-            q={faq.q}
-            a={faq.a}
-            href={`/${lang}/faqs#${faq.section}-${faq.id}`}
+            q={`${t("generic.viewMore")} → `}
+            href={`/${lang}/faqs`}
+            className="flex items-center justify-center"
           />
-        ))}
-        <FAQ
-          q={`${t("generic.viewMore")} → `}
-          href={`/${lang}/faqs`}
-          className="flex items-center justify-center"
-        />
+        </div>
       </div>
     </div>
   )
