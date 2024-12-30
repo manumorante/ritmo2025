@@ -1,11 +1,6 @@
 import { getDictionary } from "@/util/dictionary"
-import {
-  VideoHero,
-  All,
-  BuyButton,
-  Photos,
-  FeaturedFAQs,
-} from "@/components"
+import { All, Photos, FeaturedFAQs } from "@/components"
+import HeroSection from "@/components/HeroSection"
 
 export default async function Home({
   params: { lang },
@@ -17,21 +12,7 @@ export default async function Home({
 
   return (
     <>
-      <VideoHero className="fixed z-10 top-0 left-0 w-full h-screen object-cover pointer-events-none" />
-
-      <div className="h-[66vh] md:h-[92vh]" />
-
-      <div className="relative z-20 w-full mb-8">
-        <div className="container">
-          <div className="sm:flex sm:gap-10 sm:justify-between items-center">
-            <p className="text-2xl text-white font-light mb-4">
-              {t("about.text")}
-            </p>
-
-            <BuyButton lang={lang} t={t} />
-          </div>
-        </div>
-      </div>
+      <HeroSection lang={lang} t={t} />
 
       <main>
         <div className="Home relative z-20">

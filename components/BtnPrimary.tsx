@@ -11,15 +11,13 @@ export default function BtnPrimary({
   target?: string
 }) {
   const buttonCx = cx(
-    "flex",
+    "inline-flex",
     "gap-2",
-    "sm:inline-flex",
-    "w-full py-4 px-8",
-    "sm:w-auto",
+    "w-auto py-4 px-8",
 
     // Text
     "justify-center",
-    "text-2xl font-medium",
+    "text-xl font-medium",
     "text-white",
     "whitespace-nowrap no-underline",
     "bg-black"
