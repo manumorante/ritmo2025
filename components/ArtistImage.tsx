@@ -2,7 +2,6 @@
 
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import Image from "next/image"
 
 export default function ArtistImage({ src }: { src: string }) {
   const sectionRef = useRef(null)
@@ -12,15 +11,13 @@ export default function ArtistImage({ src }: { src: string }) {
   return (
     <section ref={sectionRef} className="relative overflow-hidden">
       {/* Video */}
-      <motion.div style={{ y }}>
-        <Image
-          src={src}
-          className="w-full h-[80vh] object-cover object-center"
-          alt=""
-          width={1000}
-          height={500}
-        />
-      </motion.div>
+      <motion.img
+        className="w-full max-w-xl mx-auto h-[500px] lg:h-[800px] object-cover object-center"
+        src={src}
+        style={{ y }}
+        width={1000}
+        height={500}
+      ></motion.img>
     </section>
   )
 }
