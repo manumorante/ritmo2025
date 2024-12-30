@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import { Signika } from "next/font/google"
 import { Footer, Partners, FBPixel, MailerLiteUniversal, Header } from "@/components"
+import { getDictionary } from "@/util/dictionary"
 
 const font = Signika({
   subsets: ["latin"],
@@ -22,21 +23,19 @@ export default function Root({
   params: { lang: Locale }
 }) {
   const lang = params.lang
+  const { t } = getDictionary(lang)
 
   return (
     <html lang={lang}>
       <head>
         <meta name="theme-color" content="#ffffff" />
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="white-translucent"
-        />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
       </head>
       <ReactLenis root>
         <body className={`${font.className}`}>
           <Header lang={lang} />
           {children}
-          <Partners />
+          <Partners t={t} />
           <Footer lang={lang} />
 
           <MailerLiteUniversal />
@@ -51,14 +50,12 @@ export default function Root({
 
 export const metadata: Metadata = {
   title: "RITMO Festival",
-  description:
-    "Festival de música electrónica en plena naturaleza para un aforo muy reducido.",
+  description: "Festival de música electrónica en plena naturaleza para un aforo muy reducido.",
   openGraph: {
     url: "https://ritmofestival.com",
     type: "website",
     title: "RITMO Festival",
-    description:
-      "Festival de música electrónica en plena naturaleza para un aforo muy reducido.",
+    description: "Festival de música electrónica en plena naturaleza para un aforo muy reducido.",
     images: [
       {
         url: "/og-ritmo-festival.jpg",
