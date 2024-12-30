@@ -7,6 +7,7 @@ import {
 import Image from "next/image"
 import { BuyButton } from "@/components"
 import Link from "next/link"
+import ArtistImage from "@/components/ArtistImage"
 
 export default async function Artists({
   params: { lang, id },
@@ -22,13 +23,7 @@ export default async function Artists({
 
   return (
     <main className="Artist pb-16">
-      <Image
-        src={`/artists/${id}/${id}.jpg`}
-        className="w-full relative z-0"
-        alt={id}
-        width={1000}
-        height={500}
-      />
+      <ArtistImage src={`/artists/${id}/${id}.jpg`} />
 
       <div className="header-flat" />
 
