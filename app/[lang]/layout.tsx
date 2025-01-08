@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import { Signika } from "next/font/google"
-import { Footer, Partners, FBPixel, MailerLiteUniversal, Header } from "@/components"
+import { Footer, Partners, Newsletter, FBPixel, MailerLiteUniversal, Header } from "@/components"
 import { getDictionary } from "@/util/dictionary"
 
 const font = Signika({
@@ -35,7 +35,8 @@ export default function Root({
         <body className={`${font.className}`}>
           <Header lang={lang} />
           {children}
-          <Partners t={t} />
+          <Newsletter lang={lang} t={t} />
+          <Partners />
           <Footer lang={lang} />
 
           <MailerLiteUniversal />
