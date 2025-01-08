@@ -9,7 +9,7 @@ export default async function Home({ params: { lang } }: { params: { lang: strin
       <Hero lang={lang} button={t("generic.buyTickets")} text={t("about.text")} />
       <div className="header-flat" />
       <Lineup lang={lang} t={t} />
-      <HomeImage src="/photos/1.jpg" />
+      <HomeImage />
       <Location t={t} />
       <Photos />
       <FeaturedFAQs d={d} t={t} lang={lang} />

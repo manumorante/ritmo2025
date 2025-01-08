@@ -3,25 +3,27 @@
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 
-export default function HomeImage({ src }: { src: string }) {
+export default function HomeImage() {
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
   })
-  const y = useTransform(scrollYProgress, [0, 1], ["-50%", "50%"])
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-30%"])
+  const y = useTransform(scrollYProgress, [0, 1], [-100, 100])
+  const width = 1500
+  const height = 1000
+  const aspectRatio = `${width}/${height}`
 
   return (
-    <section ref={ref} className="h-[50vh] lg:h-[700px] relative overflow-hidden max-w-xl mx-auto">
-      {/* Video */}
-      <motion.img
-        className="w-[160vw] h-[70vh] object-cover object-center max-w-[none]"
-        src={src}
-        style={{ y, x }}
-        width={1000}
-        height={500}
-      ></motion.img>
+    <section
+      ref={ref}
+      // style={{ aspectRatio: aspectRatio }}
+      className="max-w-xl h-[60svh]  md:h-[400px] lg:h-[580px] lg:mx-auto overflow-hidden bg-red-400 relative"
+    >
+      <motion.picture className="w-full absolute" style={{ marginTop: -50, y }}>
+        <source media="(min-width: 768px)" srcSet="hero-lg.jpg" />
+        <img src="hero-sm.jpg" />
+      </motion.picture>
     </section>
   )
 }
