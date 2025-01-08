@@ -10,15 +10,11 @@ export default function HomeImage() {
     offset: ["start end", "end start"],
   })
   const y = useTransform(scrollYProgress, [0, 1], [-100, 100])
-  const width = 1500
-  const height = 1000
-  const aspectRatio = `${width}/${height}`
 
   return (
     <section
       ref={ref}
-      // style={{ aspectRatio: aspectRatio }}
-      className="max-w-xl h-[60svh]  md:h-[400px] lg:h-[580px] lg:mx-auto overflow-hidden bg-red-400 relative"
+      className="max-w-xl h-[60svh] md:h-[400px] lg:h-[580px] lg:mx-auto overflow-hidden bg-red-400 relative"
     >
       <motion.picture className="w-full absolute" style={{ marginTop: -50, y }}>
         <source media="(min-width: 768px)" srcSet="hero-lg.jpg" />
