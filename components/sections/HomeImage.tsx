@@ -10,13 +10,13 @@ export default function HomeImage({ src }: { src: string }) {
     offset: ["start end", "end start"],
   })
   const y = useTransform(scrollYProgress, [0, 1], ["-50%", "50%"])
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"])
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-30%"])
 
   return (
-    <section ref={ref} className="h-[60vh] lg:h-[700px] relative overflow-hidden max-w-xl mx-auto">
+    <section ref={ref} className="h-[50vh] lg:h-[700px] relative overflow-hidden max-w-xl mx-auto">
       {/* Video */}
       <motion.img
-        className="w-[180vw] h-[70vh] object-cover object-center max-w-[none]"
+        className="w-[160vw] h-[70vh] object-cover object-center max-w-[none]"
         src={src}
         style={{ y, x }}
         width={1000}
