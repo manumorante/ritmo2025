@@ -1,7 +1,3 @@
-"use client"
-
-import { useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
 import clsx from "clsx"
 import Image from "next/image"
 
@@ -54,19 +50,9 @@ const PARTNERS = [
 ]
 
 export default function Partners() {
-  const ref = useRef(null)
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  })
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-10%"])
-
   return (
-    <aside ref={ref} className="bg-neutral-600 overflow-hidden">
-      <motion.div
-        style={{ x }}
-        className="md:container overflow-x-auto flex items-center gap-8 lg:gap-14 px-6 lg:justify-between"
-      >
+    <aside className="bg-neutral-600 overflow-hidden">
+      <div className="md:container overflow-x-auto flex items-center gap-8 lg:gap-14 px-6 lg:justify-between">
         {PARTNERS.map((e) => {
           return (
             <div className={clsx("flex-none pt-6 h-[140px] relative", e.boxWidth)} key={e.src}>
@@ -81,7 +67,7 @@ export default function Partners() {
             </div>
           )
         })}
-      </motion.div>
+      </div>
     </aside>
   )
 }
