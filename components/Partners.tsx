@@ -1,55 +1,62 @@
 import clsx from "clsx"
 import Image from "next/image"
 
-const PARTNERS = [
-  {
-    cat: "Organiza",
-    alt: "La máquina de escribir",
-    src: "/logos/la-maquina-de-escribir-logo.png",
-    boxWidth: "w-[70px] lg:w-[90px]",
-    width: 220,
-    height: 96,
-  },
-  {
-    cat: "Colabora",
-    alt: "Ayuntamiento de Atarfe",
-    src: "/logos/ayntamiento-atarfe-logo.png",
-    boxWidth: "w-[110px] lg:w-[130px]",
-    width: 312,
-    height: 177,
-  },
-  {
-    alt: "Latido",
-    src: "/logos/latido-logo.png",
-    boxWidth: "w-[85px] lg:w-[110px]",
-    width: 313,
-    height: 108,
-  },
-  {
-    alt: "Mordisco Club",
-    src: "/logos/mordisco-club-logo.png",
-    boxWidth: "w-[115px] lg:w-[140px]",
-    width: 384,
-    height: 78,
-  },
-  {
-    alt: "Radio 3",
-    src: "/logos/radio-3-logo.png",
-    boxWidth: "w-[70px] lg:w-[90px]",
-    width: 261,
-    height: 92,
-  },
-  {
-    cat: "Entradas",
-    alt: "Tickbox",
-    src: "/logos/tickbox-logo.png",
-    boxWidth: "w-[100px] lg:w-[110px]",
-    width: 369,
-    height: 80,
-  },
-]
-
-export default function Partners() {
+export default function Partners({
+  organizer,
+  partners,
+  ticketing,
+}: {
+  organizer: string
+  partners: string
+  ticketing: string
+}) {
+  const PARTNERS = [
+    {
+      cat: organizer,
+      alt: "La máquina de escribir",
+      src: "/logos/la-maquina-de-escribir-logo.png",
+      boxWidth: "w-[70px] lg:w-[90px]",
+      width: 220,
+      height: 96,
+    },
+    {
+      cat: partners,
+      alt: "Ayuntamiento de Atarfe",
+      src: "/logos/ayntamiento-atarfe-logo.png",
+      boxWidth: "w-[110px] lg:w-[130px]",
+      width: 312,
+      height: 177,
+    },
+    {
+      alt: "Latido",
+      src: "/logos/latido-logo.png",
+      boxWidth: "w-[85px] lg:w-[110px]",
+      width: 313,
+      height: 108,
+    },
+    {
+      alt: "Mordisco Club",
+      src: "/logos/mordisco-club-logo.png",
+      boxWidth: "w-[115px] lg:w-[140px]",
+      width: 384,
+      height: 78,
+    },
+    {
+      alt: "Radio 3",
+      src: "/logos/radio-3-logo.png",
+      boxWidth: "w-[70px] lg:w-[90px]",
+      width: 261,
+      height: 92,
+    },
+    {
+      cat: ticketing,
+      alt: "Tickbox",
+      src: "/logos/tickbox-logo.png",
+      boxWidth: "w-[100px] lg:w-[110px]",
+      width: 369,
+      height: 80,
+    },
+  ]
   return (
     <aside className="bg-neutral-600 overflow-hidden">
       <div className="md:container overflow-x-auto flex items-center gap-8 lg:gap-14 px-6 lg:justify-between">

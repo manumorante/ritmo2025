@@ -36,7 +36,11 @@ export default function Root({
           <Header lang={lang} />
           {children}
           <Newsletter lang={lang} t={t} />
-          <Partners />
+          <Partners
+            organizer={t("generic.organizer")}
+            partners={t("generic.partners")}
+            ticketing={t("generic.ticketing")}
+          />
           <Footer lang={lang} />
 
           <MailerLiteUniversal />
