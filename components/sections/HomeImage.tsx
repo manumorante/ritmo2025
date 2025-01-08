@@ -5,7 +5,6 @@ import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion
 
 export default function HomeImage() {
   const shouldReduceMotion = useReducedMotion()
-
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,

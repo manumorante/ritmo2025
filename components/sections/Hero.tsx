@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { Button } from "@/components"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion"
 
 export default function HeroSection({
   lang,
@@ -13,6 +13,7 @@ export default function HeroSection({
   text: string
   button: string
 }) {
+  const shouldReduceMotion = useReducedMotion()
   const sectionRef = useRef(null)
   const { scrollYProgress } = useScroll()
   const y = useTransform(scrollYProgress, [0, 1], ["0px", "600px"])
@@ -20,9 +21,12 @@ export default function HeroSection({
   const arrowY = useTransform(scrollYProgress, [0, 0.1], ["0%", "140%"])
   return (
     <section ref={sectionRef} className="relative h-svh flex flex-col justify-center">
-      <motion.div className="absolute inset-0 bg-black" style={{ opacity: opacity }} />
+      <motion.div
+        className="absolute inset-0 bg-black"
+        style={{ opacity: shouldReduceMotion ? 1 : opacity }}
+      />
       {/* Video */}
-      <motion.div className="absolute inset-0 -z-10" style={{ y }}>
+      <motion.div className="absolute inset-0 -z-10" style={{ y: shouldReduceMotion ? 0 : y }}>
         <video
           className="w-full h-full object-cover"
           autoPlay
@@ -47,7 +51,7 @@ export default function HeroSection({
       {/* Text content */}
       <motion.div
         className="HeroContent container flex flex-col items-center text-center"
-        style={{ y }}
+        style={{ y: shouldReduceMotion ? 0 : y }}
       >
         <p className="text-2xl text-white font-light mb-4">{text}</p>
 
@@ -56,10 +60,10 @@ export default function HeroSection({
 
       <motion.div
         className="absolute w-full bottom-0 flex justify-center text-center p-5"
-        style={{ y: arrowY }}
+        style={{ y: shouldReduceMotion ? 0 : arrowY }}
       >
         <svg
-          className="animate-bounce w-8 h-8 text-white"
+          className="motion-safe:animate-bounce w-8 h-8 text-white"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"
