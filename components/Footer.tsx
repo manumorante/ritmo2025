@@ -8,7 +8,7 @@ export default function Footer({ lang }: { lang?: any }) {
   const { t } = getDictionary(lang)
 
   return (
-    <footer className="w-full pt-12 pb-32">
+    <footer className="w-full py-8">
       <div className="container">
         <div className="flex justify-between items-center gap-4">
           {/* FooterLinks */}
