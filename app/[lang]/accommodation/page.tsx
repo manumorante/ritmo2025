@@ -9,7 +9,7 @@ export default async function AccommodationPage({
 }) {
   const { t } = getDictionary(lang)
   const optionCx = cx("Option")
-  const optionTitleCx = cx("text-primary text-5xl mb-2")
+  const optionTitleCx = cx("text-primary text-4xl mb-2")
   const textCx = cx("text-xl px-1")
   const noteCx = cx("text-gray")
 
@@ -22,7 +22,7 @@ export default async function AccommodationPage({
       <div className="container">
         <div className="max-w-md mx-auto">
           <h2
-            className="text-primary text-4xl lg:text-6xl text-center mb-6 lg:mb-16 mx-7"
+            className="text-primary text-4xl lg:text-6xl text-center mb-14 lg:mb-16 mx-7"
             dangerouslySetInnerHTML={{ __html: t("accommodation.intro") }}
           />
 
