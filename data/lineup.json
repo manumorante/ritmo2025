@@ -1,6 +1,13 @@
 {
   "lineup": [
     {
+      "name": "Bambi",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
       "name": "Jasss",
       "id": "jasss",
       "b2b": true,
@@ -17,10 +24,32 @@
       "session_id": "1968306979"
     },
     {
+      "name": "Jorge Escribano",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
       "name": "Kia",
       "id": "kia",
       "session": "https://soundcloud.com/draaimolen/kia-at-draaimolen-festival-2025?in=kia-sydney/sets/live-sets",
       "session_id": "1961839179"
+    },
+    {
+      "name": "Legowelt",
+      "id": "",
+      "br": true,
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
+      "name": "Lis Sarroca",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
     },
     {
       "name": "Lola Haro",
@@ -79,6 +108,14 @@
       "video": "https://www.youtube.com/watch?v=igVqPIt94Ak",
       "session": "https://soundcloud.com/tornadowallace/tomato-wallet-imaginary-friend",
       "session_id": "1897089102"
+    },
+    {
+      "name": "Young Marco",
+      "id": "",
+      "br": true,
+      "video": "",
+      "session": "",
+      "session_id": ""
     }
   ],
   "timetables": {

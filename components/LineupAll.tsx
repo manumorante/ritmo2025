@@ -16,12 +16,16 @@ export default function All({ lang }: { lang: string }) {
     <div className="Lineup text-3xl lg:text-5xl xl:text-6xl font-medium">
       {artists.map((artist, index) => (
         <Fragment key={index}>
-          <Link
-            href={`${lang}/artists/${artist.id}`}
-            className="Name uppercase no-underline md:hover:text-primary inline whitespace-nowrap transition-colors duration-200"
-          >
-            {artist.name}
-          </Link>
+          {artist.id ? (
+            <Link
+              href={`${lang}/artists/${artist.id}`}
+              className="Name uppercase no-underline md:hover:text-primary inline whitespace-nowrap transition-colors duration-200"
+            >
+              {artist.name}
+            </Link>
+          ) : (
+            <span className="Name uppercase">{artist.name}</span>
+          )}
 
           {artist.b2b && <span className="text-[0.6em]"> B2B </span>}
           {artist.br && <div className="Br" />}
