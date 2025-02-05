@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import { useRef } from "react"
@@ -22,7 +23,7 @@ export default function HomeImage() {
         style={{ marginTop: -50, y: shouldReduceMotion ? 0 : y }}
       >
         <source media="(min-width: 768px)" srcSet="hero-lg.jpg" />
-        <img src="hero-sm.jpg" />
+        <img src="hero-sm.jpg" alt="" className="w-full h-full object-cover" />
       </motion.picture>
     </section>
   )
