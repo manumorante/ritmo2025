@@ -300,7 +300,7 @@
           },
           "horfest": {
             "q": "What are the festival hours?",
-            "a": "Doors open at <strong>16:30</strong>. Live performances run from <strong>17:00 to 4:00</strong>, continuously over both days of the festival."
+            "a": "The schedule for <strong>Friday</strong> is from <strong>16:30</strong> with continuous performances from <strong>17:00 to 4:00</strong>. On <strong>Saturday</strong>, doors open at <strong>13:00</strong> and performances continue until <strong>5:00</strong>."
           },
           "guiavuelos": {
             "q": "Traveling by plane?",

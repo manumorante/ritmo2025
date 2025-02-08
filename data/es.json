@@ -303,7 +303,7 @@
           },
           "horfest": {
             "q": "¿Cuáles son los horarios del festival?",
-            "a": "Las puertas abren a las <strong>16:30</strong> con actuaciones continuas de <strong>17:00 a 4:00</strong>."
+            "a": "El horario del <strong>viernes</strong> es de <strong>16:30</strong> con actuaciones continuas de <strong>17:00 a 4:00</strong>. El <strong>sábado</strong>, las puertas abren a las <strong>13:00</strong> y las actuaciones continúan hasta las <strong>5:00</strong>."
           },
           "guiavuelos": {
             "q": "¿Qué opciones tengo si viajo en avión?",
