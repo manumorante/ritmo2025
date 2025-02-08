@@ -14,13 +14,12 @@ export default function FAQ({
   const boxCx = cx(
     "snap-proximity shrink-0",
     "w-[85%] sm:w-[45%] md:w-[35%] lg:w-[30%] xl:w-[24%] h-auto",
-    "font-normal",
     className
   )
 
   return (
     <div className={boxCx} key={q}>
-      <Link className="no-underline  text-3xl" href={href}>
+      <Link className="block no-underline text-3xl mb-2" href={href}>
         {q}
       </Link>
 

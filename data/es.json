@@ -302,8 +302,8 @@
             "a": "<strong>Sí</strong>, contamos con aparcamiento disponible con tarifa diaria."
           },
           "horfest": {
-            "q": "¿Cuáles son los horarios del festival?",
-            "a": "El horario del <strong>viernes</strong> es de <strong>16:30</strong> con actuaciones continuas de <strong>17:00 a 4:00</strong>. El <strong>sábado</strong>, las puertas abren a las <strong>13:00</strong> y las actuaciones continúan hasta las <strong>5:00</strong>."
+            "q": "¿Cuáles son los horarios?",
+            "a": "Apertura de puertas el <strong>viernes</strong> a las <strong>16:45</strong>, actuaciones hasta las <strong>4:00</strong>.<br>El <strong>sábado</strong> abrimos a las <strong>12:45</strong>, hasta las <strong>5:00</strong>."
           },
           "guiavuelos": {
             "q": "¿Qué opciones tengo si viajo en avión?",
