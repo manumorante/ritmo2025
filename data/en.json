@@ -300,7 +300,7 @@
           },
           "horfest": {
             "q": "What are the opening hours?",
-            "a": "Doors open on <strong>Friday</strong> at <strong>4:45 PM</strong>, performances until <strong>4:00 AM</strong>.<br>On <strong>Saturday</strong>, we open at <strong>12:45 PM</strong>, until <strong>5:00 AM</strong>"
+            "a": "Doors open on <strong>Friday</strong> at <strong>16:45</strong>, performances until <strong>04:00</strong>.<br>On <strong>Saturday</strong>, we open at <strong>12:45</strong>, until <strong>05:00</strong>"
           },
           "guiavuelos": {
             "q": "Traveling by plane?",
