@@ -114,19 +114,45 @@
   },
   "accommodation": {
     "title": "Recomendaciones para alojamiento",
-    "intro": "Alojamiento en Granada, pueblos cercanos o junto al pueblo de Atarfe",
+    "intro": "Alojamiento y acampada en Granada, Atarfe y pueblos cercanos",
+    "camp": {
+      "title": "RIT/MO Camp",
+      "text": "Vive la experiencia completa de <strong>RIT/MO</strong> acampando con nosotros en el <strong>corazón del festival</strong>. Disponemos de una <strong>exclusiva zona</strong> para autocaravanas y campers, ubicada en el espectacular paraje natural donde se celebra el evento. ¡Asegura tu lugar, las <strong>plazas son muy limitadas</strong>!",
+      "rules1": {
+        "title": "Acceso y Tarifas",
+        "list": "<li>El acceso al área de vehículos estará disponible desde el <strong>viernes 30 de mayo a las 14:00 horas</strong> hasta el <strong>domingo 1 de junio a las 13:00 horas</strong>.</li><li>El precio por el uso del espacio es de <strong>60 euros</strong>, permitiendo la estancia durante todo el fin de semana entre las horas indicadas.</li><li>El ticket para el uso de las instalaciones <strong>no incluye la entrada al festival</strong>.</li><li>Para acceder al espacio, junto al ticket que permite el <strong>estacionamiento con pernocta</strong>, los integrantes de cada vehículo deberán mostrar el <strong>ticket de acceso al festival</strong>.</li><li>Las personas que pernoctarán en cada vehículo serán autorizadas en el momento de la <strong>entrada inicial</strong> a las instalaciones. Una vez efectuado el <strong>check-in</strong>, <strong>ninguna persona distinta a las acreditadas</strong> en ese momento podrá pernoctar en el vehículo.</li>"
+      },
+      "rules2": {
+        "title": "Normas Generales",
+        "list": "<li><strong>Entrada y Permanencia:</strong> Sólo se permitirá la entrada de vehículos habilitados para pernoctar, como furgonetas camperizadas y autocaravanas. No se permitirá la instalación de tiendas de campaña independientes en esta zona.</li><li><strong>Personas ajenas a la pernocta en el vehículo:</strong> La zona está destinada exclusivamente a las personas que pernoctan en el vehículo autorizado. Está prohibido el acceso a toda persona que no cumpla esta condición.</li><li><strong>Servicios:</strong> El área no dispone de conexiones eléctricas ni de agua para los vehículos. Se recomienda a los usuarios prever sus necesidades antes de la llegada.</li><li><strong>Aseos:</strong> El área dispondrá de inodoros.</li><li><strong>Vigilancia:</strong> La zona estará vigilada para garantizar la seguridad de los usuarios y sus pertenencias. Sin embargo, la organización no se responsabiliza de posibles robos o daños.</li>"
+      },
+      "rules3": {
+        "title": "Normas de Convivencia",
+        "list": "<li><strong>Respeto al Descanso:</strong> No se permite el uso de equipos de música o generar ruidos que puedan perturbar el descanso de otros asistentes.</li><li><strong>Limpieza y Residuos:</strong> Cada usuario es responsable de mantener limpio su espacio, depositando los residuos en los contenedores habilitados. El área está ubicada en plena naturaleza, y es importante respetar el entorno.</li><li><strong>Seguridad:</strong> Está prohibido hacer fuego, utilizar barbacoas, camping gas o cualquier otro dispositivo que implique llama abierta, por motivos de seguridad.</li><li><strong>Animales:</strong> No se permite la entrada de animales en la zona de estacionamiento de vehículos.</li>"
+      },
+      "rules4": {
+        "title": "Vehículos, Ubicación y Parcelas",
+        "list": "<li><strong>Dimensiones:</strong> Cada parcela está diseñada para un vehículo estándar (parcelas de 8 m x 5 m). Si su vehículo excede las dimensiones habituales, por favor, contacte con la organización con antelación a la compra de su ticket.</li><li><strong>Ubicación:</strong> El espacio RIT/MO Camp está ubicado a 5 minutos caminando del acceso principal al festival.</li><li><strong>Estacionamiento:</strong> Los vehículos deben estacionarse en las áreas designadas, respetando las vías de acceso y siguiendo las indicaciones del personal de la organización.</li><li><strong>Movilidad:</strong> Como norma general, y una vez estacionado el vehículo, se recomienda no moverlo hasta el momento de la salida. En el intervalo de tiempo en el que ocurran las actuaciones musicales, y para garantizar la seguridad de todos los asistentes, el vehículo no podrá moverse.</li>"
+      },
+      "rules5": {
+        "title": "Responsabilidad",
+        "list": "<li>El incumplimiento de estas normas puede conllevar la expulsión del área de estacionamiento sin derecho a reembolso.</li><li>La organización se reserva el derecho de admisión y de modificar estas condiciones si las circunstancias lo requieren, informando debidamente a los usuarios.</li>"
+      }
+    },
     "granada": {
       "title": "Granada",
       "text": "Está situada a <strong>sólo 15 minutos en coche</strong> del recinto del festival. Aunque puedes ir al festival en coche dado que se ofrece parking privado, te recomendamos que cojas el bus. Si te alojas en Granada, podrás coger los <a href='/es/faqs#site-and-schedule-autobus'>buses ida-vuelta</a> que habilitará la organización."
     },
     "pueblos": {
       "title": "Pueblos más cercanos",
-      "text": "Una segunda opción es alojarse en algunos de los <strong>pueblos más cercanos</strong> al recinto del festival. Si se hace esto, recomendamos ir al festival en taxi en grupos de 3-4 personas. El pueblo más cercano es <strong>Atarfe, a 8 minutos en coche</strong>. Si se elige esta opción el precio del taxi de ida es alrededor de 10€ la ida. Recomendamos acordar la vuelta con un servicio de taxi de 24h (el precio del taxi a la vuelta se encarece a unos 15€ o 18€ al tener que llamarlo para que acuda al recinto a recoger a los usuarios).",
-      "note": "Si se llama el taxi al terminar cada una de las jornadas del festival, se tendrá que esperar debido a la alta demanda de esos momentos. No hay parada de taxi o uber en el mismo recinto del festival, por lo que la vuelta en taxi debe hacerse llamando a algunos de los servicios de taxis disponibles."
+      "text1": "Una segunda opción es alojarse en algunos de los <strong>pueblos más cercanos</strong> al recinto del festival. Si se hace esto, recomendamos ir al festival en taxi en grupos de 3-4 personas. El pueblo más cercano es <strong>Atarfe, a 8 minutos en coche</strong>. Si se elige esta opción el precio del taxi de ida es alrededor de 10€ la ida. Recomendamos acordar la vuelta con un servicio de taxi de 24h (el precio del taxi a la vuelta se encarece a unos 15€ o 18€ al tener que llamarlo para que acuda al recinto a recoger a los usuarios).",
+      "text": "Alojarse en pueblos cercanos al festival, como <strong>Atarfe</strong>, a <strong>8 minutos</strong> en coche. Se recomienda ir en <strong>taxi</strong> en grupos de <strong>3-4 personas</strong>. El precio del taxi de <strong>ida</strong> es aproximadamente <strong>10€</strong>, y la <strong>vuelta</strong>, al necesitar un servicio de taxi <strong>24h</strong>, cuesta entre <strong>15€</strong> y <strong>18€</strong>.",
+      "note": "Al finalizar cada jornada del festival, habrá espera para el taxi debido a la alta demanda. No hay parada de taxi o Uber en el recinto, por lo que es necesario llamar a un servicio de taxis disponible."
     },
     "atarfe": {
       "title": "Junto al pueblo de Atarfe",
-      "text": "Junto al pueblo de Atarfe, para el alojamiento recomendamos <strong>Albolote</strong>, situado a <strong>10 minutos en coche</strong>. Aunque está unos minutos más lejos del recinto, este pueblo cuenta con servicio de Tranvía desde el pueblo hasta la ciudad de Granada. En el caso de querer visitar Granada, la opción del Tranvía en muy cómoda. Para el resto de pueblos cercanos al recinto, en el caso de querer ir a Granada, se deberán coger los buses públicos."
+      "text1": "Junto al pueblo de Atarfe, para el alojamiento recomendamos <strong>Albolote</strong>, situado a <strong>10 minutos en coche</strong>. Aunque está unos minutos más lejos del recinto, este pueblo cuenta con servicio de Tranvía desde el pueblo hasta la ciudad de Granada. En el caso de querer visitar Granada, la opción del Tranvía en muy cómoda. Para el resto de pueblos cercanos al recinto, en el caso de querer ir a Granada, se deberán coger los buses públicos.",
+      "text": "Junto a <strong>Atarfe</strong>, recomendamos alojarse en <strong>Albolote</strong>, a <strong>10 minutos en coche</strong>. Aunque está algo más lejos del recinto, cuenta con <strong>Tranvía</strong> directo a <strong>Granada</strong>, opción muy cómoda para visitar la ciudad. En otros pueblos cercanos, será necesario usar <strong>buses públicos</strong> para ir a Granada."
     },
     "more": "Ver recomendaciones de alojamiento"
   },
@@ -252,8 +278,8 @@
             "a": "<strong>Sí</strong>, disponemos de instalaciones accesibles para personas con movilidad reducida."
           },
           "acampa": {
-            "q": "¿Hay áreas de acampada en el festival?",
-            "a": "<strong>No</strong>, no ofrecemos zonas de acampada dentro del recinto del festival."
+            "q": "¿Hay áreas de acampada?",
+            "a": "<strong>Sí</strong>, puedes disfrutar de <a href='/es/accommodation/camp'>RIT/MO Camp</a> durante el festival."
           }
         }
       },
@@ -290,8 +316,8 @@
         "title": "Recinto y Horarios",
         "items": {
           "autobus": {
-            "q": "¿Hay un servicio de autobús para el festival?",
-            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada al Centro Comercial Neptuno (Gimnasio O<sup>2</sup>)."
+            "q": "¿Hay un servicio de autobús?",
+            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada (Centro Comercial Neptuno, Gimnasio O2)."
           },
           "comlleg": {
             "q": "¿Cómo llego al festival RIT/MO?",

@@ -129,7 +129,31 @@
   },
   "accommodation": {
     "title": "Recommendations for accommodation",
-    "intro": "Accommodation in Granada, in nearby towns or next to the town of Atarfe",
+    "intro": "Accommodation and Camping in Granada, Atarfe, and Nearby Villages",
+    "camp": {
+      "title": "RIT/MO Camp",
+      "text": "Experience the full <strong>RIT/MO</strong> adventure by camping with us at the <strong>heart of the festival</strong>. We offer an <strong>exclusive area</strong> for motorhomes and campers, located in the stunning natural setting where the event takes place. Secure your spot now, as <strong>spaces are very limited</strong>!",
+      "rules1": {
+        "title": "Access & Fees",
+        "list": "<li>Access to the vehicle area will be available from <strong>Friday, May 30 at 2:00 PM</strong> until <strong>Sunday, June 1 at 1:00 PM</strong>.</li><li>The price for using the space is <strong>60 euros</strong>, allowing a stay throughout the weekend within the indicated hours.</li><li>The ticket for using the facilities <strong>does not include entry to the festival</strong>.</li><li>To access the space, along with the ticket that allows <strong>overnight parking</strong>, all vehicle occupants must present their <strong>festival access ticket</strong>.</li><li>Those staying overnight in each vehicle will be authorized at the <strong>initial check-in</strong>. Once the <strong>check-in</strong> is completed, <strong>no person other than those accredited</strong> at that time will be allowed to stay overnight in the vehicle.</li>"
+      },
+      "rules2": {
+        "title": "General Rules",
+        "list": "<li><strong>Entry and Stay:</strong> Only vehicles equipped for overnight stays, such as camper vans and motorhomes, will be allowed entry. The installation of independent tents in this area is not permitted.</li><li><strong>Non-overnight guests:</strong> The area is exclusively for people staying overnight in the authorized vehicle. Access is prohibited to anyone who does not meet this condition.</li><li><strong>Services:</strong> The area does not have electrical or water connections for vehicles. Users are advised to plan their needs before arrival.</li><li><strong>Restrooms:</strong> The area will have toilets.</li><li><strong>Security:</strong> The area will be monitored to ensure the safety of users and their belongings. However, the organization is not responsible for possible thefts or damages.</li>"
+      },
+      "rules3": {
+        "title": "Community Guidelines",
+        "list": "<li><strong>Respect for Rest:</strong> The use of music equipment or making noise that may disturb the rest of other attendees is not allowed.</li><li><strong>Cleanliness and Waste:</strong> Each user is responsible for keeping their space clean, disposing of waste in the designated containers. The area is located in the middle of nature, and it is important to respect the environment.</li><li><strong>Safety:</strong> Making fires, using barbecues, camping gas, or any other device that involves an open flame is prohibited for safety reasons.</li><li><strong>Animals:</strong> Pets are not allowed in the vehicle parking area.</li>"
+      },
+      "rules4": {
+        "title": "Vehicles, Location & Plots",
+        "list": "<li><strong>Dimensions:</strong> Each plot is designed for a standard vehicle (8m x 5m plots). If your vehicle exceeds the usual dimensions, please contact the organization before purchasing your ticket.</li><li><strong>Location:</strong> The RIT/MO Camp area is located a 5-minute walk from the main festival entrance.</li><li><strong>Parking:</strong> Vehicles must be parked in designated areas, respecting access routes and following the instructions of the event staff.</li><li><strong>Mobility:</strong> As a general rule, once the vehicle is parked, it is recommended not to move it until departure. During the time of musical performances, and to ensure the safety of all attendees, the vehicle must remain stationary.</li>"
+      },
+      "rules5": {
+        "title": "Liability",
+        "list": "<li>Failure to comply with these rules may result in removal from the parking area without a refund.</li><li>The organization reserves the right to admission and may modify these conditions if necessary, informing users accordingly.</li>"
+      }
+    },
     "granada": {
       "title": "Granada city",
       "text": "It is located <strong>only 15 minutes by car</strong> from the festival site. Although you can go to the festival by car since private parking is offered, we recommend that you take the bus. If you are staying in Granada, you can take the <a href='/#site-and-schedule-autobus'>round-trip buses</a> that the organization will enable."
@@ -249,8 +273,8 @@
             "a": "<strong>Yes</strong>, we provide accessible facilities for individuals with reduced mobility."
           },
           "acampa": {
-            "q": "Is there a camping area at RIT/MO?",
-            "a": "<strong>No</strong>, there is no camping area available at the festival."
+            "q": "Is there a camping area?",
+            "a": "<strong>Yes</strong>, you can enjoy <a href='/en/accommodation/camp'>RIT/MO Camp</a> during the festival."
           }
         }
       },
@@ -291,11 +315,11 @@
             "a": "RIT/MO is located at the Natural Area of Ermita de los Tres Juanes in Atarfe, Granada. From Granada, travel via the Circunvalación towards Jaén, taking Exit 238 for Atarfe / Las Canteras, and follow signs to 'La Ermita'."
           },
           "autobus": {
-            "q": "Is there a bus service to RIT/MO?",
-            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada, with stops at Centro Comercial Neptuno (Gimnasio O<sup>2</sup>)."
+            "q": "Is there a bus service?",
+            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym)."
           },
           "parking": {
-            "q": "Is there parking at RIT/MO?",
+            "q": "Is there parking at the festival?",
             "a": "<strong>Yes</strong>, parking is available at the venue for a daily fee. We also recommend using the provided shuttle bus service."
           },
           "horfest": {
