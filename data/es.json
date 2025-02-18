@@ -114,10 +114,10 @@
   },
   "accommodation": {
     "title": "Recomendaciones para alojamiento",
-    "intro": "Alojamiento y acampada en Granada, Atarfe y pueblos cercanos",
+    "intro": "Alojamiento en Granada, Atarfe y pueblos cercanos",
     "camp": {
       "title": "RIT/MO Camp",
-      "text": "Vive la experiencia completa de <strong>RIT/MO</strong> acampando con nosotros en el <strong>corazón del festival</strong>. Disponemos de una <strong>exclusiva zona</strong> para autocaravanas y campers, ubicada en el espectacular paraje natural donde se celebra el evento. ¡Asegura tu lugar, las <strong>plazas son muy limitadas</strong>!",
+      "text": "Vive la experiencia completa de <strong>RIT/MO</strong> con nosotros en el <strong>corazón del festival</strong>. Disponemos de una <strong>exclusiva zona</strong> para autocaravanas y campers, ubicada en el espectacular paraje natural donde se celebra el evento. ¡Asegura tu lugar, las <strong>plazas son muy limitadas</strong>!",
       "rules1": {
         "title": "Acceso y Tarifas",
         "list": "<li>El acceso al área de vehículos estará disponible desde el <strong>viernes 30 de mayo a las 14:00 horas</strong> hasta el <strong>domingo 1 de junio a las 13:00 horas</strong>.</li><li>El precio por el uso del espacio es de <strong>60 euros</strong>, permitiendo la estancia durante todo el fin de semana entre las horas indicadas.</li><li>El ticket para el uso de las instalaciones <strong>no incluye la entrada al festival</strong>.</li><li>Para acceder al espacio, junto al ticket que permite el <strong>estacionamiento con pernocta</strong>, los integrantes de cada vehículo deberán mostrar el <strong>ticket de acceso al festival</strong>.</li><li>Las personas que pernoctarán en cada vehículo serán autorizadas en el momento de la <strong>entrada inicial</strong> a las instalaciones. Una vez efectuado el <strong>check-in</strong>, <strong>ninguna persona distinta a las acreditadas</strong> en ese momento podrá pernoctar en el vehículo.</li>"
@@ -278,7 +278,7 @@
             "a": "<strong>Sí</strong>, disponemos de instalaciones accesibles para personas con movilidad reducida."
           },
           "acampa": {
-            "q": "¿Hay áreas de campers-autocarabanas?",
+            "q": "¿Hay áreas de campers/autocarabanas?",
             "a": "<strong>Sí</strong>, puedes disfrutar de <a href='/es/accommodation/camp'>RIT/MO Camp</a> durante el festival."
           }
         }
