@@ -1,23 +1,23 @@
 import cx from "clsx"
 import FAQ from "./FAQ"
 
-export default function FeaturedFAQs({
-  d,
-  t,
-  lang,
-}: {
-  d: any
-  t: any
-  lang: string
-}) {
+export default function FeaturedFAQs({ d, t, lang }: { d: any; t: any; lang: string }) {
   const secc = d.faqs.sections
   const faqs = [
     // Horarios
+    // {
+    //   section: "site-and-schedule",
+    //   id: "horfest",
+    //   q: secc["site-and-schedule"].items.horfest.q,
+    //   a: secc["site-and-schedule"].items.horfest.a,
+    // },
+
+    // Acampada
     {
-      section: "site-and-schedule",
-      id: "horfest",
-      q: secc["site-and-schedule"].items.horfest.q,
-      a: secc["site-and-schedule"].items.horfest.a,
+      section: "services",
+      id: "acampa",
+      q: secc["services"].items.acampa.q,
+      a: secc["services"].items.acampa.a,
     },
 
     // Bus
@@ -57,12 +57,7 @@ export default function FeaturedFAQs({
       <div className="xl:container ">
         <div className={faqsCx}>
           {faqs.map((faq) => (
-            <FAQ
-              key={faq.id}
-              q={faq.q}
-              a={faq.a}
-              href={`/${lang}/faqs#${faq.section}-${faq.id}`}
-            />
+            <FAQ key={faq.id} q={faq.q} a={faq.a} href={`/${lang}/faqs#${faq.section}-${faq.id}`} />
           ))}
           <FAQ
             q={`${t("generic.viewMore")} → `}

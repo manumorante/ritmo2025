@@ -1,6 +1,7 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
 import { Buy, HeroImage } from "@/components"
+import Link from "next/link"
 
 export default async function AccommodationPage({
   params: { lang },
@@ -10,7 +11,7 @@ export default async function AccommodationPage({
   const { t } = getDictionary(lang)
   const optionCx = cx("Option")
   const optionTitleCx = cx("text-primary text-4xl mb-2")
-  const textCx = cx("text-xl px-1")
+  const textCx = cx("text-xl")
   const noteCx = cx("text-gray")
 
   return (
@@ -27,6 +28,21 @@ export default async function AccommodationPage({
           />
 
           <div className="space-y-20">
+            <div className={optionCx}>
+              <Link href={`/${lang}/accommodation/camp`} className="no-underline">
+                <h3 className={optionTitleCx}>{t("accommodation.camp.title")}</h3>
+              </Link>
+
+              <p
+                className={textCx}
+                dangerouslySetInnerHTML={{
+                  __html: t("accommodation.camp.text"),
+                }}
+              />
+
+              <Link href={`/${lang}/accommodation/camp`}>{t("generic.viewMore")} →</Link>
+            </div>
+
             <div className={optionCx}>
               <h3 className={optionTitleCx}>{t("accommodation.granada.title")}</h3>
 
