@@ -1,6 +1,6 @@
 import cx from "clsx"
 import { getDictionary } from "@/util/dictionary"
-import { Buy, HeroImage } from "@/components"
+import { Button } from "@/components"
 import Image from "next/image"
 
 export default async function AccommodationPage({
@@ -55,7 +55,9 @@ export default async function AccommodationPage({
           </div>
 
           <div className="mx-auto mt-12 flex justify-center">
-            <Buy lang={lang} t={t} />
+            <Button href={t("tickets.camp")} target="_blank">
+              <div>{t("generic.buyTickets")}</div>
+            </Button>
           </div>
         </div>
       </div>

@@ -22,7 +22,8 @@
   "tickets": {
     "earlyBird": "Abonos a precio reducido ya a la venta!",
     "buy": "Comprar tickets",
-    "link": "https://entradastickbox.com/ritmo-2025/40440"
+    "link": "https://entradastickbox.com/ritmo-2025/40440",
+    "camp": "https://venta.enterticket.es/comprar/complemento?hash=YIFXiu48vKof1xpapYr86g%3D%3D"
   },
   "date": {
     "short": "3 y 4 de mayo",
@@ -132,7 +133,7 @@
       },
       "rules4": {
         "title": "Vehículos, Ubicación y Parcelas",
-        "list": "<li><strong>Dimensiones:</strong> Cada parcela está diseñada para un vehículo estándar (parcelas de 8 m x 5 m). Si su vehículo excede las dimensiones habituales, por favor, contacte con la organización con antelación a la compra de su ticket.</li><li><strong>Ubicación:</strong> El espacio RIT/MO Camp está ubicado a 5 minutos caminando del acceso principal al festival.</li><li><strong>Estacionamiento:</strong> Los vehículos deben estacionarse en las áreas designadas, respetando las vías de acceso y siguiendo las indicaciones del personal de la organización.</li><li><strong>Movilidad:</strong> Como norma general, y una vez estacionado el vehículo, se recomienda no moverlo hasta el momento de la salida. En el intervalo de tiempo en el que ocurran las actuaciones musicales, y para garantizar la seguridad de todos los asistentes, el vehículo no podrá moverse.</li>"
+        "list": "<li><strong>Dimensiones:</strong> Cada parcela está diseñada para un vehículo estándar (parcelas de 8 m x 5 m). Si su vehículo excede las dimensiones habituales, por favor, contacte con la organización con antelación a la compra de su ticket.</li><li><strong>Ubicación:</strong> El espacio RIT/MO Camp está ubicado a 5 minutos caminando del acceso principal al festival.</li><li><strong>Estacionamiento:</strong> Los vehículos deben estacionarse en las área designadas, respetando las vías de acceso y siguiendo las indicaciones del personal de la organización.</li><li><strong>Movilidad:</strong> Como norma general, y una vez estacionado el vehículo, se recomienda no moverlo hasta el momento de la salida. En el intervalo de tiempo en el que ocurran las actuaciones musicales, y para garantizar la seguridad de todos los asistentes, el vehículo no podrá moverse.</li>"
       },
       "rules5": {
         "title": "Responsabilidad",
@@ -278,7 +279,7 @@
             "a": "<strong>Sí</strong>, disponemos de instalaciones accesibles para personas con movilidad reducida."
           },
           "acampa": {
-            "q": "¿Hay áreas de campers/autocaravanas?",
+            "q": "¿Hay área de campers/autocaravanas?",
             "a": "<strong>Sí</strong>, puedes disfrutar de <a href='/es/accommodation/camp'>RIT/MO Camp</a> durante el festival."
           }
         }
