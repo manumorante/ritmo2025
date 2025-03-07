@@ -1,23 +1,26 @@
 import { i18n, type Locale } from "@/i18n"
 import { NextRequest, NextResponse } from "next/server"
+import acceptLanguage from "accept-language"
 
-function getLocale(req: NextRequest) {
-  const acceptLanguage = req.headers.get("accept-language")
-  const locale = acceptLanguage?.split(",")[0].split("-")[0] // en-US -> en, es-ES -> es
+acceptLanguage.languages([...i18n.locales])
 
-  if (locale && i18n.locales.includes(locale as Locale)) {
-    return locale
+function getLocale(request: NextRequest): string {
+  // Verificar si hay una cookie de idioma
+  const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value
+  if (cookieLocale && i18n.locales.includes(cookieLocale as Locale)) {
+    return cookieLocale
   }
 
-  return locale || i18n.defaultLocale
+  // Usar accept-language para analizar el encabezado
+  const acceptHeader = request.headers.get("accept-language") || ""
+  const detectedLocale = acceptLanguage.get(acceptHeader)
+
+  return detectedLocale || i18n.defaultLocale
 }
 
-export default function middleware(req: NextRequest) {
-  const locale = getLocale(req)
-
-  // Rewrite the path (`/`) to the localized page (pages/[locale]/[country])
-  req.nextUrl.pathname = `/${locale}/`
-  return NextResponse.rewrite(req.nextUrl)
+export default function middleware(request: NextRequest) {
+  request.nextUrl.pathname = `/${getLocale(request)}/`
+  return NextResponse.rewrite(request.nextUrl)
 }
 
 export const config = {

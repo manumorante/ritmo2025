@@ -1,30 +1,39 @@
 "use client"
 
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
+import Cookies from "js-cookie"
+import { i18n } from "@/i18n"
 
-const locales = {
-  en: "English",
+const LANGUAGE_NAMES = {
   es: "Español",
-}
+  en: "English",
+} as const
 
 export default function Lang({ lang, className }: { lang: string; className?: string }) {
-  const pathName = usePathname()
-  const redirectedPathName = (lang: string) => {
-    if (!pathName) return "/"
-    const segments = pathName.split("/")
-    segments[1] = lang
-    return segments.join("/")
+  const router = useRouter()
+  const currentPath = usePathname() || "/"
+
+  function getNewPath(newLanguage: string) {
+    const urlParts = currentPath.split("/")
+    urlParts[1] = newLanguage
+    return urlParts.join("/")
+  }
+
+  function switchLanguage(newLanguage: string) {
+    Cookies.set("NEXT_LOCALE", newLanguage, { expires: 365 })
+    router.push(getNewPath(newLanguage))
   }
 
   return (
     <>
-      {Object.entries(locales).map(([key, value]) => {
-        if (key !== lang)
-          return (
-            <a className={className} key={key} href={redirectedPathName(key)}>
-              {value}
-            </a>
-          )
+      {i18n.locales.map((locale) => {
+        if (locale === lang) return null
+
+        return (
+          <button className={className} key={locale} onClick={() => switchLanguage(locale)}>
+            {LANGUAGE_NAMES[locale]}
+          </button>
+        )
       })}
     </>
   )
