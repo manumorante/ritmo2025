@@ -2,7 +2,7 @@
 
 import cx from "clsx"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-import { Lang, Logo } from "@/components"
+import { Lang, Logo, Date } from "@/components"
 import MenuItems from "./MenuItems"
 import Link from "next/link"
 import { useState, useEffect } from "react"
@@ -44,9 +44,13 @@ export default function MobileMenu({ lang }: { lang: string }) {
           <Logo />
         </Link>
 
-        <button className="flex-shrink-0 flex-grow-0 text-primary" onClick={toggle}>
-          <Bars3Icon className="w-9 h-9 text-white" />
-        </button>
+        <div className="flex items-center gap-x-4">
+          <Date />
+
+          <button className="flex-shrink-0 flex-grow-0 text-primary" onClick={toggle}>
+            <Bars3Icon className="w-9 h-9 text-white" />
+          </button>
+        </div>
       </div>
 
       <div className={mainCx} onClick={toggle}>

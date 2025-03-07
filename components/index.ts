@@ -3,6 +3,7 @@ export { default as Header } from "./header"
 export { default as Button } from "./ui/Button"
 export { default as Buy } from "./ui/Buy"
 export { default as Lang } from "./ui/Lang"
+export { default as Date } from "./header/Date"
 
 // Sections
 export { default as Lineup } from "./sections/Lineup"

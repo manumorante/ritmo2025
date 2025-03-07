@@ -1,17 +1,33 @@
 import { getMenuItems } from "@/util/data"
 import Link from "next/link"
+
 export default function MenuItems({ lang }: { lang: string }) {
   const menuItems = getMenuItems({ lang })
+
+  const getDisabledText = (title: string) => {
+    if (lang === "es") {
+      return `${title} (No disponible)`
+    } else if (lang === "ca") {
+      return `${title} (No disponible)`
+    } else {
+      return `${title} (Not available)`
+    }
+  }
 
   return (
     <>
       {menuItems.map((item) => {
-        let href = `/${lang}/${item.href}`
-        let target = "_self"
-        if (item.href.startsWith("https")) {
-          href = item.href
-          target = "_blank"
+        if (!item.href || item.href === "") {
+          return (
+            <span key={item.title} className="text-gray-400 cursor-default">
+              {getDisabledText(item.title)}
+            </span>
+          )
         }
+
+        const isExternalLink = item.href.startsWith("https")
+        const href = isExternalLink ? item.href : `/${lang}/${item.href}`
+        const target = isExternalLink ? "_blank" : "_self"
 
         return (
           <Link href={href} target={target} key={item.title}>

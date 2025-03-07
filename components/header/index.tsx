@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Logo } from "@/components"
+import { Logo, Date } from "@/components"
 import MenuItems from "./MenuItems"
 import MobileMenu from "./MobileMenu"
 
@@ -12,8 +12,12 @@ export default function Header({ lang }: { lang: string }) {
             <Logo />
           </Link>
 
-          <div className="flex gap-x-4 mb-1 *:no-underline *:text-white *:text-lg *:font-light uppercase">
-            <MenuItems lang={lang} />
+          <div className="flex items-center gap-x-6">
+            <Date />
+
+            <div className="flex items-center *:leading-none *:whitespace-nowrap gap-x-4 *:no-underline *:text-white *:text-lg *:font-light uppercase">
+              <MenuItems lang={lang} />
+            </div>
           </div>
         </div>
       </div>
