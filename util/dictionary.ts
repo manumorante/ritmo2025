@@ -1,22 +1,27 @@
-import enJSON from "@/data/en.json"
-import esJSON from "@/data/es.json"
+import en from "@/data/en.json"
+import es from "@/data/es.json"
 
-const _getDictionary = (lang: string = "es"): any =>
-  ({ en: enJSON, es: esJSON }[lang])
+type Locale = "en" | "es"
+type Dictionary = Record<string, any>
 
-const translate = ({ path, lang = "es" }: { path: string; lang: string }) => {
-  const text = path
-    .split(".")
-    .reduce((acc, key) => acc?.[key], _getDictionary(lang))
-  return text ?? path
+const dictionaries: Record<Locale, Dictionary> = { en, es }
+
+function loadDictionary(locale: Locale = "es"): Dictionary {
+  return dictionaries[locale] || dictionaries.es
 }
 
-const _getT = (lang: string = "es") => {
+function translate({ path, lang = "es" }: { path: string; lang: Locale }): string {
+  const dictionary = loadDictionary(lang)
+  const value = path.split(".").reduce((acc, key) => acc?.[key], dictionary) ?? path
+  return String(value)
+}
+
+function createTranslator(lang: Locale = "es") {
   return (path: string) => translate({ path, lang })
 }
 
-export const getDictionary = (lang: string = "es") => {
-  const d = _getDictionary(lang)
-  const t = _getT(lang)
+export function getDictionary(lang: string = "es") {
+  const d = loadDictionary(lang as Locale)
+  const t = createTranslator(lang as Locale)
   return { d, t }
 }
