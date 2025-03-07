@@ -8,6 +8,21 @@
       "session_id": ""
     },
     {
+      "name": "Daniel Kelsan",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
+      "name": "Durand",
+      "id": "",
+      "br": true,
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
       "name": "Jasss",
       "id": "jasss",
       "b2b": true,
@@ -45,8 +60,16 @@
       "session_id": ""
     },
     {
+      "name": "Lena Willikens",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
       "name": "Lis Sarroca",
       "id": "",
+      "br": true,
       "video": "",
       "session": "",
       "session_id": ""
@@ -57,6 +80,13 @@
       "video": "https://www.youtube.com/watch?v=gqrC6fsqnhI",
       "session": "https://soundcloud.com/kioskradio/small-steps-w-lola-haro-kiosk-radio-03102024?in=lola-haro/sets/kiosk-radio",
       "session_id": "1930332359"
+    },
+    {
+      "name": "Maara",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
     },
     {
       "name": "Marco Shuttle",
@@ -74,8 +104,16 @@
       "session_id": "1802846973"
     },
     {
+      "name": "Ripley-B",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
+    },
+    {
       "name": "Rootian",
       "id": "rootian",
+      "br": true,
       "video": "https://www.youtube.com/watch?v=nE1Vrzvyu28",
       "session": "https://soundcloud.com/rootian/sets/yuyu",
       "session_id": "1652821086"
@@ -83,7 +121,6 @@
     {
       "name": "Sedef Adasï",
       "id": "sedef-adasi",
-      "br": true,
       "video": "https://www.youtube.com/watch?v=3ftXuppg_dM",
       "session": "https://soundcloud.com/dkmntl/dekmantel-podcast-452-sedef-adasi",
       "session_id": "1731985965"
@@ -91,6 +128,7 @@
     {
       "name": "Systema",
       "id": "systema",
+      "br": true,
       "session": "https://soundcloud.com/tombololive/tombolomixx-128-nogue",
       "session_id": "1954710767"
     },
@@ -108,6 +146,13 @@
       "video": "https://www.youtube.com/watch?v=igVqPIt94Ak",
       "session": "https://soundcloud.com/tornadowallace/tomato-wallet-imaginary-friend",
       "session_id": "1897089102"
+    },
+    {
+      "name": "Vladimir Ivkovic",
+      "id": "",
+      "video": "",
+      "session": "",
+      "session_id": ""
     },
     {
       "name": "Young Marco",
