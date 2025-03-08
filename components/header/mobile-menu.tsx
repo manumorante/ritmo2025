@@ -3,7 +3,7 @@
 import cx from "clsx"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import { Lang, Logo, Date } from "@/components"
-import MenuItems from "./MenuItems"
+import MenuItems from "./menu-items"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 

@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { getDictionary } from "@/util/dictionary"
 import { Lang } from "@/components"
-import Facebook from "./icons/Facebook"
-import Instagram from "./icons/Instagram"
+import Facebook from "./icons/facebook"
+import Instagram from "./icons/instagram"
 
 export default function Footer({ lang }: { lang?: any }) {
   const { t } = getDictionary(lang)

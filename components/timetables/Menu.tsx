@@ -1,6 +1,6 @@
 import cx from "clsx"
-import DoorTag from "./DoorTag"
-import DayLink from "./DayLink"
+import DoorTag from "./door-tag"
+import DayLink from "./day-link"
 
 export default function TimetablesMenu({
   t,

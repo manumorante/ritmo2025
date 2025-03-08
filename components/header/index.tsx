@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Logo, Date } from "@/components"
-import MenuItems from "./MenuItems"
-import MobileMenu from "./MobileMenu"
+import MenuItems from "./menu-items"
+import MobileMenu from "./mobile-menu"
 
 export default function Header({ lang }: { lang: string }) {
   return (

@@ -1,9 +1,7 @@
 import { getDictionary } from "@/util/dictionary"
 import { getArtistById, getNextArtistById, getPreviousArtistById } from "@/util/data"
-import Image from "next/image"
-import { Buy } from "@/components"
+import { Buy, ArtistImage } from "@/components"
 import Link from "next/link"
-import ArtistImage from "@/components/ArtistImage"
 
 export default async function Artists({
   params: { lang, id },
