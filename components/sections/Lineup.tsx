@@ -5,7 +5,6 @@ export default function Lineup({ lang, t }: { lang: string; t: any }) {
       <div className="text-center">
         <p className="sectionTitle">{t("lineup.title")}</p>
         <LineupAll lang={lang} />
-        <p className="text-xl uppercase my-8 text-primary">{t("lineup.more")}</p>
       </div>
     </div>
   )
