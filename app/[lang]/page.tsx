@@ -1,4 +1,4 @@
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 import { Hero, Lineup, Photos, Location, FeaturedFAQs, HomeImage } from "@/components"
 
 export default async function Home({ params: { lang } }: { params: { lang: string } }) {

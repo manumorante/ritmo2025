@@ -1,4 +1,4 @@
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 import { LineupAll, Title } from "@/components"
 import { TimetablesMenu } from "@/components"
 

@@ -1,5 +1,5 @@
-import { getDictionary } from "@/util/dictionary"
-import { getArtistById, getNextArtistById, getPreviousArtistById } from "@/util/data"
+import { getDictionary } from "@/lib/i18n"
+import { getArtistById, getNextArtistById, getPreviousArtistById } from "@/lib/data"
 import { Buy, ArtistImage } from "@/components"
 import Link from "next/link"
 

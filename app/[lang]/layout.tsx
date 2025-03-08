@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 // Components
 import { Footer, Partners, Newsletter, Header } from "@/components"
-import { ReactLenis } from "@/util/lenis"
+import { ReactLenis } from "@/lib/lenis"
 
 // Tracking
 import { FBPixel, MailerLiteUniversal } from "@/components"
@@ -14,7 +14,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Utils & Types
 import { RootLayoutProps } from "@/types"
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 
 const font = Signika({
   subsets: ["latin"],

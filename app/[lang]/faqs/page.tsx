@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 
 type FAQSection = {
   title: string

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getPublishedArtists } from "@/util/data"
+import { getPublishedArtists } from "@/lib/data"
 import { Fragment } from "react"
 
 export default function All({ lang }: { lang: string }) {

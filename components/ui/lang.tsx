@@ -2,7 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation"
 import Cookies from "js-cookie"
-import { i18n } from "@/i18n"
+import { i18n } from "@/lib/i18n/i18n"
 
 const LANGUAGE_NAMES = {
   es: "Español",

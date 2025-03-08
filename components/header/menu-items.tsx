@@ -1,4 +1,4 @@
-import { getMenuItems } from "@/util/data"
+import { getMenuItems } from "@/lib/data"
 import Link from "next/link"
 
 export default function MenuItems({ lang }: { lang: string }) {

@@ -1,10 +1,6 @@
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 
-export default async function LocationPage({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+export default async function LocationPage({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
 
   return (

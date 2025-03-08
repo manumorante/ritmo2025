@@ -1,12 +1,8 @@
-import { timetables } from "@/util/data"
-import { getDictionary } from "@/util/dictionary"
+import { timetables } from "@/lib/data"
+import { getDictionary } from "@/lib/i18n"
 import { TimetablesPage, TimetablesMenu, Title, DoorTag } from "@/components"
 
-export default async function Timetables({
-  params: { lang },
-}: {
-  params: { lang: string }
-}) {
+export default async function Timetables({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
 
   return (
@@ -14,10 +10,7 @@ export default async function Timetables({
       <div className="header-flat" />
 
       <div className="container">
-        <Title
-          title={t("timetables.saturday")}
-          subtitle={t("timetables.title")}
-        />
+        <Title title={t("timetables.saturday")} subtitle={t("timetables.title")} />
       </div>
 
       <TimetablesMenu t={t} lang={lang} active="saturday" />

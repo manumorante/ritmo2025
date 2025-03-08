@@ -1,5 +1,6 @@
 import cx from "clsx"
 import { FAQ, ViewMore } from "@/components"
+import { getFAQById } from "@/lib/utils"
 
 interface FAQ {
   section: string
@@ -29,31 +30,12 @@ export default function FeaturedFAQs({ d, t, lang }: FeaturedFAQsProps) {
     ),
   }
 
-  function getFAQById(id: string): FAQ | null {
-    const sections = d.faqs.sections
-
-    for (const sectionKey in sections) {
-      const section = sections[sectionKey]
-      const items = section.items
-
-      if (items[id]) {
-        return {
-          section: sectionKey,
-          question: items[id].q,
-          answer: items[id].a,
-        }
-      }
-    }
-
-    return null
-  }
-
   return (
     <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.list}>
           {faqIds.map((id) => {
-            const faq = getFAQById(id)
+            const faq = getFAQById(d, id)
             if (!faq) return null
 
             return (

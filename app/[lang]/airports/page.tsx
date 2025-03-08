@@ -1,5 +1,5 @@
 import cx from "clsx"
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 import { Buy, HeroImage } from "@/components"
 
 export default async function AirportsPage({ params: { lang } }: { params: { lang: string } }) {

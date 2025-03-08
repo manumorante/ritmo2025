@@ -1,5 +1,5 @@
 import cx from "clsx"
-import { getDictionary } from "@/util/dictionary"
+import { getDictionary } from "@/lib/i18n"
 import { Button } from "@/components"
 import Image from "next/image"
 
