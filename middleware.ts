@@ -1,4 +1,5 @@
-import { i18n, type Locale } from "@/i18n"
+import { i18n } from "@/i18n"
+import { Locale } from "@/types"
 import { NextRequest, NextResponse } from "next/server"
 import acceptLanguage from "accept-language"
 

@@ -1,20 +1,19 @@
 import "./globals.css"
 
 // Core
-import type { ReactNode } from "react"
 import { Signika } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 
 // Components
-import { ReactLenis } from "@/util/lenis"
 import { Footer, Partners, Newsletter, Header } from "@/components"
+import { ReactLenis } from "@/util/lenis"
 
 // Tracking
 import { FBPixel, MailerLiteUniversal } from "@/components"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
 
 // Utils & Types
-import { type Locale } from "@/i18n"
+import { RootLayoutProps } from "@/types"
 import { getDictionary } from "@/util/dictionary"
 
 const font = Signika({
@@ -22,13 +21,6 @@ const font = Signika({
   display: "swap",
   weight: ["300", "400", "600"],
 })
-
-interface RootLayoutProps {
-  children: ReactNode
-  params: {
-    lang: Locale
-  }
-}
 
 export default function RootLayout({ children, params }: RootLayoutProps) {
   const { lang } = params

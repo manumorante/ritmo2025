@@ -1,19 +1,24 @@
 import en from "@/data/en.json"
 import es from "@/data/es.json"
+import { Locale } from "@/types"
 
-type Locale = "en" | "es"
-type Dictionary = Record<string, any>
+type DictionaryValue = Record<string, unknown> | string | number | boolean | null | unknown[]
 
-const dictionaries: Record<Locale, Dictionary> = { en, es }
+const dictionaries: Record<Locale, Record<string, DictionaryValue>> = { en, es }
 
-function loadDictionary(locale: Locale = "es"): Dictionary {
+function loadDictionary(locale: Locale = "es") {
   return dictionaries[locale] || dictionaries.es
 }
 
 function translate({ path, lang = "es" }: { path: string; lang: Locale }): string {
   const dictionary = loadDictionary(lang)
-  const value = path.split(".").reduce((acc, key) => acc?.[key], dictionary) ?? path
-  return String(value)
+  const value = path.split(".").reduce<DictionaryValue>((acc, key) => {
+    if (typeof acc === "object" && acc !== null) {
+      return (acc as Record<string, DictionaryValue>)[key]
+    }
+    return path
+  }, dictionary)
+  return String(value ?? path)
 }
 
 function createTranslator(lang: Locale = "es") {
