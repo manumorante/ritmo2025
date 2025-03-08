@@ -25,6 +25,8 @@ export { default as TimetablesMenu } from "./timetables/Menu"
 export { default as HourList } from "./timetables/HourList"
 export { default as Stage } from "./timetables/Stage"
 
+export { default as FAQ } from "./FAQs/FAQ"
+export { default as ViewMore } from "./FAQs/ViewMore"
 export { default as FeaturedFAQs } from "./FAQs/FeaturedFAQs"
 
 // Pages

@@ -1,69 +1,71 @@
 import cx from "clsx"
-import FAQ from "./FAQ"
+import { FAQ, ViewMore } from "@/components"
 
-export default function FeaturedFAQs({ d, t, lang }: { d: any; t: any; lang: string }) {
-  const secc = d.faqs.sections
-  const faqs = [
-    // Horarios
-    // {
-    //   section: "site-and-schedule",
-    //   id: "horfest",
-    //   q: secc["site-and-schedule"].items.horfest.q,
-    //   a: secc["site-and-schedule"].items.horfest.a,
-    // },
+interface FAQ {
+  section: string
+  question: string
+  answer: string
+}
 
-    // Acampada
-    {
-      section: "services",
-      id: "acampa",
-      q: secc["services"].items.acampa.q,
-      a: secc["services"].items.acampa.a,
-    },
+interface FeaturedFAQsProps {
+  d: Record<string, any>
+  t: (path: string) => string
+  lang: string
+}
 
-    // Bus
-    {
-      section: "site-and-schedule",
-      id: "autobus",
-      q: secc["site-and-schedule"].items.autobus.q,
-      a: secc["site-and-schedule"].items.autobus.a,
-    },
+export default function FeaturedFAQs({ d, t, lang }: FeaturedFAQsProps) {
+  const faqIds = ["acampa", "autobus", "parking"]
 
-    // Parking
-    {
-      section: "site-and-schedule",
-      id: "parking",
-      q: secc["site-and-schedule"].items.parking.q,
-      a: secc["site-and-schedule"].items.parking.a,
-    },
+  const styles = {
+    main: cx("FeaturedFAQs", "py-16", "bg-neutral-100"),
+    container: cx("xl:container"),
+    list: cx(
+      "FAQs",
+      "flex",
+      "gap-12",
+      "px-7 xl:px-0",
+      "snap-x xl:snap-none",
+      "overflow-x-auto xl:overflow-x-visible"
+    ),
+  }
 
-    // Entradas en taquilla
-    // {
-    //   section: "tickets",
-    //   id: "puecom",
-    //   q: secc.tickets.items.puecom.q,
-    //   a: secc.tickets.items.puecom.a,
-    // },
-  ]
-  const faqsCx = cx(
-    "FAQs",
-    "flex gap-12",
-    "snap-x xl:snap-none",
-    "overflow-x-auto xl:overflow-x-visible",
-    "px-7 xl:px-0"
-  )
+  function getFAQById(id: string): FAQ | null {
+    const sections = d.faqs.sections
+
+    for (const sectionKey in sections) {
+      const section = sections[sectionKey]
+      const items = section.items
+
+      if (items[id]) {
+        return {
+          section: sectionKey,
+          question: items[id].q,
+          answer: items[id].a,
+        }
+      }
+    }
+
+    return null
+  }
 
   return (
-    <div className="FeaturedFAQs py-16 bg-neutral-100">
-      <div className="xl:container ">
-        <div className={faqsCx}>
-          {faqs.map((faq) => (
-            <FAQ key={faq.id} q={faq.q} a={faq.a} href={`/${lang}/faqs#${faq.section}-${faq.id}`} />
-          ))}
-          <FAQ
-            q={`${t("generic.viewMore")} → `}
-            href={`/${lang}/faqs`}
-            className="flex items-center justify-center"
-          />
+    <div className={styles.main}>
+      <div className={styles.container}>
+        <div className={styles.list}>
+          {faqIds.map((id) => {
+            const faq = getFAQById(id)
+            if (!faq) return null
+
+            return (
+              <FAQ
+                key={id}
+                q={faq.question}
+                a={faq.answer}
+                href={`/${lang}/faqs#${faq.section}-${id}`}
+              />
+            )
+          })}
+          <ViewMore text={t("generic.viewMore") + " → "} href={`/${lang}/faqs`} />
         </div>
       </div>
     </div>
