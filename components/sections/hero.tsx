@@ -3,9 +3,6 @@
 import { useRef } from "react"
 import { Button } from "@/components"
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion"
-import YouTube from "react-youtube"
-
-const VIDEO_ID = "LZFcxjmSGSQ"
 
 export default function HeroSection({
   lang,
@@ -22,26 +19,6 @@ export default function HeroSection({
   const y = useTransform(scrollYProgress, [0, 1], ["0px", "600px"])
   const opacity = useTransform(scrollYProgress, [0, 0.8], [0, 1])
   const arrowY = useTransform(scrollYProgress, [0, 0.1], ["0%", "140%"])
-
-  const opts = {
-    height: "100%",
-    width: "100%",
-    playerVars: {
-      autoplay: 1,
-      mute: 1,
-      loop: 1,
-      playlist: VIDEO_ID,
-      controls: 0,
-      rel: 0,
-      showinfo: 0,
-      modestbranding: 1,
-      playsinline: 1,
-      enablejsapi: 1,
-      origin: "https://ritmo2025.com",
-      widget_referrer: "https://ritmo2025.com",
-    },
-  }
-
   return (
     <section ref={sectionRef} className="relative h-svh flex flex-col justify-center">
       <motion.div
@@ -50,12 +27,26 @@ export default function HeroSection({
       />
       {/* Video */}
       <motion.div className="absolute inset-0 -z-10" style={{ y: shouldReduceMotion ? 0 : y }}>
-        <motion.div
-          className="absolute inset-0 w-[200%] h-[200%] -top-1/2 -left-1/2"
-          style={{ scale: shouldReduceMotion ? 1 : 1.2 }}
+        <video
+          className="w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          poster="/2024/ritmo24-summary.jpg"
         >
-          <YouTube videoId={VIDEO_ID} opts={opts} className="w-full h-full" />
-        </motion.div>
+          <source
+            src="https://res.cloudinary.com/nvzf/video/upload/v1743582350/ritmo/ritmo24-summary-medium.mp4"
+            type="video/mp4"
+            media="(min-width: 601px)"
+          />
+          <source
+            src="https://res.cloudinary.com/nvzf/video/upload/v1743582810/ritmo/ritmo24-summary-small.mp4"
+            type="video/mp4"
+            media="(max-width: 600px)"
+          />
+        </video>
       </motion.div>
       {/* Text content */}
       <motion.div
