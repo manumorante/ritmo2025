@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { Button } from "@/components"
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion"
+import { currentVideos } from "@/data/videos"
 
 export default function HeroSection({
   lang,
@@ -36,16 +37,8 @@ export default function HeroSection({
           preload="auto"
           poster="/2024/ritmo24-summary.jpg"
         >
-          <source
-            src="https://res.cloudinary.com/nvzf/video/upload/v1743582350/ritmo/ritmo24-summary-medium.mp4"
-            type="video/mp4"
-            media="(min-width: 601px)"
-          />
-          <source
-            src="https://res.cloudinary.com/nvzf/video/upload/v1743582810/ritmo/ritmo24-summary-small.mp4"
-            type="video/mp4"
-            media="(max-width: 600px)"
-          />
+          <source src={currentVideos.medium} type="video/mp4" media="(min-width: 601px)" />
+          <source src={currentVideos.small} type="video/mp4" media="(max-width: 600px)" />
         </video>
       </motion.div>
       {/* Text content */}
