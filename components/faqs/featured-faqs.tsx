@@ -15,7 +15,7 @@ interface FeaturedFAQsProps {
 }
 
 export default function FeaturedFAQs({ d, t, lang }: FeaturedFAQsProps) {
-  const faqIds = ["acampa", "autobus", "parking"]
+  const faqIds = ["autobus", "acampa", "parking"]
 
   const styles = {
     main: cx("FeaturedFAQs", "py-16", "bg-neutral-100"),

@@ -317,7 +317,7 @@
           },
           "autobus": {
             "q": "Is there a bus service?",
-            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym)."
+            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym). <strong><a href='https://entradastickbox.com/autobuses-ritmo-2025/45835' target='blank'>Tickets bus</a></strong>."
           },
           "parking": {
             "q": "Is there parking at the festival?",
