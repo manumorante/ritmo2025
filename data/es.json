@@ -23,7 +23,8 @@
     "earlyBird": "Abonos a precio reducido ya a la venta!",
     "buy": "Comprar tickets",
     "link": "https://entradastickbox.com/ritmo-2025/40440",
-    "camp": "https://venta.enterticket.es/comprar/complemento?hash=YIFXiu48vKof1xpapYr86g%3D%3D"
+    "camp": "https://venta.enterticket.es/comprar/complemento?hash=YIFXiu48vKof1xpapYr86g%3D%3D",
+    "bus": "https://entradastickbox.com/autobuses-ritmo-2025/45835"
   },
   "date": {
     "short": "3 y 4 de mayo",
@@ -157,7 +158,6 @@
     },
     "more": "Ver recomendaciones de alojamiento"
   },
-
   "airports": {
     "title": "Guia de vuelos y aeropuertos",
     "intro": "Aeropuertos más cercanos y cómo llegar a Granada fácilmente si viajas en avión",
@@ -183,6 +183,18 @@
   "location": {
     "title": "Ubicación",
     "large": "Paraje natural Ermita de los Tres Juanes<br>18230 Atarfe, Granada, España"
+  },
+  "bus": {
+    "title": "¡Ya puedes conseguir tu ticket para el bus lanzadera de RIT/MO!",
+    "intro": "Los autobuses irán desde <strong>Granada al recinto del festival</strong> (ida y vuelta), <strong>sin paradas intermedias</strong>.",
+    "p1": "<strong>Parada en Granada:</strong> Rotonda del Centro Comercial Neptuno, junto al Gimnasio O2.",
+    "p2": "<strong>Precio:</strong> 5€ por trayecto.",
+    "p3": "Puedes adquirir tu billete de <strong>IDA</strong> o de <strong>IDA + VUELTA</strong> de forma online",
+    "p4": "Si deseas incluir la VUELTA, primero selecciona el billete de IDA y, al avanzar en el proceso de compra, encontrarás la opción de añadir la vuelta.",
+    "p5": "<strong>No es posible comprar solo el billete de VUELTA online.</strong> Quienes deseen únicamente la vuelta deberán comprarlo <strong>directamente en el bus</strong> en el momento de regresar.",
+    "p6": "<strong>Horarios</strong>",
+    "p7": "<strong>IDA:</strong> con horarios específicos que deberás seleccionar al comprar",
+    "p8": "<strong>VUELTA:</strong> servicio continuo a partir de la hora establecida; los buses saldrán según se vayan llenando"
   },
   "about": {
     "title": "¿Qué es RIT/MO?",
@@ -318,7 +330,7 @@
         "items": {
           "autobus": {
             "q": "¿Hay un servicio de autobús?",
-            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada (C. C. Neptuno, Gimnasio O2). <strong><a href='https://entradastickbox.com/autobuses-ritmo-2025/45835' target='blank'>Tickets bus</a></strong>."
+            "a": "<strong>Sí</strong>, ofrecemos un servicio de autobús de ida y vuelta desde Granada (C. C. Neptuno, Gimnasio O2). <strong><a href='/es/bus'>Tickets bus</a></strong>."
           },
           "comlleg": {
             "q": "¿Cómo llego al festival RIT/MO?",

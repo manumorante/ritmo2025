@@ -23,7 +23,8 @@
     "earlyBird": "Early bird tickets are now on sale!",
     "buy": "Buy tickets",
     "link": "https://entradastickbox.com/ritmo-2025/40440",
-    "camp": "https://venta.enterticket.es/comprar/complemento?hash=YIFXiu48vKof1xpapYr86g%3D%3D"
+    "camp": "https://venta.enterticket.es/comprar/complemento?hash=YIFXiu48vKof1xpapYr86g%3D%3D",
+    "bus": "https://entradastickbox.com/autobuses-ritmo-2025/45835"
   },
   "date": {
     "short": "MAY 3/4",
@@ -196,6 +197,18 @@
     "title": "Location",
     "large": "Natural area Ermita de los Tres Juanes, Atarfe, Granada"
   },
+  "bus": {
+    "title": "Shuttle bus tickets for RIT/MO are now available!",
+    "intro": "Buses will run from Granada to the festival site (round trip), with no intermediate stops.",
+    "p1": "<strong>Granada pick-up point:</strong> Roundabout at Centro Comercial Neptuno, next to O2 Gym.",
+    "p2": "<strong>Price:</strong> €5 per trip.",
+    "p3": "You can purchase a <strong>ONE-WAY</strong> ticket or a <strong>ROUND-TRIP</strong> ticket online.",
+    "p4": "To add the RETURN trip, start by selecting your ONE-WAY ticket. As you proceed through the purchase, you'll have the option to add the return leg.",
+    "p5": "<strong>It’s not possible to buy a RETURN-ONLY ticket online.</strong> Those who only need the return trip must purchase it <strong>directly on the bus</strong> at the time of departure.",
+    "p6": "<strong>Schedules</strong>:",
+    "p7": "<strong>Outbound (Granada → Festival):</strong> fixed departure times to choose from when booking.",
+    "p8": "<strong>Return (Festival → Granada):</strong> open schedule starting at the designated time, with buses departing as they fill up."
+  },
   "faqs": {
     "title": "FAQs",
     "intro": "We have compiled the most frequently asked questions to assist you with:",
@@ -317,7 +330,7 @@
           },
           "autobus": {
             "q": "Is there a bus service?",
-            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym). <strong><a href='https://entradastickbox.com/autobuses-ritmo-2025/45835' target='blank'>Tickets bus</a></strong>."
+            "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym). <strong><a href='/en/bus'>Tickets bus</a></strong>."
           },
           "parking": {
             "q": "Is there parking at the festival?",
