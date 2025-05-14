@@ -1,6 +1,32 @@
 import { Button } from "@/components"
 import { getDictionary } from "@/lib/i18n"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: string }
+}): Promise<Metadata> {
+  const { t } = getDictionary(lang)
+
+  return {
+    title: t("bus.title"),
+    description: t("bus.intro"),
+    openGraph: {
+      title: t("bus.title"),
+      description: t("bus.intro"),
+      images: [
+        {
+          url: "/bus.jpg",
+          width: 688,
+          height: 393,
+          alt: "Bus",
+        },
+      ],
+    },
+  }
+}
 
 export default async function BusPage({ params: { lang } }: { params: { lang: string } }) {
   const { t } = getDictionary(lang)
