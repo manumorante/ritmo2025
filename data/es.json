@@ -338,7 +338,7 @@
           },
           "parking": {
             "q": "¿Existe aparcamiento en el recinto?",
-            "a": "<strong>Sí</strong>, contamos con aparcamiento disponible con tarifa diaria."
+            "a": "<strong>Sí</strong>, contamos con aparcamiento disponible con tarifa diaria de <strong>10€</strong>. También recomendamos utilizar el servicio de autobús lanzadera proporcionado."
           },
           "horfest": {
             "q": "¿Cuáles son los horarios?",

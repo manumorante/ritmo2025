@@ -333,8 +333,8 @@
             "a": "<strong>Yes</strong>, a shuttle bus service is available from Granada (Neptuno shopping center, O2 Gym). <strong><a href='/en/bus'>Tickets bus</a></strong>."
           },
           "parking": {
-            "q": "Is there parking at the festival?",
-            "a": "<strong>Yes</strong>, parking is available at the venue for a daily fee. We also recommend using the provided shuttle bus service."
+            "q": "Is there parking at the venue?",
+            "a": "<strong>Yes</strong>, we have parking available with a daily rate of <strong>€10</strong>. We also recommend using the provided shuttle bus service."
           },
           "horfest": {
             "q": "What are the opening hours?",
