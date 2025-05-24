@@ -240,7 +240,7 @@
     },
     "saturday": {
       "start": 13,
-      "totalHours": 16,
+      "totalHours": 17,
       "mordisco": [
         {
           "start": "13:00",
@@ -250,8 +250,8 @@
         },
         {
           "start": "18:00",
-          "end": "19:30",
-          "duration": 1,
+          "end": "20:00",
+          "duration": 2,
           "name": "JORGE ESCRIBANO"
         },
         {
