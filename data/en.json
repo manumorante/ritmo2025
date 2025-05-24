@@ -43,10 +43,18 @@
   },
   "timetables": {
     "title": "Timetables",
-    "friday": "Friday 3th",
-    "all": "All",
-    "saturday": "Saturday 4th",
-    "opening": "Door opening: 16:30"
+    "all": {
+      "day": "All",
+      "opening": "Door opening: 16:45"
+    },
+    "friday": {
+      "day": "Friday 30th",
+      "opening": "Door opening: 16:45"
+    },
+    "saturday": {
+      "day": "Saturday 31th",
+      "opening": "Door opening: 12:45"
+    }
   },
   "lineup": {
     "title": "Line-up",

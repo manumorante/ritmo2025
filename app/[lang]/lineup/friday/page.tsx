@@ -6,19 +6,21 @@ export default async function Timetables({ params: { lang } }: { params: { lang:
   const { t } = getDictionary(lang)
 
   return (
-    <main className="Page Timetables Friday">
+    <main className="Page Timetables Friday ">
       <div className="header-flat" />
       <div className="container">
-        <Title title={t("timetables.friday")} subtitle={t("timetables.title")} />
+        <Title title={t("timetables.friday.day")} subtitle={t("timetables.title")} />
       </div>
 
-      <TimetablesMenu t={t} lang={lang} active="friday" />
+      <div className="bg-gray/10">
+        <TimetablesMenu t={t} lang={lang} active="friday" />
 
-      <div className="md:hidden ml-3 mb-4">
-        <DoorTag title={t("timetables.opening")} />
+        <div className="md:hidden ml-3 mb-4">
+          <DoorTag title={t("timetables.friday.opening")} />
+        </div>
+
+        <TimetablesPage t={t} day={timetables.friday} />
       </div>
-
-      <TimetablesPage t={t} day={timetables.friday} />
     </main>
   )
 }

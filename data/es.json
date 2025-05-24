@@ -27,15 +27,8 @@
     "bus": "https://entradastickbox.com/autobuses-ritmo-2025/45835"
   },
   "date": {
-    "short": "3 y 4 de mayo",
-    "large": "3 y 4 de mayo de 2024"
-  },
-  "header": {
-    "date": {
-      "xs": "<strong>3 y 4 de mayo</strong><br>Atarfe (Granada)",
-      "sm": "<strong>3 y 4 de mayo</strong> en Atarfe (Granada)<br>Ermita de los Tres Juanes",
-      "lg": "<strong>3 y 4 de mayo de 2024</strong> en Atarfe (Granada)<br>Paraje natural Ermita de los Tres Juanes"
-    }
+    "short": "30 y 31 de mayo",
+    "large": "30 y 31 de mayo de 2025"
   },
   "newsletter": {
     "title": "Newsletter",
@@ -43,11 +36,18 @@
   },
   "timetables": {
     "title": "Horarios",
-    "opening": "Apertura de puertas: 16:30",
-    "openingShort": "Apertura 16:30",
-    "all": "Todos",
-    "friday": "Viernes 3",
-    "saturday": "Sábado 4"
+    "all": {
+      "day": "Todos",
+      "opening": "Apertura de puertas: 16:45"
+    },
+    "friday": {
+      "day": "Viernes 30",
+      "opening": "Apertura de puertas: 16:45"
+    },
+    "saturday": {
+      "day": "Sábado 31",
+      "opening": "Apertura de puertas: 12:45"
+    }
   },
   "lineup": {
     "title": "Line-up",
@@ -223,7 +223,7 @@
         "items": {
           "doncompr": {
             "q": "¿Dónde puedo comprar mi entrada para RIT/MO?",
-            "a": "Compra tus entradas exclusivamente a través de nuestro canal oficial en Tickbox. Accede directamente desde este enlace: <a target='blank' href='https://entradastickbox.com/ritmo-2024/31225'>Compra aquí tu entrada</a>."
+            "a": "Compra tus entradas exclusivamente a través de nuestro canal oficial en Tickbox. Accede directamente desde este enlace: <a target='blank' href='https://entradastickbox.com/ritmo-2025/40440'>Compra aquí tu entrada</a>."
           },
           "puecom": {
             "q": "¿Es posible comprar entradas directamente en el festival?",

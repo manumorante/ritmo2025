@@ -15,7 +15,7 @@ export default function TimetablesMenu({
     "TimetablesMenu",
     "sticky z-30 top-14 lg:top-16",
     "py-4 my-5 sm:my-6",
-    "bg-neutral-200/60"
+    "bg-neutral-200/90"
   )
   return (
     <div className={mainCx}>
@@ -23,24 +23,26 @@ export default function TimetablesMenu({
         <div className="flex justify-between">
           <div className="flex items-center gap-3 px-3">
             <DayLink
-              title={t("timetables.all")}
+              title={t("timetables.all.day")}
               href={`/${lang}/lineup`}
               active={active === "all"}
             />
             <DayLink
-              title={t("timetables.friday")}
+              title={t("timetables.friday.day")}
               href={`/${lang}/lineup/friday`}
               active={active === "friday"}
             />
             <DayLink
-              title={t("timetables.saturday")}
+              title={t("timetables.saturday.day")}
               href={`/${lang}/lineup/saturday`}
               active={active === "saturday"}
             />
           </div>
-          <div className="hidden md:block">
-            <DoorTag title={t("timetables.opening")} />
-          </div>
+          {(active === "friday" || active === "saturday") && (
+            <div className="hidden md:block">
+              <DoorTag title={t(`timetables.${active}.opening`)} />
+            </div>
+          )}
         </div>
       </div>
     </div>

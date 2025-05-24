@@ -1,28 +1,20 @@
 import cx from "clsx"
 
-export default function Stage({
-  title,
-  artists,
-}: {
-  title: string
-  artists: any[]
-}) {
+export default function Stage({ title, artists }: { title: string; artists: any[] }) {
   const mainCx = cx("w-[70vw] sm:w-[44vw]")
   const lineupList = cx("flex flex-col")
 
   const titleCx = cx(
     "h-12 mx-1",
     "text-xl font-medium text-white",
-    "text-pink-600 bg-pink-800/70 content-center text-center",
+    "text-pink-600 bg-primary content-center text-center",
     "rounded-t-lg shadow-sm"
   )
 
-  const duration = {
-    0.5: "3rem", // h-12
-    1: "6rem", // h-24
-    1.5: "9rem", // h-36
-    2: "12rem", // h-48
-    3: "18rem", // h-72
+  const getBoxHeight = (duration: number) => {
+    // Una hora es un bloque de 6rem
+    const boxHeight = 6
+    return duration * boxHeight + "rem"
   }
 
   return (
@@ -34,18 +26,23 @@ export default function Stage({
           <div
             key={artist.name}
             className="group content-center text-center relative"
-            style={{
-              height: `${duration[artist.duration as keyof typeof duration]}`,
-            }}
+            style={{ height: getBoxHeight(artist.duration) }}
           >
-            <div className="absolute inset-1 shadow-sm rounded content-center text-black bg-gradient-to-b from-white/80 to-white">
-              <div className="text-neutral-700 text-xl md:text-2xl">
-                {artist.name}
+            {artist.name !== "" && (
+              <div
+                className={cx(
+                  "absolute inset-1 shadow-lg rounded content-center",
+                  "text-black bg-gradient-to-b from-white/80 to-white",
+                  "md:hover:shadow-xl md:hover:ring-2 md:hover:ring-primary",
+                  "md:transition-all"
+                )}
+              >
+                <div className="text-neutral-700 text-xl md:text-2xl">{artist.name}</div>
+                <div className="text-lg opacity-50">
+                  {artist.start}-{artist.end}
+                </div>
               </div>
-              <div className="text-lg opacity-50">
-                {artist.start}-{artist.end}
-              </div>
-            </div>
+            )}
           </div>
         ))}
       </div>

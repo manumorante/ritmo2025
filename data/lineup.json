@@ -165,135 +165,156 @@
   ],
   "timetables": {
     "friday": {
+      "start": 17,
+      "totalHours": 12,
       "mordisco": [
         {
           "start": "17:00",
-          "end": "18:30",
-          "duration": 1.5,
-          "name": "MENA G"
+          "end": "18:00",
+          "duration": 1,
+          "name": ""
         },
         {
-          "start": "18:30",
+          "start": "18:00",
           "end": "20:00",
-          "duration": 1.5,
-          "name": "SENDA FATAL"
+          "duration": 2,
+          "name": "LIS SARROCA"
         },
         {
           "start": "20:00",
           "end": "22:00",
           "duration": 2,
-          "name": "MARÍA LATINA"
+          "name": "TAMARINDO"
         },
         {
           "start": "22:00",
           "end": "00:00",
           "duration": 2,
-          "name": "FAFI ABDEL NOUR"
-        },
-        { "start": "00:00", "end": "02:00", "duration": 2, "name": "SPRAY" },
-        {
-          "start": "02:00",
-          "end": "04:00",
-          "duration": 2,
-          "name": "OCTO OCTA"
-        }
-      ],
-      "latido": [
-        {
-          "start": "17:00",
-          "end": "19:00",
-          "duration": 2,
-          "name": "CERTAIN PEOPLE b2b FUENTES GUERRA"
-        },
-        {
-          "start": "19:00",
-          "end": "22:00",
-          "duration": 3,
-          "name": "MARC PIÑOL"
-        },
-        {
-          "start": "22:00",
-          "end": "00:00",
-          "duration": 2,
-          "name": "YOUNGER THAN ME"
+          "name": "TORNADO WALLACE"
         },
         {
           "start": "00:00",
           "end": "02:00",
           "duration": 2,
-          "name": "GARRITA"
+          "name": "MAARA"
+        },
+        {
+          "start": "02:00",
+          "end": "04:00",
+          "duration": 2,
+          "name": "YOUNG MARCO"
+        }
+      ],
+      "latido": [
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "duration": 1.5,
+          "name": "RIPLEY-B"
+        },
+        {
+          "start": "18:30",
+          "end": "20:00",
+          "duration": 1.5,
+          "name": "ROOTIAN"
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "duration": 2,
+          "name": "OMA TOTEM"
+        },
+        {
+          "start": "22:00",
+          "end": "00:00",
+          "duration": 2,
+          "name": "KIA"
+        },
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "duration": 2,
+          "name": "MARCO SHUTTLE"
         }
       ]
     },
     "saturday": {
+      "start": 13,
+      "totalHours": 16,
       "mordisco": [
         {
-          "start": "17:00",
-          "end": "18:30",
-          "duration": 1.5,
-          "name": "DANIEL KELSAN"
+          "start": "13:00",
+          "end": "18:00",
+          "duration": 5,
+          "name": ""
         },
         {
-          "start": "18:30",
-          "end": "20:00",
-          "duration": 1.5,
-          "name": "BALDMAN"
+          "start": "18:00",
+          "end": "19:30",
+          "duration": 1,
+          "name": "JORGE ESCRIBANO"
         },
         {
           "start": "20:00",
           "end": "22:00",
           "duration": 2,
-          "name": "BUDINO"
+          "name": "DANIEL KELSAN"
         },
         {
           "start": "22:00",
           "end": "00:00",
           "duration": 2,
-          "name": "ALEX KASSIAN"
+          "name": "LOLA HARO"
         },
         {
           "start": "00:00",
           "end": "02:00",
           "duration": 2,
-          "name": "JENNIFER LOVELESS"
+          "name": "SEDEF ADASÏ"
         },
         {
           "start": "02:00",
-          "end": "04:00",
-          "duration": 2,
-          "name": "JANE FITZ"
+          "end": "05:00",
+          "duration": 3,
+          "name": "JASSS B2B JOHNTALABOT"
         }
       ],
       "latido": [
         {
+          "start": "13:00",
+          "end": "17:00",
+          "duration": 4,
+          "name": "VLADIMIR IVKOVIC"
+        },
+        {
           "start": "17:00",
           "end": "18:30",
           "duration": 1.5,
-          "name": "KAMBOYA"
+          "name": "SYSTEMA"
         },
         {
           "start": "18:30",
-          "end": "19:30",
-          "duration": 1,
-          "name": "PROMISING/YOUNGSTER (live)"
-        },
-        {
-          "start": "19:30",
-          "end": "21:00",
+          "end": "20:00",
           "duration": 1.5,
-          "name": "BIHOTZA"
+          "name": "DURAND"
         },
         {
-          "start": "21:00",
-          "end": "23:00",
+          "start": "20:00",
+          "end": "22:00",
           "duration": 2,
-          "name": "IRO AKA"
+          "name": "BAMBI"
         },
         {
-          "start": "23:00",
+          "start": "22:00",
+          "end": "00:00",
+          "duration": 2,
+          "name": "LENA WILLIKENS"
+        },
+        {
+          "start": "00:00",
           "end": "02:00",
-          "duration": 3,
-          "name": "VLADIMIR IVKOVIC"
+          "duration": 2,
+          "name": "LEGOWELT"
         }
       ]
     }

@@ -7,7 +7,7 @@ export default function TimetablesPage({ t, day }: { t: any; day: any }) {
   return (
     <div className="md:container overflow-x-scroll">
       <div className={dayCx}>
-        <HourList />
+        <HourList startHour={day.start} totalHours={day.totalHours} />
         <Stage title={t("stages.main")} artists={day.mordisco} />
         <Stage title={t("stages.second")} artists={day.latido} />
       </div>
