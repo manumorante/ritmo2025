@@ -1,5 +1,5 @@
 type VideoProvider = "cloudinary" | "local" | "dropbox" | "github"
-const VIDEO_PROVIDER: VideoProvider = "github"
+const VIDEO_PROVIDER: VideoProvider = "cloudinary"
 
 const videos = {
   cloudinary: {
