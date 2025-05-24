@@ -12,11 +12,7 @@ const screens = {
 
 const config: Config = {
   darkMode: "class",
-  content: [
-    "./pages/**/*.{tsx,mdx}",
-    "./components/**/*.{tsx,mdx}",
-    "./app/**/*.{ts,tsx,mdx}",
-  ],
+  content: ["./pages/**/*.{tsx,mdx}", "./components/**/*.{tsx,mdx}", "./app/**/*.{ts,tsx,mdx}"],
   theme: {
     screens: screens,
     maxWidth: screens,
@@ -24,7 +20,7 @@ const config: Config = {
       colors: {
         primary: "#a4752a",
         main: colors.neutral[800],
-        gray: colors.gray[600],
+        gray: colors.zinc[600],
         facebook: "#1877f2",
       },
     },
