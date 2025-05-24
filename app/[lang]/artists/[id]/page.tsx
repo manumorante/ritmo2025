@@ -39,6 +39,7 @@ export default async function Artists({
             {artist?.session && (
               <div className="mb-10">
                 <iframe
+                  title="Music player"
                   width="100%"
                   height={166}
                   style={{ border: "0px" }}

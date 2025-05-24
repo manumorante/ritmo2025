@@ -20,6 +20,7 @@ export default async function LocationPage({ params: { lang } }: { params: { lan
 
       <div className="w-screen h-screen">
         <iframe
+          title="Google Maps"
           style={{
             height: "100%",
             width: "100%",

@@ -15,7 +15,7 @@ export default async function Timetables({ params: { lang } }: { params: { lang:
 
       <TimetablesMenu t={t} lang={lang} active="all" />
 
-      <div className="container">
+      <div className="container text-center">
         <LineupAll lang={lang} />
       </div>
     </main>

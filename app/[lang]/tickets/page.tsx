@@ -12,6 +12,7 @@ export default async function TicketsPage({ params: { lang } }: { params: { lang
       </div>
       <div className="md:container">
         <iframe
+          title="Tickets"
           src="https://venta.enterticket.es/buy/?id=40440&amp;color=ec4899"
           id="etktfrm31225"
           width="100%"
