@@ -3,6 +3,12 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "RITMO Festival",
   description: "Festival de música electrónica en plena naturaleza para un aforo muy reducido.",
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+    nosnippet: true,
+  },
   openGraph: {
     url: "https://ritmofestival.com",
     type: "website",

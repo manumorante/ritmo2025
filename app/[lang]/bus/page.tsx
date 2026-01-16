@@ -13,6 +13,12 @@ export async function generateMetadata({
   return {
     title: t("bus.title"),
     description: t("bus.intro"),
+    robots: {
+      index: false,
+      follow: false,
+      noarchive: true,
+      nosnippet: true,
+    },
     openGraph: {
       title: t("bus.title"),
       description: t("bus.intro"),
